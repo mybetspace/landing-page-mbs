@@ -6,8 +6,9 @@
           v-for="(item, index) in items"
           :key="index"
           :class="['item', `item-${index + 1}`]"
-          :style="{ backgroundImage: `url(${'./../assets/banner1.jpg'})` }"
-        >
+          :style="{ backgroundImage: `url(${item.image})` }"
+          
+          >
         <div class="item-content">
               <div class="name">{{ item.name }}</div>
               <div class="des">{{ item.description }}</div>
@@ -31,21 +32,21 @@ const items = [
     description: "Afinal, quanto vale seu tempo?",
     buttonClass: "button-87",
     buttonText: "Economize seu tempo",
-    image: "https://i.ibb.co/XCPm4pW/9e6d3473-9056-4642-af86-72194d414eb0.jpg",
+    image: '_nuxt/assets/banner3.jpeg',
   },
   {
     name: "MY BET SPACE2",
     description: "Afinal, quanto vale seu tempo?",
     buttonClass: "button-87",
     buttonText: "Economize seu tempo",
-    image: "https://i.ibb.co/9ssqyCg/4520feb3-ac3b-48c1-92db-68b757a8cde6.jpg",
+    image: "_nuxt/assets/banner2.jpg",
   },
   {
     name: "MY BET SPACE3",
     description: "Afinal, quanto vale seu tempo?",
     buttonClass: "button-87",
     buttonText: "Economize seu tempo",
-    image: "https://i.ibb.co/XCPm4pW/9e6d3473-9056-4642-af86-72194d414eb0.jpg",
+    image: "_nuxt/assets/banner1.jpg",
   },
 ];
 
@@ -85,7 +86,6 @@ body {
   margin-top: 50px;
 }
 .item {
-     background-image: url("./../assets/banner1.jpg");
   width: 200px;
   height: 250px;
   background-position: 50% 50%;
