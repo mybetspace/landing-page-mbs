@@ -5,64 +5,81 @@
         <div
           v-for="(item, index) in items"
           :key="index"
-          :class="['item', `item-${index + 1}`]"
+          :class="['item', `item-${index + 1}`, { 'current-item': index === currentIndex }]"
           :style="{ backgroundImage: `url(${item.image})` }"
-          
-          >
-        <div class="item-content">
-              <div class="name">{{ item.name }}</div>
-              <div class="des">{{ item.description }}</div>
-              <button :class="item.buttonClass" role="button">
-                {{ item.buttonText }}
-              </button>
-            </div>
+        >
+          <div class="item-content">
+            <div class="name">{{ item.name }}</div>
+            <div class="des">{{ item.description }}</div>
+            <button :class="item.buttonClass" role="button">
+              {{ item.buttonText }}
+            </button>
+          </div>
         </div>
-      <div class="dots-container">
-        <span v-for="(dot, index) in dots" :key="index" class="dot"></span>
-      </div>
+        <div class="dots-container">
+          <span v-for="(dot, index) in dots" :key="index" :class="{ 'dot': true, 'active': index === currentIndex }"></span>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-const items = [
+import { ref, onMounted, watchEffect } from 'vue';
+
+const items = ref([
   {
-    name: "MY BET SPACE1",
-    description: "Afinal, quanto vale seu tempo?",
-    buttonClass: "button-87",
-    buttonText: "Economize seu tempo",
+    name: 'MY BET SPACE1',
+    description: 'Afinal, quanto vale seu tempo?',
+    buttonClass: 'button-87',
+    buttonText: 'Economize seu tempo',
     image: '_nuxt/assets/banner3.jpeg',
   },
   {
-    name: "MY BET SPACE2",
-    description: "Afinal, quanto vale seu tempo?",
-    buttonClass: "button-87",
-    buttonText: "Economize seu tempo",
-    image: "_nuxt/assets/banner2.jpg",
+    name: 'MY BET SPACE2',
+    description: 'Afinal, quanto vale seu tempo?',
+    buttonClass: 'button-87',
+    buttonText: 'Economize seu tempo',
+    image: '_nuxt/assets/banner2.jpg',
   },
   {
-    name: "MY BET SPACE3",
-    description: "Afinal, quanto vale seu tempo?",
-    buttonClass: "button-87",
-    buttonText: "Economize seu tempo",
-    image: "_nuxt/assets/banner1.jpg",
+    name: 'MY BET SPACE3',
+    description: 'Afinal, quanto vale seu tempo?',
+    buttonClass: 'button-87',
+    buttonText: 'Economize seu tempo',
+    image: '_nuxt/assets/banner1.jpg',
   },
-];
+]);
 
-const dots = Array(items.length).fill("");
+const dots = Array(items.value.length).fill('');
+let currentIndex = 0;
+
 const handleCardClick = () => {
-  let cards = document.querySelectorAll(".item");
+  const cards = document.querySelectorAll('.item');
 
-  cards.forEach(function (card) {
-    card.addEventListener("click", function (event) {
-      let clickedItem = event.currentTarget;
-      document.getElementById("slide").prepend(clickedItem);
+  cards.forEach((card) => {
+    card.addEventListener('click', (event) => {
+      const clickedItem = event.currentTarget;
+      document.getElementById('slide').prepend(clickedItem);
     });
   });
 };
+const advanceToNextItem = () => {
+  currentIndex = (currentIndex + 1) % items.value.length;
+  const cards = document.querySelectorAll('.item');
+  const clickedItem = cards[currentIndex];
+  document.getElementById('slide').prepend(clickedItem);
+};
 onMounted(() => {
+  const timer = setInterval(() => {
+    advanceToNextItem();
+  }, 2000);
   handleCardClick();
+  
+  // Limpando o temporizador quando o componente é desmontado
+  watchEffect(() => {
+    return () => clearInterval(timer);
+  });
 });
 </script>
 
@@ -72,6 +89,7 @@ body {
   overflow: hidden;
 }
 .container {
+  font-family: 'Ubuntu', sans-serif;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -191,7 +209,6 @@ body {
   animation: showcontent 1s ease-in-out 0.3s 1 forwards;
 }
 .item button {
-  padding: 10px 20px;
   border: none;
   opacity: 0;
   animation: showcontent 1s ease-in-out 0.6s 1 forwards;
@@ -234,7 +251,6 @@ body {
 }
 
 .button-87 {
-  margin: 10px;
   padding: 15px 30px;
   text-align: center;
   text-transform: uppercase;
