@@ -5,7 +5,11 @@
         <div
           v-for="(item, index) in items"
           :key="index"
-          :class="['item', `item-${index + 1}`, { 'current-item': index === currentIndex }]"
+          :class="[
+            'item',
+            `item-${(index % 3) + 1}`,
+            { 'current-item': index === currentIndex },
+          ]"
           :style="{ backgroundImage: `url(${item.image})` }"
         >
           <div class="item-content">
@@ -17,7 +21,11 @@
           </div>
         </div>
         <div class="dots-container">
-          <span v-for="(dot, index) in dots" :key="index" :class="{ 'dot': true, 'active': index === currentIndex }"></span>
+          <span
+            v-for="(dot, index) in dots"
+            :key="index"
+            :class="{ dot: true, active: index === currentIndex }"
+          ></span>
         </div>
       </div>
     </div>
@@ -25,57 +33,78 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watchEffect } from 'vue';
+import { ref, onMounted, watchEffect } from "vue";
 
 const items = ref([
   {
-    name: 'MY BET SPACE1',
-    description: 'Afinal, quanto vale seu tempo?',
-    buttonClass: 'button-87',
-    buttonText: 'Economize seu tempo',
-    image: '_nuxt/assets/banner3.jpeg',
+    name: "MY BET SPACE1",
+    description: "Afinal, quanto vale seu tempo?",
+    buttonClass: "button-87",
+    buttonText: "Economize seu tempo",
+    image: "_nuxt/assets/banner3.jpeg",
   },
   {
-    name: 'MY BET SPACE2',
-    description: 'Afinal, quanto vale seu tempo?',
-    buttonClass: 'button-87',
-    buttonText: 'Economize seu tempo',
-    image: '_nuxt/assets/banner2.jpg',
+    name: "MY BET SPACE2",
+    description: "Afinal, quanto vale seu tempo?",
+    buttonClass: "button-87",
+    buttonText: "Economize seu tempo",
+    image: "_nuxt/assets/banner2.jpg",
   },
   {
-    name: 'MY BET SPACE3',
-    description: 'Afinal, quanto vale seu tempo?',
-    buttonClass: 'button-87',
-    buttonText: 'Economize seu tempo',
-    image: '_nuxt/assets/banner1.jpg',
+    name: "MY BET SPACE3",
+    description: "Afinal, quanto vale seu tempo?",
+    buttonClass: "button-87",
+    buttonText: "Economize seu tempo",
+    image: "_nuxt/assets/banner1.jpg",
   },
 ]);
 
-const dots = Array(items.value.length).fill('');
+const dots = Array(items.value.length).fill("");
+
 let currentIndex = 0;
 
-const handleCardClick = () => {
-  const cards = document.querySelectorAll('.item');
+const advanceToNextItem = () => {
+  const cards = document.querySelectorAll(".item");
+  const clickedItem = cards[currentIndex];
+  console.log(cards);
+  console.log(cards[currentIndex]);
 
-  cards.forEach((card) => {
-    card.addEventListener('click', (event) => {
-      const clickedItem = event.currentTarget;
-      document.getElementById('slide').prepend(clickedItem);
-    });
+  // Remove o evento de clique para evitar problemas
+  clickedItem.removeEventListener("click", handleCardClick);
+
+  // Cria uma nova lista ordenada corretamente
+  const newOrder = Array.from(cards).map((card, index) => {
+    const newIndex = (index + 1) % 3; // Calcula o novo índice
+    return cards[newIndex];
+  });
+
+  // Substitui a lista existente pela nova lista ordenada
+  document.getElementById("slide").innerHTML = ""; // Limpa a lista existente
+
+  newOrder.forEach((item) => {
+    document.getElementById("slide").appendChild(item);
+  });
+
+  currentIndex = (currentIndex + 1) % 3; // Avança para o próximo índice e garante que permaneça entre 0 e 2
+
+  // Adiciona novamente o evento de clique
+  handleCardClick();
+};
+
+const handleCardClick = () => {
+  const cards = document.querySelectorAll(".item");
+
+  cards.forEach((card, index) => {
+    card.addEventListener("click", () => advanceToNextItem(index));
   });
 };
-const advanceToNextItem = () => {
-  currentIndex = (currentIndex + 1) % items.value.length;
-  const cards = document.querySelectorAll('.item');
-  const clickedItem = cards[currentIndex];
-  document.getElementById('slide').prepend(clickedItem);
-};
+
 onMounted(() => {
   const timer = setInterval(() => {
     advanceToNextItem();
-  }, 2000);
+  }, 10000);
   handleCardClick();
-  
+
   // Limpando o temporizador quando o componente é desmontado
   watchEffect(() => {
     return () => clearInterval(timer);
@@ -89,7 +118,7 @@ body {
   overflow: hidden;
 }
 .container {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -136,13 +165,13 @@ body {
 }
 .item-content {
   display: flex;
-    flex-direction: column;
-    color: white;
-    height: 100%;
-    width: 27%;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 5rem;
+  flex-direction: column;
+  color: white;
+  height: 100%;
+  width: 27%;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 5rem;
 }
 
 /* @media (min-width: 768px) {
