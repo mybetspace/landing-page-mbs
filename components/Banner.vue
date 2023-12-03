@@ -20,13 +20,13 @@
             </button>
           </div>
         </div>
-        <div class="dots-container">
-          <span
-            v-for="(dot, index) in dots"
-            :key="index"
-            :class="{ dot: true, active: index === currentIndex }"
-          ></span>
-        </div>
+      </div>
+      <div class="dots-container">
+        <span
+          v-for="(dot, index) in dots"
+          :key="index"
+          :class="{ dot: true, active: index === currentIndex }"
+        ></span>
       </div>
     </div>
   </div>
@@ -69,26 +69,20 @@ const advanceToNextItem = () => {
   console.log(cards);
   console.log(cards[currentIndex]);
 
-  // Remove o evento de clique para evitar problemas
-  clickedItem.removeEventListener("click", handleCardClick);
-
-  // Cria uma nova lista ordenada corretamente
   const newOrder = Array.from(cards).map((card, index) => {
-    const newIndex = (index + 1) % 3; // Calcula o novo índice
+    const newIndex = (index + 1) % 3; 
     return cards[newIndex];
   });
 
-  // Substitui a lista existente pela nova lista ordenada
-  document.getElementById("slide").innerHTML = ""; // Limpa a lista existente
-
+  document.getElementById("slide").innerHTML = ""; 
   newOrder.forEach((item) => {
     document.getElementById("slide").appendChild(item);
   });
 
-  currentIndex = (currentIndex + 1) % 3; // Avança para o próximo índice e garante que permaneça entre 0 e 2
-
-  // Adiciona novamente o evento de clique
-  handleCardClick();
+  currentIndex = (currentIndex + 1) % 3; 
+  document.querySelectorAll(".dot").forEach((dot, index) => {
+    dot.classList.toggle("active", index === currentIndex);
+  });
 };
 
 const handleCardClick = () => {
@@ -105,7 +99,6 @@ onMounted(() => {
   }, 10000);
   handleCardClick();
 
-  // Limpando o temporizador quando o componente é desmontado
   watchEffect(() => {
     return () => clearInterval(timer);
   });
@@ -117,7 +110,11 @@ body {
   background-color: #eaeaea;
   overflow: hidden;
 }
+
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   font-family: "Ubuntu", sans-serif;
   position: absolute;
   left: 50%;
@@ -128,10 +125,12 @@ body {
   background-color: #f5f5f5;
   box-shadow: 0 30px 50px #dbdbdb;
 }
+
 #slide {
   width: max-content;
   margin-top: 50px;
 }
+
 .item {
   width: 200px;
   height: 250px;
@@ -147,6 +146,7 @@ body {
   box-shadow: 0 30px 50px #505050;
   cursor: pointer;
 }
+
 .item:nth-of-type(1) {
   left: 0;
   top: 0;
@@ -156,6 +156,7 @@ body {
   height: 100%;
   box-shadow: none;
 }
+
 .item:nth-of-type(2) {
   left: 60%;
 }
@@ -163,6 +164,7 @@ body {
 .item:nth-of-type(3) {
   left: 80%;
 }
+
 .item-content {
   display: flex;
   flex-direction: column;
@@ -174,74 +176,28 @@ body {
   margin-left: 5rem;
 }
 
-/* @media (min-width: 768px) {
-  .item .content {
-    left: -265% !important; 
-  }
-  .item:nth-of-type(2) {
-    left: 56% !important;
-  }
-
-  .item:nth-of-type(3) {
-    left: 78% !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .item .content {
-    left: -265% !important; 
-  }
-  .item:nth-of-type(2) {
-    left: 56% !important;
-  }
-
-  .item:nth-of-type(3) {
-    left: 78% !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  .item .content {
-    left: -600% !important; 
-  }
-  .item:nth-of-type(2) {
-    left: 56% !important;
-  }
-
-  .item:nth-of-type(3) {
-    left: 78% !important;
-  }
-}
- */
-
-.item:not(:nth-child(1)) .name {
-  display: none;
-}
-
-.item:not(:nth-child(1)) .des {
-  display: none;
-}
-
+.item:not(:nth-child(1)) .name,
+.item:not(:nth-child(1)) .des,
 .item:not(:nth-child(1)) button {
   display: none;
+}
+
+.item .name,
+.item .des,
+.item button {
+  opacity: 0;
+  animation: showcontent 1s ease-in-out forwards;
 }
 
 .item .name {
   font-size: 40px;
   font-weight: bold;
-  opacity: 0;
-  animation: showcontent 1s ease-in-out 1 forwards;
 }
+
 .item .des {
   margin: 20px 0;
-  opacity: 0;
-  animation: showcontent 1s ease-in-out 0.3s 1 forwards;
 }
-.item button {
-  border: none;
-  opacity: 0;
-  animation: showcontent 1s ease-in-out 0.6s 1 forwards;
-}
+
 @keyframes showcontent {
   from {
     opacity: 0;
@@ -254,13 +210,14 @@ body {
     filter: blur(0);
   }
 }
+
 .dots-container {
   display: flex;
   position: absolute;
   z-index: 1;
   width: 100%;
   justify-content: center;
-  margin-top: 38.5rem;
+  margin-bottom: 2rem;
   align-items: flex-end;
 }
 
@@ -275,8 +232,9 @@ body {
 .dot:last-child {
   margin-right: 0;
 }
+
 .dot.active {
-  background-color: #555; /* ou a cor desejada */
+  background-color: #c9c2c29f;
 }
 
 .button-87 {
@@ -291,12 +249,7 @@ body {
   border: 0px;
   font-weight: 700;
   box-shadow: 0px 0px 14px -7px #f09819;
-  background-image: linear-gradient(
-    45deg,
-    #ff512f 0%,
-    #f09819 51%,
-    #ff512f 100%
-  );
+  background-image: linear-gradient(45deg, #ff512f 0%, #f09819 51%, #ff512f 100%);
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
