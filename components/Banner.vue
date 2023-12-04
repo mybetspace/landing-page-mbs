@@ -65,9 +65,6 @@ let currentIndex = 0;
 
 const advanceToNextItem = () => {
   const cards = document.querySelectorAll(".item");
-  const clickedItem = cards[currentIndex];
-  console.log(cards);
-  console.log(cards[currentIndex]);
 
   const newOrder = Array.from(cards).map((card, index) => {
     const newIndex = (index + 1) % 3; 
@@ -96,8 +93,7 @@ const handleCardClick = () => {
 onMounted(() => {
   const timer = setInterval(() => {
     advanceToNextItem();
-  }, 10000);
-  handleCardClick();
+  }, 5000);
 
   watchEffect(() => {
     return () => clearInterval(timer);
