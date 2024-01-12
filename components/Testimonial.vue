@@ -6,7 +6,6 @@
           <div id="keen-slider" class="keen-slider">
             <div class="keen-slider__slide">
               <blockquote
-               
                 class="flex h-full flex-col justify-between p-6 shadow-sm sm:p-8 lg:p-12"
               >
                 <div>
@@ -32,8 +31,6 @@
                 class="flex h-full flex-col justify-between p-6 shadow-sm sm:p-8 lg:p-12"
               >
                 <div>
-                 
-  
                   <div class="mt-4">
                     <img src="https://static.poder360.com.br/2020/11/elonmusk.png" alt="" class="mt-4 rounded-full h-12">
   
@@ -117,7 +114,7 @@
               </blockquote>
             </div>
           </div>
-          
+        
         </div>
       </div>
     </div>
@@ -128,10 +125,10 @@
 import 'keen-slider/keen-slider.min.css';
 import KeenSlider from 'keen-slider';
   
-  export default {
+export default {
   mounted() {
     this.$nextTick(() => {
-      const keenSlider = new KeenSlider('#keen-slider', {
+      this.keenSlider = new KeenSlider('#keen-slider', {
         loop: true,
         slides: {
           origin: 'center',
@@ -148,7 +145,20 @@ import KeenSlider from 'keen-slider';
           },
         },
       });
+
+      this.startAutoplay();
     });
   },
+
+  methods: {
+    startAutoplay() {
+      setInterval(() => {
+        this.keenSlider.next();
+      }, 3000);
+    },
+  },
+  
 };
 </script>
+
+
