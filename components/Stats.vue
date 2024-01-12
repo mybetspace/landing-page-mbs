@@ -1,5 +1,5 @@
 <template>
-    <div class="background: linear-gradient(to bottom left, #121212, #130a02, #121212);">
+    <div class="container mx-auto mb-16 mt-12">
         <section class="bg-gradient-to-tr from-indigo-700 via-blue-800 to-cyan-900  ">
       <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
         <div class="mx-auto max-w-3xl text-center">
@@ -33,5 +33,4 @@
       </div>
     </section>
     </div>
-    
-  </template>
+</template>

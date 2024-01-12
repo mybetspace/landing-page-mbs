@@ -1,36 +1,86 @@
 <template>
-    <section>
-      <Header />
-      <Hero />
-
-      <Divider />
+  <Header />
+      <div class="slider">
+        <SliderPrincipal />
+      </div>
       <Stats />
-      <About />
 
-      <Features />
+      <TransitionOnScroll>
+        <About />
+      </TransitionOnScroll>
 
-      <Testimonial />
-      <Pricing />
+      <TransitionOnScroll>
+        <Features />
+      </TransitionOnScroll>
 
-      <Partners />
-      <Mission />
-    </section>
+      <TransitionOnScroll>
+        <Testimonial />
+      </TransitionOnScroll>
 
+      <TransitionOnScroll>
+        <Pricing />
+      </TransitionOnScroll>
+        
+      <TransitionOnScroll>
+        <Partners />
+      </TransitionOnScroll>
+
+      <TransitionOnScroll>
+        <Mission />
+      </TransitionOnScroll>
   <Footer />
-
 </template>
 
-<style>
+<script>
+import TransitionOnScroll from '~/components/TransitionOnScroll.vue';
+import Header from '~/components/Header.vue';
+import Footer from '~/components/Footer.vue';
+import SliderPrincipal from '~/components/SliderPrincipal.vue';
+import Stats from '~/components/Stats.vue';
+import About from '~/components/About.vue';
+import Features from '~/components/Features.vue';
+import Testimonial from '~/components/Testimonial.vue';
+import Pricing from '~/components/Pricing.vue';
+import Partners from '~/components/Partners.vue';
+import Mission from '~/components/Mission.vue';
 
-section {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1280px; 
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 32px;
-}
+export default {
+  components: {
+    TransitionOnScroll,
+    Header,
+    Footer,
+    SliderPrincipal,
+    Stats,
+    About,
+    Features,
+    Testimonial,
+    Pricing,
+    Partners,
+    Mission,
+  },
+};
+
+</script>
+
+<style scoped>
+  .slider {
+    width: 100%;
+    height: 550px;
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .slider {
+      width: 100%;
+      height: 440px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .slider {
+      width: 100%;
+      height: 660px;
+    }
+  }
 
 /*
 @media (min-width: 640px) {

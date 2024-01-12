@@ -11,6 +11,7 @@ export default {
   theme: {
     colors: {
       background: '#121212',
+      backgroundGrayTwo: '#1D1D1D',
       white: '#fff',
       grayWhite: '#BBB',
       gray: '#f5f5f5',

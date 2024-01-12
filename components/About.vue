@@ -1,33 +1,17 @@
 <template>
-    <section class="overflow-hidden pt-10 pb-12 lg:pt-[10px] lg:pb-[90px]  ">
+    <section id="sobre" class="bg-backgroundGrayTwo overflow-hidden pt-10 pb-12 lg:pt-[50px] lg:pb-[90px]  ">
       <div class="container mx-auto">
-        <div class="flex flex-wrap items-center justify-between ">
-          <div class="w-full px-4 lg:w-6/12">
-            <div class="flex items-center -mx-3 sm:-mx-4">
+        <div class="flex flex-wrap items-center ">
+
               <div class="w-full px-3 sm:px-4 xl:w-1/2">
-                <div class="py-3 sm:py-4">
+                <div class="relative z-10 my-8">
                   <img
-                    src="~/assets/images/trade.png"
+                    src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFnOHZ6cDRxazBobm5zZmNjOXZvamlrMXhoeGE1OTIzenEwcXp1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YHx48QSvcEFlC/giphy.gif"
                     alt=""
-                    class="w-full rounded-2xl"
+                    class="w-full rounded-2xl max-w-[500px]"
+                    style="margin: auto;"
                   />
-                </div>
-                <div class="py-3 sm:py-4">
-                  <img
-                    src="~/assets/images/cell.png"
-                    alt=""
-                    class="w-full rounded-2xl"
-                  />
-                </div>
-              </div>
-              <div class="w-full px-3 sm:px-4 xl:w-1/2">
-                <div class="relative z-10 my-4">
-                  <img
-                    src="~/assets/images/bola.png"
-                    alt=""
-                    class="w-full rounded-2xl"
-                  />
-                  <span class="absolute -right-7 -bottom-7 z-[-1]">
+                  <span class="absolute right-16 -bottom-7 z-[-1]">
                     <svg
                       width="134"
                       height="106"
@@ -597,8 +581,6 @@
                       />
                     </svg>
                   </span>
-                </div>
-              </div>
             </div>
           </div>
           <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
@@ -616,7 +598,7 @@
               </p>
               <a
                 href="javascript:void(0)"
-                class="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
+                class="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:opacity-75"
               >
                 Começar
               </a>

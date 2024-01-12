@@ -1,10 +1,10 @@
 <template>
-    <footer class="">
+    <footer id="contato" style="box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.9);" class="bg-backgroundGrayTwo">
       <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <div class="flex justify-center text-teal-600 sm:justify-start">
-                <img class="h-16" src="~/assets/images/logo2.png" alt="logo">
+                <img class="h-10" src="~/assets/images/logo2.png" alt="logo">
             </div>
     
             <p class="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
@@ -66,13 +66,13 @@
     
           <div class="my-6 grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
             <div class="text-center sm:text-left">
-              <p class="text-lg font-medium text-gray-900">E-mail</p>
+              <p class="text-lg font-bold text-gray-900">E-mail</p>
     
-              <ul class="mt-8 space-y-8 text-sm">
+              <ul class="mt-8 space-y-4 text-sm">
                 <li>
                   <a
                     class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                    href="/"
+                    href="mailto:suporte@mybetspace.com"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -89,20 +89,20 @@
                       />
                     </svg>
     
-                    <span class="flex-1 text-gray-700">suporte@mybetspace.com</span>
+                    <span href="" class="flex-1 text-gray-700 hover:opacity-75">suporte@mybetspace.com</span>
                   </a>
                 </li>
               </ul>
             </div>
     
             <div class="text-center sm:text-left">
-              <p class="text-lg font-medium text-gray-900">Whatsapp</p>
+              <p class="text-lg font-bold text-gray-900">Whatsapp</p>
     
               <ul class="mt-8 space-y-4 text-sm">
                 <li>
                   <a
                     class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                    href="/"
+                    href="https://api.whatsapp.com/send?phone=5548996436891&text=Olá"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -119,14 +119,14 @@
                       />
                     </svg>
     
-                    <span class="flex-1 text-gray-700">+55 48 99643-6891</span>
+                    <span class="flex-1 text-gray-700 hover:opacity-75">+55 48 99643-6891</span>
                   </a>
                 </li>
               </ul>
             </div>
     
             <div class="text-center sm:text-left">
-              <p class="text-lg font-medium text-gray-900">Localização</p>
+              <p class="text-lg font-bold text-gray-900">Localização</p>
     
               <ul class="mt-8 space-y-4 text-sm">
                 <li
@@ -152,7 +152,7 @@
                     />
                   </svg>
     
-                  <address class="-mt-0.5 flex-1 not-italic text-gray-700">
+                  <address class="-mt-0.5 flex-1 not-italic text-gray-700 hover:opacity-75">
                     Florianópolis - SC | Brasil
                   </address>
                 </li>

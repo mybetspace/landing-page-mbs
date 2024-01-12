@@ -1,0 +1,307 @@
+<template>
+    <div class="">
+      <div class="container">
+        <div id="slide">
+          <div
+            v-for="(item, index) in items"
+            :key="index"
+            :class="[
+              'item',
+              `item-${(index % 3) + 1}`,
+              { 'current-item': index === currentIndex },
+            ]"
+            :style="{ backgroundImage: `url(${item.image})` }"
+          >
+            <div class="item-content">
+              <div class="name">{{ item.name }}</div>
+              <div class="des">{{ item.description }}</div>
+              <button href="https://app.mybetspace.com/" :class="item.buttonClass" role="button">
+                {{ item.buttonText }}
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="dots-container">
+          <span
+            v-for="(dot, index) in dots"
+            :key="index"
+            :class="{ dot: true, active: index === currentIndex }"
+          ></span>
+        </div>
+      </div>
+    </div>
+  </template>
+  
+  <script setup>
+  import { ref, onMounted, watchEffect } from "vue";
+  
+  const items = ref([
+    {
+      name: "Sua gestão de apostas mais rápida e eficiente",
+      description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
+      buttonClass: "button-87",
+      buttonText: "Economize seu tempo",
+      image: "https://github.com/Icegreeen/my-blog/assets/56550632/ca414ce1-488a-4200-a0fe-5837dc8e1a36",
+    },
+    {
+      name: "Sua gestão de apostas mais rápida e eficiente",
+      description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
+      buttonClass: "button-87",
+      buttonText: "Economize seu tempo",
+      image: "https://github.com/Icegreeen/my-blog/assets/56550632/40d41fc4-8e4d-4f6a-8f34-e06c791cb92f",
+    },
+    {
+      name: "Sua gestão de apostas mais rápida e eficiente",
+      description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
+      buttonClass: "button-87",
+      buttonText: "Economize seu tempo",
+      image: "https://github.com/Icegreeen/my-blog/assets/56550632/68c9f291-0b0a-451d-8c03-12a2cc9e6443",
+    },
+  ]);
+  
+  const dots = Array(items.value.length).fill("");
+  
+  let currentIndex = 0;
+  
+  const advanceToNextItem = () => {
+    const cards = document.querySelectorAll(".item");
+  
+    const newOrder = Array.from(cards).map((card, index) => {
+      const newIndex = (index + 1) % 3; 
+      return cards[newIndex];
+    });
+  
+    document.getElementById("slide").innerHTML = ""; 
+    newOrder.forEach((item) => {
+      document.getElementById("slide").appendChild(item);
+    });
+  
+    currentIndex = (currentIndex + 1) % 3; 
+    document.querySelectorAll(".dot").forEach((dot, index) => {
+      dot.classList.toggle("active", index === currentIndex);
+    });
+  };
+  
+  const handleCardClick = () => {
+    const cards = document.querySelectorAll(".item");
+  
+    cards.forEach((card, index) => {
+      card.addEventListener("click", () => advanceToNextItem(index));
+    });
+  };
+  
+  onMounted(() => {
+    const timer = setInterval(() => {
+      advanceToNextItem();
+    }, 5000);
+    handleCardClick();
+  
+    watchEffect(() => {
+      return () => clearInterval(timer);
+    });
+  });
+  </script>
+  
+<style scoped>
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    max-width: 100%;
+    height: 60%;
+  }
+  
+  #slide {
+    width: max-content;
+    margin-top: 50px;
+  }
+  .item {
+    width: 200px;
+    height: 250px;
+    background-position: 50% 50%;
+    display: inline-block;
+    transition: 0.5s;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    box-shadow: 0 20px 50px #363636;
+    cursor: pointer;
+  }
+  .item:nth-of-type(1) {
+    left: 0;
+    top: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+  }
+  
+  .item:nth-of-type(2) {
+    left: 55%;
+  }
+  
+  .item:nth-of-type(3) {
+    left: 70%;
+  }
+  
+  .item-content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+    width: 25%;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20rem;
+  }
+
+  @media (max-width: 1400px) {
+    .item-content {
+      display: flex;
+      height: 20%;
+      width: 40%;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 10rem;
+      margin-left: 4rem;
+    }
+
+    .item {
+      width: 200px;
+      height: 200px;
+      background-position: 50% 50%;
+      display: inline-block;
+      transition: 0.5s;
+      background-size: cover;
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      transform: translate(0, -50%);
+      border-radius: 10px;
+      box-shadow: 0 20px 50px #363636;
+      cursor: pointer;
+    }
+
+    .item:nth-of-type(3) {
+      left: 75%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      max-width: 100%;
+      height: 90%;
+    }
+    .item {
+      width: 0px;
+    }
+    .item-content {
+      display: flex;
+      height: 50%;
+      width: 65%;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 10rem;
+      margin-left: 4rem;
+    }
+  }
+
+  .item:not(:nth-child(1)) .name,
+  .item:not(:nth-child(1)) .des,
+  .item:not(:nth-child(1)) button {
+    display: none;
+  }
+  
+  .item .name,
+  .item .des,
+  .item button {
+    opacity: 0;
+    animation: showcontent 1s ease-in-out forwards;
+  }
+  
+  .item .name {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .item .des {
+    margin: 15px 0;
+  }
+  
+  @keyframes showcontent {
+    from {
+      opacity: 0;
+      transform: translate(0, 100px);
+      filter: blur(33px);
+    }
+    to {
+      opacity: 1;
+      transform: translate(0, 0);
+      filter: blur(0);
+    }
+  }
+  
+  .dots-container {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2rem;
+    align-items: flex-end;
+  }
+  
+  .dot {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+  }
+  
+  .dot:last-child {
+    margin-right: 0;
+  }
+  
+  .dot.active {
+    background-color: #c9c2c29f;
+  }
+  
+  .button-87 {
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #ff512f 0%, #f09819 51%, #ff512f 100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-87:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button-87:active {
+    transform: scale(0.95);
+  }
+  </style>

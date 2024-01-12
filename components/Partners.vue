@@ -1,21 +1,74 @@
 <template>
-  <div class="flex flex-col items-center">
-    <h2 class="mb-20 text-3xl leading-[1.208] font-bold text-white dark:text-white sm:text-4xl md:text-[30px]">
+  <section class=" bg-backgroundGrayTwo relative z-10 overflow-hidden dark:bg-dark lg:pt-[100px] lg:pb-[100px]">
+    <h2 class="my-8 text-3xl font-bold text-white text-center dark:text-white sm:text-3xl">
       Parceiros
     </h2>
-
-    <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-64">
-      <div class="h-32 rounded-lg  flex items-center justify-center">
-        <img class="h-16" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png" alt="logo">
-      </div>
-      <div class="h-32 rounded-lg flex items-center justify-center">
-        <img class="h-16" src="https://www.al.al.leg.br/imagens/Twitterlogo.png/image" alt="logo">
-      </div>
-      <div class="h-32 rounded-lg flex items-center justify-center">
-        <img class="h-16" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SpaceX-Logo-Xonly.svg/2560px-SpaceX-Logo-Xonly.svg.png" alt="logo">
-      </div>
-    </div>
-
-    
-  </div>
+        <div class="my-8 mx-auto mt-8 max-w-[1420px]">
+          <div ref="slider" class="keen-slider">
+          <div class="keen-slider__slide number-slide1">
+            <img src="~/assets/images/logo2.png" class="h-14" />
+          </div>
+          <div class="keen-slider__slide number-slide2">
+            <img src="~/assets/images/logo2.png" class="h-14" />
+          </div>
+          <div class="keen-slider__slide number-slide3">
+            <img src="~/assets/images/logo2.png" class="h-14" />
+          </div>
+          <div class="keen-slider__slide number-slide4">
+            <img src="~/assets/images/logo2.png" class="h-14" />
+          </div>
+          <div class="keen-slider__slide number-slide5">
+            <img src="~/assets/images/logo2.png" class="h-14" />
+          </div>
+          <div class="keen-slider__slide number-slide6">
+            <img src="~/assets/images/logo2.png" class="h-14" />
+          </div>
+          <div class="keen-slider__slide number-slide7">
+            <img src="~/assets/images/logo2.png" class="h-14" />
+          </div>
+          <div class="keen-slider__slide number-slide8">
+            <img src="~/assets/images/logo2.png" class="h-14" />
+          </div>
+        </div>
+        </div>
+      </section>
 </template>
+
+<script>
+import "keen-slider/keen-slider.min.css";
+import KeenSlider from "keen-slider";
+
+function enableAutoplay(slider) {
+  setInterval(() => {
+    slider.next();
+  }, 1000); 
+} 
+
+export default {
+  name: "Slider",
+  mounted() {
+    this.slider = new KeenSlider(this.$refs.slider,{
+      loop: true,
+      mode: "free-snap",
+      slides: {
+        perView: 1,
+        spacing: 8,
+      },
+      breakpoints: {
+          '(min-width: 1024px)': {
+            slides: {
+              origin: 'auto',
+              perView: 4,
+              spacing: 8,
+            },
+          },
+        },
+      
+    });
+    enableAutoplay(this.slider);
+  },
+  beforeDestroy() {
+    if (this.slider) this.slider.destroy();
+  }
+};
+</script>

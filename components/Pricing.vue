@@ -3,6 +3,7 @@ import { ref } from 'vue'
 
 const pricingPlans = ref([
   {
+    category: 'basic',
     name: 'Mensal',
     price: 'R$19,99',
     description: '1 mês de assinatura.',
@@ -14,6 +15,7 @@ const pricingPlans = ref([
     }
   },
   {
+    category: 'basic',
     name: 'Trimestral',
     price: 'R$ 19,50',
     description: '2,5 de desconto.',
@@ -25,6 +27,7 @@ const pricingPlans = ref([
     }
   },
   {
+    category: 'basic',
     name: 'Semestral',
     price: 'R$ 18,99',
     description: '5,00% de desconto',
@@ -36,6 +39,7 @@ const pricingPlans = ref([
     }
   },
   {
+    category: 'basic',
     name: 'Anual',
     price: 'R$ 18,50',
     description: '7,50% de Desconto.',
@@ -45,12 +49,114 @@ const pricingPlans = ref([
     button: {
       text: 'Assinar'
     }
+  },
+  {
+    category: 'avanced',
+    name: 'Mensal',
+    price: 'R$ 1',
+    description: '1 mês de assinatura.',
+    features: {
+      users: 'Preço total R$ 19,90',
+    },
+    button: {
+      text: 'Assinar'
+    }
+  },
+  {
+    category: 'avanced',
+    name: 'Trimestral',
+    price: 'R$ 1',
+    description: '2,5 de desconto.',
+    features: {
+      users: '3 meses de assinatura',
+    },
+    button: {
+      text: 'Assinar'
+    }
+  },
+  {
+    category: 'avanced',
+    name: 'Semestral',
+    price: 'R$ 1',
+    description: '5,00% de desconto',
+    features: {
+      users: '6 Meses de assinatura',
+    },
+    button: {
+      text: 'Assinar'
+    }
+  },
+  {
+    category: 'avanced',
+    name: 'Anual',
+    price: 'R$ 1',
+    description: '7,50% de Desconto.',
+    features: {
+      users: '12 Meses de assinatura',
+    },
+    button: {
+      text: 'Assinar'
+    }
+  },
+  {
+    category: 'professional',
+    name: 'Mensal',
+    price: 'R$ 2',
+    description: '1 mês de assinatura.',
+    features: {
+      users: 'Preço total R$ 19,90',
+    },
+    button: {
+      text: 'Assinar'
+    }
+  },
+  {
+    category: 'professional',
+    name: 'Trimestral',
+    price: 'R$ 2',
+    description: '2,5 de desconto.',
+    features: {
+      users: '2 meses de assinatura',
+    },
+    button: {
+      text: 'Assinar'
+    }
+  },
+  {
+    category: 'professional',
+    name: 'Semestral',
+    price: 'R$ 2',
+    description: '5,00% de desconto',
+    features: {
+      users: '2 Meses de assinatura',
+    },
+    button: {
+      text: 'Assinar'
+    }
+  },
+  {
+    category: 'professional',
+    name: 'Anual',
+    price: 'R$ 2',
+    description: '7,50% de Desconto.',
+    features: {
+      users: '2 Meses de assinatura',
+    },
+    button: {
+      text: 'Assinar'
+    }
   }
 ])
+
+const selectedCategory = ref('basic')
+const filteredPlans = computed(() => {
+  return pricingPlans.value.filter(plan => plan.category === selectedCategory.value)
+})
+
 </script>
 
 <template>
-  <section class="relative z-10 overflow-hidden dark:bg-dark pt-20 pb-12 lg:pt-[20px] lg:pb-[90px]">
+  <section class="relative z-10 overflow-hidden dark:bg-dark pt-20 pb-12 lg:pt-[80px] lg:pb-[100px] mx-12">
     <div class="container mx-auto">
       <div class="-mx-4 flex flex-wrap">
         <div class="w-full px-4">
@@ -66,8 +172,17 @@ const pricingPlans = ref([
         </div>
       </div>
 
+      <div class="mb-4 text-white text-start">
+        <label for="pricingCategory" class="mr-2 font-semibold">Escolha a categoria:</label>
+          <select v-model="selectedCategory" id="pricingCategory" class="bg-background border p-2 w-30 rounded-md">
+            <option value="basic">Básico</option>
+            <option value="avanced">Avançado</option>
+            <option value="professional">Profissional</option>
+          </select>
+      </div>
+
       <div class="-mx-4 flex flex-wrap justify-center">
-        <div v-for="(plan, index) in pricingPlans" :key="index" class="w-full px-4 md:w-1/2 lg:w-1/4"
+        <div v-for="(plan, index) in filteredPlans" :key="index" class="w-full px-4 md:w-1/2 lg:w-1/4"
         >
           <div
           class="relative z-10 mb-10 overflow-hidden rounded-[10px] border border-white dark:border-dark-3 dark:bg-dark-2 py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-[50px] transition-all duration-300 ease-in-out hover:transform hover:scale-105 hover:border-orange dark:hover:border-dark-orange"
@@ -123,7 +238,7 @@ const pricingPlans = ref([
                     </linearGradient>
                   </defs>
                 </svg>
-              </span>
+              </span>     
               <span class="absolute right-4 top-4 z-[-1]">
                 <svg
                   width="41"
