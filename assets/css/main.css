@@ -26,7 +26,7 @@
     margin: 0;
 
     
-    background: radial-gradient(at center bottom, #222222, #121212, #121212);
+    background: radial-gradient(at center bottom, #121212, #121212, #121212);
 
     
     color: rgb(var(--foreground-rgb));

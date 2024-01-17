@@ -47,7 +47,7 @@ onUnmounted(() => {
     <div class="container">
       <div class="relative -mx-8 flex items-center justify-between">
         <div class="w-40 max-w-full">
-          <a href="/#" class="block w-full">
+          <a href="https://www.mybetspace.com/" class="block w-full">
             <img
               src="~/assets/images/logo.png"
               alt="logo"
@@ -60,13 +60,13 @@ onUnmounted(() => {
             />
           </a>
         </div>
-        <div class="flex w-full items-center justify-between px-4">
+        <div class="flex w-full items-center justify-between px-2">
           <div>
             <button
               @click="toggleNavbar"
               ref="dropdownButtonRef"
               id="navbarToggler"
-              class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+              class="absolute right-0 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
             >
               <span
                 class="relative my-[6px] block h-[2px] w-[30px] bg-orange  dark:bg-white"
@@ -107,7 +107,7 @@ onUnmounted(() => {
               class="px-7 py-3 text-base font-medium text-white hover:text-primary dark:text-white transition-opacity hover:opacity-75"
               >Login</a
             >
-            <a href="https://app.mybetspace.com/" style="height: 40px;" class="rounded-md px-6 py-3 my-1 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">
+            <a href="https://app.mybetspace.com/signup" style="height: 40px;" class="rounded-md px-6 py-3 my-1 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">
               Cadastrar
             </a>
           </div>

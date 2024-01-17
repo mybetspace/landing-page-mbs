@@ -14,10 +14,12 @@
           >
             <div class="item-content">
               <div class="name">{{ item.name }}</div>
-              <div class="des">{{ item.description }}</div>
-              <button href="https://app.mybetspace.com/" :class="item.buttonClass" role="button">
+              <div class="des"><p>{{ item.description }}</p></div>
+              <a href="https://app.mybetspace.com/signup">
+                <button :class="item.buttonClass" role="button">
                 {{ item.buttonText }}
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -110,7 +112,7 @@
     font-family: "Ubuntu", sans-serif;
     position: absolute;
     max-width: 100%;
-    height: 60%;
+    height: 80%;
   }
   
   #slide {
@@ -132,6 +134,10 @@
     box-shadow: 0 20px 50px #363636;
     cursor: pointer;
   }
+
+  .item p {
+    color: #dfdedee7;
+  }
   .item:nth-of-type(1) {
     left: 0;
     top: 0;
@@ -140,6 +146,7 @@
     width: 100%;
     height: 100%;
     box-shadow: none;
+  
   }
   
   .item:nth-of-type(2) {
@@ -161,14 +168,26 @@
     margin-left: 20rem;
   }
 
-  @media (max-width: 1400px) {
+  @media (max-width: 1468px) {
     .item-content {
       display: flex;
-      height: 20%;
-      width: 40%;
+      height: 90%;
+      width: 38%;
       justify-content: center;
       align-items: flex-start;
-      margin-top: 10rem;
+      margin-top: 1rem;
+      margin-left: 4rem;
+    }
+  }
+
+  @media (max-width: 1368px) {
+    .item-content {
+      display: flex;
+      height: 90%;
+      width: 38%;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 1rem;
       margin-left: 4rem;
     }
 

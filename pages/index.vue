@@ -44,6 +44,7 @@ import Pricing from '~/components/Pricing.vue';
 import Partners from '~/components/Partners.vue';
 import Mission from '~/components/Mission.vue';
 
+
 export default {
   components: {
     TransitionOnScroll,
@@ -57,21 +58,34 @@ export default {
     Pricing,
     Partners,
     Mission,
-  },
-};
-
+  },}
 </script>
 
 <style scoped>
   .slider {
     width: 100%;
-    height: 550px;
+    height: 750px;
   }
+  
 
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 1468px) {
     .slider {
       width: 100%;
-      height: 440px;
+      height: 530px;
+    }
+  }
+
+  @media only screen and (max-width: 1568px) {
+    .slider {
+      width: 100%;
+      height: 570px;
+    }
+  }
+
+  @media only screen and (max-width: 1368px) {
+    .slider {
+      width: 100%;
+      height: 580px;
     }
   }
 

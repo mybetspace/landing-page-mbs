@@ -1,7 +1,6 @@
 <template>
   <section id="funcionalidades">
     <div class="container mx-auto mb-12 mt-16">
-      <span class="block mb-4 text-orange text-center font-semibold text-primary"> Trades sports </span>
       <h2 class="mb-14 text-center text-white text-4xl font-bold">
           Funcionalidades
       </h2>
@@ -12,18 +11,17 @@
         </div>
 
         <div class="w-full shrink-0 grow-0 basis-auto md:w-6/12 mx-4">
+
           <div class="mb-12 flex">
             <div class="shrink-0">
               <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
-                  stroke="currentColor" class="h-6 w-6 text-white">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="28" viewBox="0 -960 960 960" width="28">
+                  <path d="m105-233-65-47 200-320 120 140 160-260 109 163q-23 1-43.5 5.5T545-539l-22-33-152 247-121-141-145 233ZM863-40 738-165q-20 14-44.5 21t-50.5 7q-75 0-127.5-52.5T463-317q0-75 52.5-127.5T643-497q75 0 127.5 52.5T823-317q0 26-7 50.5T795-221L920-97l-57 57ZM643-217q42 0 71-29t29-71q0-42-29-71t-71-29q-42 0-71 29t-29 71q0 42 29 71t71 29Zm89-320q-19-8-39.5-13t-42.5-6l205-324 65 47-188 296Z"/>
                 </svg>
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white">Automatização para importar suas apostas da betfair</p>
+              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Automatização para importar suas apostas da betfair</p>
               <p class="text-grayWhite w-2/3">
                   Veja em tempo real no seu dashboard, todos suas entradas e saidas, lucros, prejuízos, odds e muito mais.
               </p>
@@ -32,16 +30,14 @@
 
           <div class="mb-12 flex md:mx-20">
             <div class="shrink-0">
-              <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg bg-orange">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                  stroke="currentColor" class="h-6 w-6 text-white">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+              <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="28" viewBox="0 -960 960 960" width="28">
+                  <path d="m136-240-56-56 296-298 160 160 208-206H640v-80h240v240h-80v-104L536-320 376-480 136-240Z"/>
                 </svg>
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white">Facilidade em validar seu método</p>
+              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Facilidade em validar seu método</p>
               <p class="text-grayWhite w-2/3">
                   Valide seu método de forma mais rápida e simples. Saiba exatamente em que método você é mais lucrativo e o método em que perde dinheiro.
               </p>
@@ -50,17 +46,15 @@
 
           <div class="mb-12 flex md:mx-36">
             <div class="shrink-0">
-              <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg bg-orange">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                  stroke="currentColor" class="h-6 w-6 text-white">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+              <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff"  height="28" viewBox="0 -960 960 960" width="28">
+                  <path d="M160-160v-480h160v480H160Zm200 0v-280h160v280H360Zm280 0v-640h160v640H640Z"/>
                 </svg>
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white">Facilidade em validar seu método</p>
-              <p class="text-grayWhite ">
+              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Facilidade em validar seu método</p>
+              <p class="text-grayWhite w-2/3 md:w-full">
                   Valide seu método de forma mais rápida e simples. Saiba exatamente em que método você é mais lucrativo e o método em que perde dinheiro.
               </p>
             </div>
@@ -68,17 +62,15 @@
 
           <div class="mb-12 flex md:mx-36">
             <div class="shrink-0">
-              <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg bg-orange">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                  stroke="currentColor" class="h-6 w-6 text-white">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+              <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff"  height="28" viewBox="0 -960 960 960" width="28">
+                  <path d="M120-120v-80l80-80v160h-80Zm160 0v-240l80-80v320h-80Zm160 0v-320l80 81v239h-80Zm160 0v-239l80-80v319h-80Zm160 0v-400l80-80v480h-80ZM120-327v-113l280-280 160 160 280-280v113L560-447 400-607 120-327Z"/>
                 </svg>
               </div>
             </div>
-            <div class="ml-4 grow ">
-              <p class="mb-1 font-bold text-white">Facilidade em validar seu método</p>
-              <p class="text-grayWhite ">
+            <div class="ml-4 grow md:w-auto">
+              <p class="mb-1 font-bold text-white w-3/3 md:w-full">FFFacilidade em validar seu método</p>
+              <p class="text-grayWhite w-2/3 md:w-full">
                   Valide seu método de forma mais rápida e simples. Saiba exatamente em que método você é mais lucrativo e o método em que perde dinheiro.
               </p>
             </div>
@@ -95,7 +87,7 @@
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white">Otimização do seu tempo</p>
+              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Otimização do seu tempo</p>
               <p class="text-grayWhite w-2/3">
                   Diga adeus as planilhas e coleta de informações manuais. Aqui você tem seus dados em tempo real. 
               </p>
@@ -105,15 +97,13 @@
           <div class="mb-12 flex">
             <div class="shrink-0">
               <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg ">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
-                  stroke="currentColor" class="h-6 w-6 text-white">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff"  height="28" viewBox="0 -960 960 960" width="28">
+                  <path d="M280-280h80v-200h-80v200Zm320 0h80v-400h-80v400Zm-160 0h80v-120h-80v120Zm0-200h80v-80h-80v80ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/>
                 </svg>
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white">Automatização para importar suas apostas da betfair</p>
+              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Automatização para importar suas apostas da betfair</p>
               <p class="text-grayWhite w-2/3">
                   Veja em tempo real no seu dashboard, todos suas entradas e saidas, lucros, prejuízos, odds e muito mais.
               </p>

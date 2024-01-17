@@ -1,157 +1,169 @@
-<script setup lang="ts">
-import { ref } from 'vue'
+<script >
 
-const pricingPlans = ref([
-  {
-    category: 'basic',
-    name: 'Mensal',
-    price: 'R$19,99',
-    description: '1 mês de assinatura.',
-    features: {
-      users: 'Preço total R$ 19,90',
-    },
-    button: {
-      text: 'Assinar'
+export default {
+  data() {
+    return {
+      selectedCategory: 'basic',
+      pricingPlans :[
+        {
+          category: 'basic',
+          name: 'Mensal',
+          price: 'R$19,99',
+          description: '1 mês de assinatura.',
+          features: {
+            users: 'Preço total R$ 19,90',
+          },
+          button: {
+            text: 'Assinar'
+          }
+        },
+        {
+          category: 'basic',
+          name: 'Trimestral',
+          price: 'R$ 19,50',
+          description: '2,5 de desconto.',
+          features: {
+            users: '3 meses de assinatura',
+          },
+          button: {
+            text: 'Assinar'
+          }
+        },
+        {
+          category: 'basic',
+          name: 'Semestral',
+          price: 'R$ 18,99',
+          description: '5,00% de desconto',
+          features: {
+            users: '6 Meses de assinatura',
+          },
+          button: {
+            text: 'Assinar'
+          }
+        },
+        {
+          category: 'basic',
+          name: 'Anual',
+          price: 'R$ 18,50',
+          description: '7,50% de Desconto.',
+          features: {
+            users: '12 Meses de assinatura',
+          },
+          button: {
+            text: 'Assinar'
+          }
+        },
+        {
+          category: 'avanced',
+          name: 'Mensal',
+          price: 'R$ 1',
+          description: '1 mês de assinatura.',
+          features: {
+            users: 'Preço total R$ 19,90',
+          },
+          button: {
+            text: 'Assinar'
+          }
+        },
+        {
+          category: 'avanced',
+          name: 'Trimestral',
+          price: 'R$ 1',
+          description: '2,5 de desconto.',
+          features: {
+            users: '3 meses de assinatura',
+          },
+          button: {
+            text: 'Assinar'
+          }
+        },
+        {
+          category: 'avanced',
+          name: 'Semestral',
+          price: 'R$ 1',
+          description: '5,00% de desconto',
+          features: {
+            users: '6 Meses de assinatura',
+          },
+          button: {
+            text: 'Assinar'
+          }
+        },
+        {
+          category: 'avanced',
+          name: 'Anual',
+          price: 'R$ 1',
+          description: '7,50% de Desconto.',
+          features: {
+            users: '12 Meses de assinatura',
+          },
+          button: {
+            text: 'Assinar'
+          }
+        },
+        {
+          category: 'professional',
+          name: 'Mensal',
+          price: 'R$ 2',
+          description: '1 mês de assinatura.',
+          features: {
+            users: 'Preço total R$ 19,90',
+          },
+          button: {
+            text: 'Assinar'
+          }
+        },
+        {
+          category: 'professional',
+          name: 'Trimestral',
+          price: 'R$ 2',
+          description: '2,5 de desconto.',
+          features: {
+            users: '2 meses de assinatura',
+          },
+          button: {
+            text: 'Assinar'
+          }
+        },
+        {
+          category: 'professional',
+          name: 'Semestral',
+          price: 'R$ 2',
+          description: '5,00% de desconto',
+          features: {
+            users: '2 Meses de assinatura',
+          },
+          button: {
+            text: 'Assinar'
+          }
+        },
+        {
+          category: 'professional',
+          name: 'Anual',
+          price: 'R$ 2',
+          description: '7,50% de Desconto.',
+          features: {
+            users: '2 Meses de assinatura',
+          },
+          button: {
+            text: 'Assinar'
+          }
+        }
+      ]
     }
   },
-  {
-    category: 'basic',
-    name: 'Trimestral',
-    price: 'R$ 19,50',
-    description: '2,5 de desconto.',
-    features: {
-      users: '3 meses de assinatura',
+  methods: {
+    selectCategory(category) {
+      this.selectedCategory = category;
+      // Adicione aqui a lógica para alterar os valores dos cards conforme a categoria selecionada
     },
-    button: {
-      text: 'Assinar'
-    }
   },
-  {
-    category: 'basic',
-    name: 'Semestral',
-    price: 'R$ 18,99',
-    description: '5,00% de desconto',
-    features: {
-      users: '6 Meses de assinatura',
-    },
-    button: {
-      text: 'Assinar'
-    }
+  computed: {
+  filteredPlans() {
+    return this.pricingPlans.filter(plan => plan.category === this.selectedCategory);
   },
-  {
-    category: 'basic',
-    name: 'Anual',
-    price: 'R$ 18,50',
-    description: '7,50% de Desconto.',
-    features: {
-      users: '12 Meses de assinatura',
-    },
-    button: {
-      text: 'Assinar'
-    }
-  },
-  {
-    category: 'avanced',
-    name: 'Mensal',
-    price: 'R$ 1',
-    description: '1 mês de assinatura.',
-    features: {
-      users: 'Preço total R$ 19,90',
-    },
-    button: {
-      text: 'Assinar'
-    }
-  },
-  {
-    category: 'avanced',
-    name: 'Trimestral',
-    price: 'R$ 1',
-    description: '2,5 de desconto.',
-    features: {
-      users: '3 meses de assinatura',
-    },
-    button: {
-      text: 'Assinar'
-    }
-  },
-  {
-    category: 'avanced',
-    name: 'Semestral',
-    price: 'R$ 1',
-    description: '5,00% de desconto',
-    features: {
-      users: '6 Meses de assinatura',
-    },
-    button: {
-      text: 'Assinar'
-    }
-  },
-  {
-    category: 'avanced',
-    name: 'Anual',
-    price: 'R$ 1',
-    description: '7,50% de Desconto.',
-    features: {
-      users: '12 Meses de assinatura',
-    },
-    button: {
-      text: 'Assinar'
-    }
-  },
-  {
-    category: 'professional',
-    name: 'Mensal',
-    price: 'R$ 2',
-    description: '1 mês de assinatura.',
-    features: {
-      users: 'Preço total R$ 19,90',
-    },
-    button: {
-      text: 'Assinar'
-    }
-  },
-  {
-    category: 'professional',
-    name: 'Trimestral',
-    price: 'R$ 2',
-    description: '2,5 de desconto.',
-    features: {
-      users: '2 meses de assinatura',
-    },
-    button: {
-      text: 'Assinar'
-    }
-  },
-  {
-    category: 'professional',
-    name: 'Semestral',
-    price: 'R$ 2',
-    description: '5,00% de desconto',
-    features: {
-      users: '2 Meses de assinatura',
-    },
-    button: {
-      text: 'Assinar'
-    }
-  },
-  {
-    category: 'professional',
-    name: 'Anual',
-    price: 'R$ 2',
-    description: '7,50% de Desconto.',
-    features: {
-      users: '2 Meses de assinatura',
-    },
-    button: {
-      text: 'Assinar'
-    }
-  }
-])
-
-const selectedCategory = ref('basic')
-const filteredPlans = computed(() => {
-  return pricingPlans.value.filter(plan => plan.category === selectedCategory.value)
-})
+},
+};
 
 </script>
 
@@ -173,12 +185,10 @@ const filteredPlans = computed(() => {
       </div>
 
       <div class="mb-4 text-white text-start">
-        <label for="pricingCategory" class="mr-2 font-semibold">Escolha a categoria:</label>
-          <select v-model="selectedCategory" id="pricingCategory" class="bg-background border p-2 w-30 rounded-md">
-            <option value="basic">Básico</option>
-            <option value="avanced">Avançado</option>
-            <option value="professional">Profissional</option>
-          </select>
+        <label class="mr-2 font-semibold">Escolha a categoria:</label>
+        <button @click="selectCategory('basic')" :class="{ 'bg-orange': selectedCategory === 'basic', 'bg-gray-300': selectedCategory !== 'basic' }" class="border p-1.5 rounded-md mr-2">Básico</button>
+        <button @click="selectCategory('avanced')" :class="{ 'bg-orange': selectedCategory === 'avanced', 'bg-gray-300': selectedCategory !== 'avanced' }" class="border p-1.5 rounded-md mr-2">Avançado</button>
+        <button @click="selectCategory('professional')" :class="{ 'bg-orange': selectedCategory === 'professional', 'bg-gray-300': selectedCategory !== 'professional' }" class="border p-1.5 rounded-md">Profissional</button>
       </div>
 
       <div class="-mx-4 flex flex-wrap justify-center">

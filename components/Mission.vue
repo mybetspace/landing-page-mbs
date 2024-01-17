@@ -9,7 +9,7 @@
                     <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
                       <div class="relative items-center gap-12 m-auto ">
                         <div class="max-w-xl text-center lg:text-left">
-                            <p class="text-2xl font-medium tracking-tight text-black sm:text-3xl">
+                            <p class="text-2xl font-medium tracking-tight text-white  sm:text-3xl">
                               Eficiência na Validação de Métodos
                             </p>
                             <p class="max-w-xl mt-4 text-base tracking-tight text-grayWhite">
@@ -21,7 +21,7 @@
                         </div>
 
                         <div class="max-w-xl mt-8 text-center lg:text-left">
-                            <p class="text-2xl font-medium tracking-tight text-black sm:text-3xl">
+                            <p class="text-2xl font-medium tracking-tight text-white sm:text-3xl">
                               Automatização da Planilha Online
                             </p>
                             <p class="max-w-xl mt-4 text-base tracking-tight text-grayWhite">

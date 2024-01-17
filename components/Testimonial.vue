@@ -1,6 +1,9 @@
 <template>
   <section class="bg-backgroundGrayTwo">
-    <div class="mx-auto max-w-[1740px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
+    <div class="mx-auto max-w-[1850px] px-4 py-12 sm:px-2 lg:me-0 lg:py-16 lg:pe-0 lg:ps-2 xl:py-24">
+      <h2 class="mb-14 text-center text-white text-4xl font-bold">
+          Depoimentos
+      </h2>
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-center lg:gap-16">
         <div class="-mx-6 lg:col-span-2 lg:mx-0">
           <div id="keen-slider" class="keen-slider">
