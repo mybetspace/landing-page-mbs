@@ -596,12 +596,14 @@
                 Geramos diversos indicadores para você tomar as melhores decisões e conseguir validar seus métodos.
                 Você só precisa cadastrar seus métodos, preenche-los e analisar seus dados depois
               </p>
-              <a
-                href="https://app.mybetspace.com/signup"
-                class="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:opacity-75"
-              >
-                Começar
-              </a>
+              <div class="text-center lg:text-left">
+                <a
+                  href="https://app.mybetspace.com/signup"
+                  class="inline-block py-3 text-base font-medium text-white border border-transparent rounded-md px-7 bg-primary hover:opacity-75 lg:inline-flex lg:items-center lg:justify-center"
+                >
+                  Começar
+                </a>
+              </div>
             </div>
           </div>
         </div>
