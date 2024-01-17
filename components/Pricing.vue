@@ -155,7 +155,6 @@ export default {
   methods: {
     selectCategory(category) {
       this.selectedCategory = category;
-      // Adicione aqui a lógica para alterar os valores dos cards conforme a categoria selecionada
     },
   },
   computed: {
