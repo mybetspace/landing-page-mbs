@@ -92,7 +92,7 @@ export default {
   @media only screen and (max-width: 600px) {
     .slider {
       width: 100%;
-      height: 660px;
+      height: 720px;
     }
   }
 

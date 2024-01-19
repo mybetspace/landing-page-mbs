@@ -164,4 +164,10 @@ export default {
 };
 </script>
 
+<style>
+.blockquote {
+  overflow: hidden;
+}
+</style>
+
 

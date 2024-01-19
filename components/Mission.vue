@@ -30,8 +30,8 @@
                         </div>
                       </div>
                       
-                      <div class="order-first block w-full mt-12 aspect-square lg:mt-0">
-                        <img class="object-cover object-center w-80 h-70 lg:ml-auto" alt="cellphone" src="~/assets/images/telefone.png">
+                      <div class="order-first block w-full mt-12 lg:mt-0">
+                          <img class="object-cover object-center w-full max-w-80 h-70 mx-auto" alt="cellphone" src="~/assets/images/telefone.png">
                       </div>
                     </div>
                   </div>

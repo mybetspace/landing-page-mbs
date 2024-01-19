@@ -8,6 +8,15 @@
       <div class="flex flex-wrap items-center">
         <div class="mb-12 w-full lg:w-8/12 flex-1">
             <img src="~/assets/images/pc.png" class="w-full" />
+
+            <p class="text-white my-6 flex items-center justify-center">Concentre-se no que realmente importa</p>
+            
+            <div class="flex items-center justify-center">
+              <a href="https://app.mybetspace.com/signup">
+                <button class="rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">Não perca tempo</button>
+              </a>
+            </div>
+            
         </div>
 
         <div class="w-full shrink-0 grow-0 basis-auto md:w-6/12 mx-4">

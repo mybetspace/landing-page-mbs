@@ -167,7 +167,7 @@ export default {
 </script>
 
 <template>
-  <section class="relative z-10 overflow-hidden dark:bg-dark pt-20 pb-12 lg:pt-[80px] lg:pb-[100px] mx-12">
+  <section id="preços" class="relative z-10 overflow-hidden dark:bg-dark pt-20 pb-12 lg:pt-[80px] lg:pb-[100px] mx-12">
     <div class="container mx-auto">
       <div class="-mx-4 flex flex-wrap">
         <div class="w-full px-4">
@@ -183,12 +183,15 @@ export default {
         </div>
       </div>
 
-      <div class="mb-4 text-white text-start">
-        <label class="mr-2 font-semibold">Escolha a categoria:</label>
-        <button @click="selectCategory('basic')" :class="{ 'bg-orange': selectedCategory === 'basic', 'bg-gray-300': selectedCategory !== 'basic' }" class="border p-1.5 rounded-md mr-2">Básico</button>
-        <button @click="selectCategory('avanced')" :class="{ 'bg-orange': selectedCategory === 'avanced', 'bg-gray-300': selectedCategory !== 'avanced' }" class="border p-1.5 rounded-md mr-2">Avançado</button>
-        <button @click="selectCategory('professional')" :class="{ 'bg-orange': selectedCategory === 'professional', 'bg-gray-300': selectedCategory !== 'professional' }" class="border p-1.5 rounded-md">Profissional</button>
+      <div class="mb-4 text-white text-start flex flex-col lg:flex-row">
+        <label class="mr-2 mt-1 font-semibold">Escolha a categoria:</label>
+        <div class="flex flex-wrap">
+            <button @click="selectCategory('basic')" :class="{ 'bg-orange': selectedCategory === 'basic', 'bg-gray-300': selectedCategory !== 'basic' }" class="border p-1 rounded-md mb-2 mr-2">Básico</button>
+            <button @click="selectCategory('avanced')" :class="{ 'bg-orange': selectedCategory === 'avanced', 'bg-gray-300': selectedCategory !== 'avanced' }" class="border p-1 rounded-md mb-2 mr-2">Avançado</button>
+            <button @click="selectCategory('professional')" :class="{ 'bg-orange': selectedCategory === 'professional', 'bg-gray-300': selectedCategory !== 'professional' }" class="border p-1 rounded-md mb-2">Profissional</button>
+        </div>
       </div>
+
 
       <div class="-mx-4 flex flex-wrap justify-center">
         <div v-for="(plan, index) in filteredPlans" :key="index" class="w-full px-4 md:w-1/2 lg:w-1/4"
@@ -212,7 +215,7 @@ export default {
               <p class="text-base text-white dark:text-dark-6">{{ plan.features.users }}</p>
             </div>
             <a
-              href="javascript:void(0)"
+              href="https://app.mybetspace.com/signup"
               :class="{
                 ' border-primary bg-primary text-white hover:bg-opacity-90':
                   plan.name === 'Business',

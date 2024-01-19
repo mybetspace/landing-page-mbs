@@ -9,7 +9,7 @@ const toggleNavbar = () => {
 }
 
 const navigateToSection = (section: string) => {
-  const sectionIds = ['home', 'sobre', 'funcionalidades', 'contato'];
+  const sectionIds = ['home', 'sobre', 'preços', 'funcionalidades', 'contato'];
 
   if(sectionIds.includes(section.toLowerCase())) {
     const targetSection = document.getElementById(section.toLowerCase())
@@ -23,6 +23,7 @@ const navigateToSection = (section: string) => {
 const navLinkItems = ref([
   { text: 'Inicio', href: 'javascript:void(0)' },
   { text: 'Sobre', href: 'javascript:void(0)' },
+  { text: 'Preços', href: 'javascript:void(0)' },
   { text: 'Funcionalidades', href: 'javascript:void(0)' },
   { text: 'Contato', href: 'javascript:void(0)' },
 ])

@@ -1,33 +1,33 @@
 <template>
-  <section class=" bg-backgroundGrayTwo relative z-10 overflow-hidden dark:bg-dark lg:pt-[100px] lg:pb-[100px]">
+  <section class="bg-backgroundGrayTwo relative z-10 overflow-hidden dark:bg-dark lg:pt-[100px] lg:pb-[100px]">
     <h2 class="my-8 text-3xl font-bold text-white text-center dark:text-white sm:text-3xl">
       Parceiros
     </h2>
         <div class="my-8 mx-auto mt-8 max-w-[1420px]">
           <div ref="slider" class="keen-slider">
           <div class="keen-slider__slide number-slide1">
-            <img src="~/assets/images/logo2.png" class="h-14" />
+            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
           </div>
           <div class="keen-slider__slide number-slide2">
-            <img src="~/assets/images/logo2.png" class="h-14" />
+            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
           </div>
           <div class="keen-slider__slide number-slide3">
-            <img src="~/assets/images/logo2.png" class="h-14" />
+            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
           </div>
           <div class="keen-slider__slide number-slide4">
-            <img src="~/assets/images/logo2.png" class="h-14" />
+            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
           </div>
           <div class="keen-slider__slide number-slide5">
-            <img src="~/assets/images/logo2.png" class="h-14" />
+            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
           </div>
           <div class="keen-slider__slide number-slide6">
-            <img src="~/assets/images/logo2.png" class="h-14" />
+            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
           </div>
           <div class="keen-slider__slide number-slide7">
-            <img src="~/assets/images/logo2.png" class="h-14" />
+            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
           </div>
           <div class="keen-slider__slide number-slide8">
-            <img src="~/assets/images/logo2.png" class="h-14" />
+            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
           </div>
         </div>
         </div>
@@ -41,7 +41,7 @@ import KeenSlider from "keen-slider";
 function enableAutoplay(slider) {
   setInterval(() => {
     slider.next();
-  }, 1000); 
+  }, 1500); 
 } 
 
 export default {
