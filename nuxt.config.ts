@@ -1,5 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  modules: ['@nuxtjs/google-fonts'],
+
+  runtimeConfig: {
+    public: {
+      gtagId: process.env.GTAG_ID || 'G-DYMJG8L6XZ',
+    }
+  },
+
+  plugins: [
+    '~/plugins/gtag.client.js',
+  ],
   app: {
     head: {
       title:
@@ -22,23 +33,12 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
       ],
-      script:
-        process.env.DEVELOPMENT_MODE === 'true'
-          ? []
-          : [
-              {
-                src: 'https://www.googletagmanager.com/gtag/js?id=G-DYMJG8L6XZ',
-                async: true,
-                defer: true,
-              },
-            ],
     },
   },
   devtools: { enabled: true },
   css: [
     '~/assets/css/main.css'
   ],
-  modules: ['@nuxtjs/google-fonts'],
 
   googleFonts: {
     families: {
