@@ -2,8 +2,6 @@
 
 export default defineNuxtPlugin(() => {
   const { gtagId } = useRuntimeConfig().public;
-
-  console.log('Script do GTM está sendo carregado com o ID:', gtagId);
   
   function gtag() {
     window.dataLayer.push(arguments);
@@ -12,8 +10,6 @@ export default defineNuxtPlugin(() => {
   window.dataLayer = window.dataLayer || [];
   gtag("js", new Date());
   gtag("config", gtagId);
-
-  console.log('5555555555555555:', gtagId);
 
   useHead({
     script: [
