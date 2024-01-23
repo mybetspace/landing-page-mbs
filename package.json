@@ -22,7 +22,6 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@nuxt/bridge": "^3.0.1",
     "hooper": "^0.3.4",
     "keen-slider": "^6.8.6",
     "swiper": "^11.0.5",
