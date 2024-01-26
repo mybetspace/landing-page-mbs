@@ -5,35 +5,34 @@
     </h2>
         <div class="my-8 mx-auto mt-8 max-w-[1420px]">
           <div ref="slider" class="keen-slider">
-          <div class="keen-slider__slide number-slide1">
-            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
-          </div>
-          <div class="keen-slider__slide number-slide2">
-            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
-          </div>
-          <div class="keen-slider__slide number-slide3">
-            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
-          </div>
-          <div class="keen-slider__slide number-slide4">
-            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
+          <div class="keen-slider__slide number-slide7">
+            <img src="~/assets/images/bolsaapostas.svg" alt="Bolsa de apostas" class="ml-14 h-14" />
           </div>
           <div class="keen-slider__slide number-slide5">
-            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
+            <img src="~/assets/images/fulltbet.png" alt="Full bet" class="ml-14 h-14" />
+          </div>
+          <div class="keen-slider__slide number-slide3">
+            <img src="~/assets/images/layback.svg" alt="Lay back" class="ml-14 h-14" />
+          </div>
+          <div class="keen-slider__slide number-slide1">
+            <img src="~/assets/images/levebet.svg" alt="Levebet" class="ml-14 h-14" />
+          </div>
+          <div class="keen-slider__slide number-slide2">
+            <img src="~/assets/images/apostasbf.svg" alt="Apostas bf" class="ml-14 h-14" />
           </div>
           <div class="keen-slider__slide number-slide6">
-            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
-          </div>
-          <div class="keen-slider__slide number-slide7">
-            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
+            <img src="~/assets/images/betbra.svg" alt="Bet bra" class="ml-14 h-14" />
+          </div>          
+          <div class="keen-slider__slide number-slide8">
+            <img src="~/assets/images/verdinhabet.svg" alt="Verdinha bet" class="ml-14 h-14" />
           </div>
           <div class="keen-slider__slide number-slide8">
-            <img src="~/assets/images/logo2.png" class="ml-14 h-14" />
+            <img src="~/assets/images/apostaNow.svg" alt="Apostas now" class="ml-14 h-14" />
           </div>
         </div>
         </div>
       </section>
 </template>
-
 <script>
 import "keen-slider/keen-slider.min.css";
 import KeenSlider from "keen-slider";
