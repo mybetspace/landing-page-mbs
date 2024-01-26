@@ -14,7 +14,7 @@
             <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
               <li>
                 <a
-                  href="/"
+                  href="https://www.facebook.com/mybetspace"
                   rel="noreferrer"
                   target="_blank"
                   class="text-teal-700 transition hover:text-teal-700/75"
@@ -32,19 +32,19 @@
 
               <li>
                 <a
-                    href="https://www.youtube.com/"
+                    href="https://www.youtube.com/@MyBetSpace "
                     rel="noreferrer"
                     target="_blank"
                     class="text-red-700 transition hover:text-red-700/75"
                 >
                     <span class="sr-only">YouTube</span>
-                    <img class="h-7 w-10" src="~/assets/images/youtube.svg" alt="">
+                    <img class="h-7 w-10" src="~/assets/images/youtube.svg" alt="Youtube icon">
                 </a>
             </li>
     
               <li>
                 <a
-                  href="/"
+                  href="https://www.instagram.com/mybetspace/"
                   rel="noreferrer"
                   target="_blank"
                   class="text-teal-700 transition hover:text-teal-700/75"
@@ -102,7 +102,8 @@
                 <li>
                   <a
                     class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                    href="https://api.whatsapp.com/send?phone=5548996436891&text=Olá"
+                    href="https://api.whatsapp.com/send?phone=5548996436891&text=Olá,%20gostaria%20de%20saber%20mais%20detalhes%20sobre%20a%20plataforma"
+
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
