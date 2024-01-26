@@ -12,21 +12,21 @@
         <div class="mt-8 sm:mt-12">
           <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:divide-x sm:divide-white">
             <div class="flex flex-col px-4 py-8 text-center">
-              <dt class="order-last text-grayWhite font-medium text-gray-500">Total Sales</dt>
+              <dt class="order-last text-grayWhite font-medium text-gray-500">Países</dt>
     
-              <dd class="text-4xl font-extrabold text-white md:text-5xl">$4.8m</dd>
+              <dd class="text-4xl font-extrabold text-white md:text-5xl">12</dd>
             </div>
     
             <div class="flex flex-col px-4 py-8 text-center">
-              <dt class="order-last text-grayWhite font-medium text-gray-500">Users</dt>
+              <dt class="order-last text-grayWhite font-medium text-gray-500">Quantidade de usuários atentidos</dt>
     
-              <dd class="text-4xl font-extrabold text-white md:text-5xl">704</dd>
+              <dd class="text-4xl font-extrabold text-white md:text-5xl">+ 4.000</dd>
             </div>
     
             <div class="flex flex-col px-4 py-8 text-center">
-              <dt class="order-last text-grayWhite font-medium text-gray-500">Total Addons</dt>
+              <dt class="order-last text-grayWhite font-medium text-gray-500">Quantidade de métodos criados e validados</dt>
     
-              <dd class="text-4xl font-extrabold text-white md:text-5xl">20</dd>
+              <dd class="text-4xl font-extrabold text-white md:text-5xl">+ 50.000</dd>
             </div>
           </dl>
         </div>
