@@ -8,7 +8,7 @@
             </div>
     
             <p class="mt-6 max-w-md text-center leading-relaxed text-white sm:max-w-xs sm:text-left">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur 
+              Aposte com estratégia e otimize seus ganhos na My Bet Space. Junte-se a nós para uma experiência de apostas lucrativa.
             </p>
     
             <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
