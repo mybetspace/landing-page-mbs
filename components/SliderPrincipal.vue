@@ -39,21 +39,21 @@
   
   const items = ref([
     {
-      name: "Sua gestão de apostas mais rápida e eficiente",
-      description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
+      name: "Faça trades com estratégia: O futebol ganha vida com o my bet space",
+      description: "Transforme sua experiência de apostas no futebol com nosso software inteligente de gestão de banca esportiva. Faça escolhas informadas e celebre cada vitória com confiança.",
       buttonClass: "button-87",
       buttonText: "Economize seu tempo",
       image: "https://github.com/Icegreeen/my-blog/assets/56550632/ca414ce1-488a-4200-a0fe-5837dc8e1a36",
     },
     {
-      name: "Sua gestão de apostas mais rápida e eficiente",
-      description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
+      name: "Viva a emoção do tênis: Gerencie seus jogos com o my bet space",
+      description: "Sinta a adrenalina do tênis enquanto nossa plataforma de gestão de banca esportiva coloca você no controle. Aposte com confiança e ganhe com nossa tecnologia inovadora.",
       buttonClass: "button-87",
       buttonText: "Economize seu tempo",
       image: "https://github.com/Icegreeen/my-blog/assets/56550632/40d41fc4-8e4d-4f6a-8f34-e06c791cb92f",
     },
     {
-      name: "Sua gestão de apostas mais rápida e eficiente",
+      name: "Domine as Apostas em corridas de cavalo na my bet space",
       description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
       buttonClass: "button-87",
       buttonText: "Economize seu tempo",
@@ -95,7 +95,7 @@
   onMounted(() => {
     const timer = setInterval(() => {
       advanceToNextItem();
-    }, 5000);
+    }, 7000);
     handleCardClick();
   
     watchEffect(() => {
