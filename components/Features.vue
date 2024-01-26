@@ -62,9 +62,9 @@
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Facilidade em validar seu método</p>
+              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Mantenha controle total de sua jornada como trader</p>
               <p class="text-grayWhite w-2/3 md:w-full">
-                  Valide seu método de forma mais rápida e simples. Saiba exatamente em que método você é mais lucrativo e o método em que perde dinheiro.
+                Explore uma variedade de gráficos repletos de informações cruciais, prontos para serem seus aliados decisivos. Deixe-nos ser sua fonte confiável na tomada de decisões estratégicas.
               </p>
             </div>
           </div>
@@ -78,9 +78,9 @@
               </div>
             </div>
             <div class="ml-4 grow md:w-auto">
-              <p class="mb-1 font-bold text-white w-3/3 md:w-full">FFFacilidade em validar seu método</p>
+              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Apostas Colaborativas</p>
               <p class="text-grayWhite w-2/3 md:w-full">
-                  Valide seu método de forma mais rápida e simples. Saiba exatamente em que método você é mais lucrativo e o método em que perde dinheiro.
+                Amplie suas chances de sucesso ao cadastrar grupos de trabalho. Compartilhe apostas com amigos ou colegas, replicando as apostas entre os membros do grupo. Torne a experiência de apostar mais social e divertida!
               </p>
             </div>
           </div>
@@ -96,9 +96,9 @@
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Otimização do seu tempo</p>
+              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Aposte com inteligência</p>
               <p class="text-grayWhite w-2/3">
-                  Diga adeus as planilhas e coleta de informações manuais. Aqui você tem seus dados em tempo real. 
+                Descubra quais times e campeonatos são mais lucrativos para você. Nossa plataforma oferece insights precisos para ajudar você a apostar com estratégia e maximizar seus ganhos. 
               </p>
             </div>
           </div>
@@ -112,9 +112,9 @@
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Automatização para importar suas apostas da betfair</p>
+              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Projetos - Transforme sonhos em realidade</p>
               <p class="text-grayWhite w-2/3">
-                  Veja em tempo real no seu dashboard, todos suas entradas e saidas, lucros, prejuízos, odds e muito mais.
+                Crie projetos personalizados para atingir objetivos financeiros em tempo recorde. Seja para aquela viagem especial ou metas específicas, nossas ferramentas tornam o processo fácil e claro.
               </p>
             </div>
           </div>
