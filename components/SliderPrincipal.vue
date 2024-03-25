@@ -43,21 +43,21 @@
       description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
       buttonClass: "button-87",
       buttonText: "Economize seu tempo",
-      image: "https://github.com/Icegreeen/my-blog/assets/56550632/ca414ce1-488a-4200-a0fe-5837dc8e1a36",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.jpg?alt=media&token=523810ee-1c44-4a6e-b693-7f28a07d1e90",
     },
     {
       name: "Sua gestão de apostas mais rápida e eficiente",
       description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
       buttonClass: "button-87",
       buttonText: "Economize seu tempo",
-      image: "https://github.com/Icegreeen/my-blog/assets/56550632/40d41fc4-8e4d-4f6a-8f34-e06c791cb92f",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner2.jpg?alt=media&token=2cb6be71-2636-4098-83e0-f48d73564a27",
     },
     {
       name: "Sua gestão de apostas mais rápida e eficiente",
       description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
       buttonClass: "button-87",
       buttonText: "Economize seu tempo",
-      image: "https://github.com/Icegreeen/my-blog/assets/56550632/68c9f291-0b0a-451d-8c03-12a2cc9e6443",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner3.jpeg?alt=media&token=6163801c-703f-4108-b1e0-b92089511e2f",
     },
   ]);
   
@@ -95,7 +95,7 @@
   onMounted(() => {
     const timer = setInterval(() => {
       advanceToNextItem();
-    }, 5000);
+    }, 6000);
     handleCardClick();
   
     watchEffect(() => {
