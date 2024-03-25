@@ -5,28 +5,28 @@
         <div class="mx-auto max-w-3xl text-center">
           <h2 class="text-3xl font-bold text-white sm:text-4xl">My Space Bet</h2>
           <p class="mt-4 text-grayWhite sm:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores!
+            A Maior e Melhor Plataforma Profissional de Gestão de Banca!
           </p>
         </div>
     
         <div class="mt-8 sm:mt-12">
           <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:divide-x sm:divide-white">
             <div class="flex flex-col px-4 py-8 text-center">
-              <dt class="order-last text-grayWhite font-medium text-gray-500">Países</dt>
+              <dt class="order-last text-grayWhite font-medium text-gray-500">Apostas importadas</dt>
     
-              <dd class="text-4xl font-extrabold text-white md:text-5xl">12</dd>
+              <dd class="text-4xl font-extrabold text-white md:text-5xl">850.235.793</dd>
             </div>
     
             <div class="flex flex-col px-4 py-8 text-center">
-              <dt class="order-last text-grayWhite font-medium text-gray-500">Quantidade de usuários atentidos</dt>
+              <dt class="order-last text-grayWhite font-medium text-gray-500">Usuários cadastrados</dt>
     
-              <dd class="text-4xl font-extrabold text-white md:text-5xl">+ 4.000</dd>
+              <dd class="text-4xl font-extrabold text-white md:text-5xl">+ 18.951</dd>
             </div>
     
             <div class="flex flex-col px-4 py-8 text-center">
-              <dt class="order-last text-grayWhite font-medium text-gray-500">Quantidade de métodos criados e validados</dt>
+              <dt class="order-last text-grayWhite font-medium text-gray-500">Quantidade de métodos criados </dt>
     
-              <dd class="text-4xl font-extrabold text-white md:text-5xl">+ 50.000</dd>
+              <dd class="text-4xl font-extrabold text-white md:text-5xl">+ 52.357</dd>
             </div>
           </dl>
         </div>

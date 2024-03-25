@@ -585,16 +585,16 @@
           </div>
           <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div class="mt-10 lg:mt-0">
-              <span class="block mb-4 text-lg font-semibold text-orange"> Trades sports </span>
+              <span class="block mb-4 text-lg font-semibold text-orange"> Nosssa missão </span>
               <h2 class="mb-5 text-3xl font-bold text-white  dark:text-white sm:text-[40px]/[48px]">
-                Facilite suas trades em uma única plataforma
+                Facilite seus trades gerênciando em uma única plataforma
               </h2>
               <p class="mb-5 text-base text-grayWhite dark:text-dark-6">
-                A My Bet Space tem como missão é ajudar a comunidade de trader Esportivo a economizar seu tempo planilhando, auxiliar no dia a dia do trade, para que de forma mais ágil a validar consiga seu método, para ser mais lucrativo.
+                A My Bet Space tem como missão é ajudar a comunidade de Trade Esportivo/Apostadores a terem melhores resultados, economizando seu tempo, planilhando com um clique, validando seu método facilmente, auxiliando no seu dia a dia, para você alcançar os seus sonhos.
               </p>
               <p class="mb-8 text-base text-grayWhite dark:text-dark-6">
-                Geramos diversos indicadores para você tomar as melhores decisões e conseguir validar seus métodos.
-                Você só precisa cadastrar seus métodos, preenche-los e analisar seus dados depois
+                Geramos diversos indicadores para você tomar as melhores decisões e melhorar seus resultados.
+                Você só precisa cadastrar seus métodos, preenche-los e analisar seus dados depois.
               </p>
               <div class="text-center lg:text-left">
                 <a
