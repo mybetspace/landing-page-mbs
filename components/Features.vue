@@ -13,7 +13,7 @@
             
             <div class="flex items-center justify-center">
               <a href="https://app.mybetspace.com/signup">
-                <button class="rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">Não perca tempo</button>
+                <button class="rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">Acesse agora aqui</button>
               </a>
             </div>
             

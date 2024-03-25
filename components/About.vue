@@ -585,12 +585,13 @@
           </div>
           <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div class="mt-10 lg:mt-0">
-              <span class="block mb-4 text-lg font-semibold text-orange"> Nosssa missão </span>
+              <span class="block mb-4 text-lg font-semibold text-orange"> A Plataforma </span>
               <h2 class="mb-5 text-3xl font-bold text-white  dark:text-white sm:text-[40px]/[48px]">
-                Facilite seus trades gerênciando em uma única plataforma
+                Ajudamos você a evoluir
               </h2>
               <p class="mb-5 text-base text-grayWhite dark:text-dark-6">
-                A My Bet Space tem como missão é ajudar a comunidade de Trade Esportivo/Apostadores a terem melhores resultados, economizando seu tempo, planilhando com um clique, validando seu método facilmente, auxiliando no seu dia a dia, para você alcançar os seus sonhos.
+                A My Bet Space vai te ajudar a planilhar com um clique, validando seu método facilmente, economizando o seu tempo.
+                O nosso objetivo é ajudar a comunidade de Trade Esportivo/Apostadores a terem melhores resultados para você alcançar os seus sonhos.
               </p>
               <p class="mb-8 text-base text-grayWhite dark:text-dark-6">
                 Geramos diversos indicadores para você tomar as melhores decisões e melhorar seus resultados.
@@ -601,7 +602,7 @@
                   href="https://app.mybetspace.com/signup"
                   class="inline-block py-3 text-base font-medium text-white border border-transparent rounded-md px-7 bg-primary hover:opacity-75 lg:inline-flex lg:items-center lg:justify-center"
                 >
-                  Começar
+                  Começar agora
                 </a>
               </div>
             </div>
