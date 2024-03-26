@@ -42,7 +42,7 @@
   const items = ref([
     {
       name: "Não perca mais tempo planilhando",
-      description: "Melhor e Maior Plataforma Profissional de Gestão de Banca, valorize o seu tempo, ele é precioso.",
+      description: "Melhor e Maior Plataforma Profissional de Gestão de Banca, valorize o seu tempo, ele é precioso. Vamos evoluir, para ser lucrativo agora?",
       buttonClass: "button-87",
       buttonText: "Economize seu tempo agora",
       image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.jpg?alt=media&token=e4c7d24c-c55e-4d0a-8fd5-3579b5c6df20",
@@ -55,7 +55,7 @@
       image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner2.jpg?alt=media&token=1804d931-c698-4a6e-adf8-bba9f71cd19c",
     },
     {
-      name: "Quer evoluir e ganhar dinheiro?",
+      name: "Quer evoluir para ser lucrativo?",
       description: "Vamos te ajudar com indicadores para acelerar o processo de evolução, isso tudo com poucos cliques.",
       buttonClass: "button-87",
       buttonText: "Evolua agora mesmo",
