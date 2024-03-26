@@ -6,7 +6,7 @@
               <div class="w-full px-3 sm:px-4 xl:w-1/2">
                 <div class="relative z-10 my-8">
                   <img
-                    src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFnOHZ6cDRxazBobm5zZmNjOXZvamlrMXhoeGE1OTIzenEwcXp1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YHx48QSvcEFlC/giphy.gif"
+                    src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fplataforma_blue.jpg?alt=media&token=b0e612c3-247b-4e32-a45d-e569cdd7831e"
                     alt=""
                     class="w-full rounded-2xl max-w-[500px]"
                     style="margin: auto;"
