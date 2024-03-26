@@ -186,9 +186,9 @@ export default {
       <div class="mb-4 text-white text-start flex flex-col lg:flex-row">
         <label class="mr-2 mt-1 font-semibold">Escolha a categoria:</label>
         <div class="flex flex-wrap">
-            <button @click="selectCategory('basic')" :class="{ 'bg-orange': selectedCategory === 'basic', 'bg-gray-300': selectedCategory !== 'basic' }" class="border p-1 rounded-md mb-2 mr-2">Básico</button>
-            <button @click="selectCategory('avanced')" :class="{ 'bg-orange': selectedCategory === 'avanced', 'bg-gray-300': selectedCategory !== 'avanced' }" class="border p-1 rounded-md mb-2 mr-2">Avançado</button>
-            <button @click="selectCategory('professional')" :class="{ 'bg-orange': selectedCategory === 'professional', 'bg-gray-300': selectedCategory !== 'professional' }" class="border p-1 rounded-md mb-2">Profissional</button>
+            <button v-if="selectedCategory === 'basic'" @click="selectCategory('basic')" :class="{ 'bg-orange': selectedCategory === 'basic', 'bg-gray-300': selectedCategory !== 'basic' }" class="border p-1 rounded-md mb-2 mr-2">Básico</button>
+            <button v-show="selectedCategory !== 'basic'" @click="selectCategory('avanced')" :class="{ 'bg-orange': selectedCategory === 'avanced', 'bg-gray-300': selectedCategory !== 'avanced' }" class="border p-1 rounded-md mb-2 mr-2">Avançado</button>
+            <button v-show="selectedCategory !== 'basic'" @click="selectCategory('professional')" :class="{ 'bg-orange': selectedCategory === 'professional', 'bg-gray-300': selectedCategory !== 'professional' }" class="border p-1 rounded-md mb-2">Profissional</button>
         </div>
       </div>
 
