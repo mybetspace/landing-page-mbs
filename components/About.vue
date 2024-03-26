@@ -6,7 +6,7 @@
               <div class="w-full px-3 sm:px-4 xl:w-1/2">
                 <div class="relative z-10 my-8">
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fplataforma_blue.jpg?alt=media&token=b0e612c3-247b-4e32-a45d-e569cdd7831e"
+                    src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fplataforma_black.jpg?alt=media&token=7ad55d72-da25-47b0-8426-c19a6fcdbe35"
                     alt=""
                     class="w-full rounded-2xl max-w-[500px]"
                     style="margin: auto;"
@@ -600,9 +600,8 @@
               <div class="text-center lg:text-left">
                 <a
                   href="https://app.mybetspace.com/signup"
-                  class="inline-block py-3 text-base font-medium text-white border border-transparent rounded-md px-7 bg-primary hover:opacity-75 lg:inline-flex lg:items-center lg:justify-center"
                 >
-                  Começar
+                  <button class="rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">Não perca tempo, evolua agora</button>
                 </a>
               </div>
             </div>

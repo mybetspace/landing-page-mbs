@@ -11,7 +11,7 @@ export default {
           price: 'R$19,99',
           description: '1 mês de assinatura.',
           features: {
-            users: 'Preço total R$ 19,90',
+            users: 'Preço total R$ 19,99',
           },
           button: {
             text: 'Assinar'
@@ -56,10 +56,10 @@ export default {
         {
           category: 'avanced',
           name: 'Mensal',
-          price: 'R$ 1',
+          price: 'R$ 29,99',
           description: '1 mês de assinatura.',
           features: {
-            users: 'Preço total R$ 19,90',
+            users: 'Preço total R$ 29,99',
           },
           button: {
             text: 'Assinar'
@@ -68,7 +68,7 @@ export default {
         {
           category: 'avanced',
           name: 'Trimestral',
-          price: 'R$ 1',
+          price: 'R$ 87,72',
           description: '2,5 de desconto.',
           features: {
             users: '3 meses de assinatura',
@@ -80,7 +80,7 @@ export default {
         {
           category: 'avanced',
           name: 'Semestral',
-          price: 'R$ 1',
+          price: 'R$ 170,94',
           description: '5,00% de desconto',
           features: {
             users: '6 Meses de assinatura',
@@ -92,7 +92,7 @@ export default {
         {
           category: 'avanced',
           name: 'Anual',
-          price: 'R$ 1',
+          price: 'R$ 332,89',
           description: '7,50% de Desconto.',
           features: {
             users: '12 Meses de assinatura',
@@ -104,10 +104,10 @@ export default {
         {
           category: 'professional',
           name: 'Mensal',
-          price: 'R$ 2',
+          price: 'R$ 39,99',
           description: '1 mês de assinatura.',
           features: {
-            users: 'Preço total R$ 19,90',
+            users: 'Preço total R$39,99',
           },
           button: {
             text: 'Assinar'
@@ -116,7 +116,7 @@ export default {
         {
           category: 'professional',
           name: 'Trimestral',
-          price: 'R$ 2',
+          price: 'R$ 116,97',
           description: '2,5 de desconto.',
           features: {
             users: '2 meses de assinatura',
@@ -128,10 +128,10 @@ export default {
         {
           category: 'professional',
           name: 'Semestral',
-          price: 'R$ 2',
+          price: 'R$ 227,94',
           description: '5,00% de desconto',
           features: {
-            users: '2 Meses de assinatura',
+            users: '6 Meses de assinatura',
           },
           button: {
             text: 'Assinar'
@@ -140,10 +140,10 @@ export default {
         {
           category: 'professional',
           name: 'Anual',
-          price: 'R$ 2',
+          price: 'R$ 443,89',
           description: '7,50% de Desconto.',
           features: {
-            users: '2 Meses de assinatura',
+            users: '12 Meses de assinatura',
           },
           button: {
             text: 'Assinar'

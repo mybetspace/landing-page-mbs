@@ -39,24 +39,24 @@
   
   const items = ref([
     {
-      name: "Faça trades com estratégia: O futebol ganha vida com o my bet space",
-      description: "Transforme sua experiência de apostas no futebol com nosso software inteligente de gestão de banca esportiva. Faça escolhas informadas e celebre cada vitória com confiança.",
+      name: "Não mais perca tempo planilhando suas apostas",
+      description: "Melhor e Maior Plataforma Profissional de Gestão de Banca, valorize o seu tempo, ele é precioso.",
       buttonClass: "button-87",
-      buttonText: "Economize seu tempo",
+      buttonText: "Economize seu tempo agora",
       image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.jpg?alt=media&token=523810ee-1c44-4a6e-b693-7f28a07d1e90",
     },
     {
-      name: "Viva a emoção do tênis: Gerencie seus jogos com o my bet space",
-      description: "Sinta a adrenalina do tênis enquanto nossa plataforma de gestão de banca esportiva coloca você no controle. Aposte com confiança e ganhe com nossa tecnologia inovadora.",
+      name: "Valide seus métodos rapidamente",
+      description: "Nunca foi tão fácil analisar informações e validar métodos.",
       buttonClass: "button-87",
-      buttonText: "Economize seu tempo",
+      buttonText: "Valide seu método agora",
       image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner2.jpg?alt=media&token=2cb6be71-2636-4098-83e0-f48d73564a27",
     },
     {
-      name: "Domine as Apostas em corridas de cavalo na my bet space",
-      description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
+      name: "Quer evoluir e ganhar dinheiro?",
+      description: "Vamos te ajudar com indicadores para acelerar o processo de evolução, isso tudo com poucos cliques.",
       buttonClass: "button-87",
-      buttonText: "Economize seu tempo",
+      buttonText: "Evolua agora mesmo",
       image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner3.jpeg?alt=media&token=6163801c-703f-4108-b1e0-b92089511e2f",
     },
   ]);
