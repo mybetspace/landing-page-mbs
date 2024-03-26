@@ -591,18 +591,18 @@
               </h2>
               <p class="mb-5 text-base text-grayWhite dark:text-dark-6">
                 A My Bet Space vai te ajudar a planilhar com um clique, validando seu método facilmente, economizando o seu tempo.
-                O nosso objetivo é ajudar a comunidade de Trade Esportivo/Apostadores a terem melhores resultados para você alcançar os seus sonhos.
+                Concentre-se no que realmente importa.
               </p>
               <p class="mb-8 text-base text-grayWhite dark:text-dark-6">
-                Geramos diversos indicadores para você tomar as melhores decisões e melhorar seus resultados.
-                Você só precisa cadastrar seus métodos, preenche-los e analisar seus dados depois.
+                Geramos diversos indicadores para você tomar as melhores decisões e conseguir validar seus métodos.
+                Não importa o esporte vamo conseguir te ajudar.
               </p>
               <div class="text-center lg:text-left">
                 <a
                   href="https://app.mybetspace.com/signup"
                   class="inline-block py-3 text-base font-medium text-white border border-transparent rounded-md px-7 bg-primary hover:opacity-75 lg:inline-flex lg:items-center lg:justify-center"
                 >
-                  Começar agora
+                  Começar
                 </a>
               </div>
             </div>

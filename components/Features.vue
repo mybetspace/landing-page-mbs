@@ -13,7 +13,7 @@
             
             <div class="flex items-center justify-center">
               <a href="https://app.mybetspace.com/signup">
-                <button class="rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">Acesse agora aqui</button>
+                <button class="rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">Não perca tempo, acesse agora</button>
               </a>
             </div>
             
@@ -30,9 +30,9 @@
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Automatização para importar suas apostas da betfair</p>
+              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Importar apostas da Betfair e White labels</p>
               <p class="text-grayWhite w-2/3">
-                  Veja em tempo real no seu dashboard, todos suas entradas e saidas, lucros, prejuízos, odds e muito mais.
+                  Veja em tempo real no seu dashboard, todos suas apostas, lucros, prejuízos, odds e muito mais.
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@
             <div class="ml-4 grow">
               <p class="mb-1 font-bold text-white w-3/3 md:w-full">Facilidade em validar seu método</p>
               <p class="text-grayWhite w-2/3">
-                  Valide seu método de forma mais rápida e simples. Saiba exatamente em que método você é mais lucrativo e o método em que perde dinheiro.
+                  Valide seu método de forma mais simples e rápida. Saiba exatamente em que método você é mais lucrativo e o método em que perde dinheiro.
               </p>
             </div>
           </div>
@@ -62,9 +62,9 @@
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Mantenha controle total de sua jornada como trader</p>
+              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Mantenha controle total de sua jornada</p>
               <p class="text-grayWhite w-2/3 md:w-full">
-                Explore uma variedade de gráficos repletos de informações cruciais, prontos para serem seus aliados decisivos. Deixe-nos ser sua fonte confiável na tomada de decisões estratégicas.
+                Explore uma variedade de indicadores e gráficos com informações fundamentais para você ganhar dinheiro.
               </p>
             </div>
           </div>
@@ -80,7 +80,7 @@
             <div class="ml-4 grow md:w-auto">
               <p class="mb-1 font-bold text-white w-3/3 md:w-full">Apostas Colaborativas</p>
               <p class="text-grayWhite w-2/3 md:w-full">
-                Amplie suas chances de sucesso ao cadastrar grupos de trabalho. Compartilhe apostas com amigos ou colegas, replicando as apostas entre os membros do grupo. Torne a experiência de apostar mais social e divertida!
+                Amplie suas chances de sucesso ao cadastrar grupos de trabalho. Compartilhe apostas com amigos ou colegas, replicando as apostas entre os membros do grupo. Torne a experiência de apostar mais profissional e lucrativa!
               </p>
             </div>
           </div>
@@ -98,7 +98,7 @@
             <div class="ml-4 grow">
               <p class="mb-1 font-bold text-white w-3/3 md:w-full">Aposte com inteligência</p>
               <p class="text-grayWhite w-2/3">
-                Descubra quais times e campeonatos são mais lucrativos para você. Nossa plataforma oferece insights precisos para ajudar você a apostar com estratégia e maximizar seus ganhos. 
+                Descubra as odds dos jogos muito antes deles começarem, isso vai te ajudar no pré live. Nossa plataforma oferece insights precisos para ajudar você a apostar com estratégia e maximizar seus ganhos.
               </p>
             </div>
           </div>
@@ -114,7 +114,7 @@
             <div class="ml-4 grow">
               <p class="mb-1 font-bold text-white w-3/3 md:w-full">Projetos - Transforme sonhos em realidade</p>
               <p class="text-grayWhite w-2/3">
-                Crie projetos personalizados para atingir objetivos financeiros em tempo recorde. Seja para aquela viagem especial ou metas específicas, nossas ferramentas tornam o processo fácil e claro.
+                Crie projetos personalizados para atingir objetivos financeiros em tempo recorde. Você poderá deixa o projeto público para seus amigos acompanharem se desejar.
               </p>
             </div>
           </div>

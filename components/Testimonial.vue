@@ -16,15 +16,14 @@
                     <img src="https://static.poder360.com.br/2020/11/elonmusk.png" alt="" class="mt-4 rounded-full h-12">
   
                     <p class="mt-4 leading-relaxed text-white">
-                      No, Rose, they are not breathing. And they have no arms or legs … Where are
-                      they? You know what? If we come across somebody with no arms or legs, do we
-                      bother resuscitating them? I mean, what quality of life do we have there?
+                      O MyBetSpace mudou minha maneira de estudar e pensar sobre trade. Quando comecei a usar descobri muito mais rápido meus erros e acertos e consegui ser lucrativo com mais rapidez!
+                      Além disso, economizei mais tempo planilhando, pois a plataforma me dava todas as informações e eu só completava com os meus métodos e formas de trabalho.
                     </p>
                   </div>
                 </div>
   
                 <footer class="mt-4 text-sm font-medium text-gray sm:mt-6">
-                  &mdash; Michael Scott
+                  &mdash; Leo Zapalá
                 </footer>
               </blockquote>
             </div>
@@ -38,15 +37,16 @@
                     <img src="https://static.poder360.com.br/2020/11/elonmusk.png" alt="" class="mt-4 rounded-full h-12">
   
                     <p class="mt-4 leading-relaxed text-white">
-                      No, Rose, they are not breathing. And they have no arms or legs … Where are
-                      they? You know what? If we come across somebody with no arms or legs, do we
-                      bother resuscitating them? I mean, what quality of life do we have there?
+                      A plataforma tem sido uma grande aliada para me ajudar a identificar as melhorias que precisam ser feitas nas minhas estratégias de “Scalping”,
+                      verificação das taxas de acertos, criação de projetos e a visualizar quais as melhores equipes e ligas para criação de cronogramas da semana,
+                      além de fornecer um sistema de planilha próprio que economiza o meu tempo na hora de organizar os greens e as metas do mês.
+                      Logo, se você buscar um meio que otimiza o seu trabalho e economizar seu tempo a plataforma do My Bet Sapce tem sido extremamente eficiente e por esse motivo torna-se de fácil recomendação.
                     </p>
                   </div>
                 </div>
   
                 <footer class="mt-4 text-sm font-medium text-gray sm:mt-6">
-                  &mdash; Michael Scott
+                  &mdash; Felipe Brito
                 </footer>
               </blockquote>
             </div>
@@ -68,7 +68,7 @@
                 </div>
   
                 <footer class="mt-4 text-sm font-medium text-gray sm:mt-6">
-                  &mdash; Michael Scott
+                  &mdash; Bruno Baldisseira
                 </footer>
               </blockquote>
             </div>
