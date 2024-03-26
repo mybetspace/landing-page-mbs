@@ -95,7 +95,7 @@
   onMounted(() => {
     const timer = setInterval(() => {
       advanceToNextItem();
-    }, 9000);
+    }, 7000);
     handleCardClick();
   
     watchEffect(() => {
