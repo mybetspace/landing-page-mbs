@@ -135,7 +135,7 @@ export default {
     startAutoplay() {
       setInterval(() => {
         this.keenSlider.next();
-      }, 3000);
+      }, 5000);
     },
   },
   
