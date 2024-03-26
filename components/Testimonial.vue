@@ -16,7 +16,7 @@
                     <img src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fzapala.png?alt=media&token=cce21c26-0336-4c9c-b744-f2b230aaf5de" alt="" class="mt-4 rounded-full h-12">
   
                     <p class="mt-4 leading-relaxed text-white">
-                      O MyBetSpace mudou minha maneira de estudar e pensar sobre trade. Quando comecei a usar descobri muito mais rápido meus erros e acertos e consegui ser lucrativo com mais rapidez!
+                      O My Bet Space mudou minha maneira de estudar e pensar sobre trade. Quando comecei a usar descobri muito mais rápido meus erros e acertos e consegui ser lucrativo com mais rapidez!
                       Além disso, economizei mais tempo planilhando, pois a plataforma me dava todas as informações e eu só completava com os meus métodos e formas de trabalho.
                     </p>
                   </div>

@@ -177,7 +177,7 @@ export default {
               Preços 
             </h2>
             <p class="text-base text-grayWhite dark:text-dark-6">
-              Após o período gratuito para continuar usando o My Bet Space é necessário ter uma assinatura, você pode escolher um dos planos abaixo.
+              Todos os usuários novos tem direito à 7 dias gratuitos após a abertura de conta.
             </p>
           </div>
         </div>
@@ -490,7 +490,7 @@ export default {
         </div>
       </div>
 
-      <span class="mb-2 block text-white text-center font-semibold text-primary">Todos os usuários novos tem direito à 7 dias gratuitos após a abertura de conta. </span>
+      <span class="mb-2 block text-white text-center font-semibold text-primary">Após o período gratuito para continuar usando o My Bet Space é necessário ter uma assinatura, você pode escolher um dos planos acima. </span>
     </div>
   </section>
 </template>
