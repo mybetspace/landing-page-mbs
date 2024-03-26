@@ -14,7 +14,9 @@
           >
             <div class="item-content">
               <div class="name">{{ item.name }}</div>
-              <div class="des"><p>{{ item.description }}</p></div>
+              <div class="des" style="text-shadow: 2px 2px 2px rgba(0,0,0,0.5);">
+      <p>{{ item.description }}</p>
+    </div>
               <a href="https://app.mybetspace.com/signup">
                 <button :class="item.buttonClass" role="button">
                 {{ item.buttonText }}
@@ -39,7 +41,7 @@
   
   const items = ref([
     {
-      name: "Não mais perca tempo planilhando suas apostas",
+      name: "Não perca mais tempo planilhando",
       description: "Melhor e Maior Plataforma Profissional de Gestão de Banca, valorize o seu tempo, ele é precioso.",
       buttonClass: "button-87",
       buttonText: "Economize seu tempo agora",
