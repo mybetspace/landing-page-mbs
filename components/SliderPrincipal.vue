@@ -43,21 +43,21 @@
       description: "Melhor e Maior Plataforma Profissional de Gestão de Banca, valorize o seu tempo, ele é precioso.",
       buttonClass: "button-87",
       buttonText: "Economize seu tempo agora",
-      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.jpg?alt=media&token=523810ee-1c44-4a6e-b693-7f28a07d1e90",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.jpg?alt=media&token=e4c7d24c-c55e-4d0a-8fd5-3579b5c6df20",
     },
     {
       name: "Valide seus métodos rapidamente",
       description: "Nunca foi tão fácil analisar informações e validar métodos.",
       buttonClass: "button-87",
       buttonText: "Valide seu método agora",
-      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner2.jpg?alt=media&token=2cb6be71-2636-4098-83e0-f48d73564a27",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner2.jpg?alt=media&token=1804d931-c698-4a6e-adf8-bba9f71cd19c",
     },
     {
       name: "Quer evoluir e ganhar dinheiro?",
       description: "Vamos te ajudar com indicadores para acelerar o processo de evolução, isso tudo com poucos cliques.",
       buttonClass: "button-87",
       buttonText: "Evolua agora mesmo",
-      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner3.jpeg?alt=media&token=6163801c-703f-4108-b1e0-b92089511e2f",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner3.jpg?alt=media&token=b2456b5c-6630-462a-96a0-be07285371af",
     },
   ]);
   
