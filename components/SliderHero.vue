@@ -30,17 +30,19 @@ export default {
     class="mySwiper"
   >
     <swiper-slide class="custom-slide" style="height: 750px; position: relative;">
-      <img src="https://github.com/Icegreeen/my-blog/assets/56550632/ca414ce1-488a-4200-a0fe-5837dc8e1a36" class="filter brightness-75 swiper-img" />
+      <img 
+      src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.jpg?alt=media&token=e4c7d24c-c55e-4d0a-8fd5-3579b5c6df20" 
+      alt="Homem chutando bola com uniforme amarelo"
+      class="filter brightness-75 swiper-img" />
       <div class="slide-content">
         <h1>Sua gestão de apostas mais rápida e eficiente</h1>
         <p>Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional.</p>
         <li>
-          <a
-            href="javascript:void(0)"
+          <nuxt-link :to="'javascript:void(0)'"
             class="shadow bg-orange transition-opacity my-4 hover:opacity-75 inline-flex items-center justify-center px-6 py-2 bg-orange text-base font-medium text-center text-white rounded-md bg-primary hover:bg-blue-dark lg:px-7"
-            >
-              Cadastrar
-            </a>
+          >
+            Cadastrar
+          </nuxt-link>
         </li>
 
         <div class="clients pt-2">
@@ -49,8 +51,8 @@ export default {
                 <span class="inline-block w-8 h-px ml-3 bg-body-color"></span>
               </h6>
               <div class="flex items-center gap-4 xl:gap-[50px]">
-                  <img src="~/assets/images/logo2.png" class="h-8" />
-                  <img src="~/assets/images/logo2.png" class="h-8" />
+                  <img src="~/assets/images/logo2.png"  alt="Logo do my bet space" class="h-8" />
+                  <img src="~/assets/images/logo2.png" alt="Logo do my bet space"  class="h-8" />
               </div>
         </div>
       </div>
@@ -62,23 +64,22 @@ export default {
         <h1>Sua gestão de apostas mais rápida e eficiente</h1>
         <p>Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional</p>
         <li>
-          <a
-            href="javascript:void(0)"
+          <nuxt-link :to="'javascript:void(0)'"
             class="shadow bg-orange transition-opacity my-4 hover:opacity-75 inline-flex items-center justify-center px-6 py-2 bg-orange text-base font-medium text-center text-white rounded-md bg-primary hover:bg-blue-dark lg:px-7"
-            >
+          >
               Cadastrar
-            </a>
-          </li>
+          </nuxt-link>
+        </li>
 
           <div class="clients pt-2">
-              <h6 class="flex items-center mb-6 text-xs font-normal text-body-color dark:text-dark-6">
-                Parceiros e clientes
-                <span class="inline-block w-8 h-px ml-3 bg-body-color"></span>
-              </h6>
-              <div class="flex items-center gap-4 xl:gap-[50px]">
-                  <img src="~/assets/images/logo2.png" class="h-8" />
-                  <img src="~/assets/images/logo2.png" class="h-8" />
-              </div>
+            <h6 class="flex items-center mb-6 text-xs font-normal text-body-color dark:text-dark-6">
+              Parceiros e clientes
+              <span class="inline-block w-8 h-px ml-3 bg-body-color"></span>
+            </h6>
+            <div class="flex items-center gap-4 xl:gap-[50px]">
+                <img src="~/assets/images/logo2.png" class="h-8" alt="Logo do my bet space"/>
+                <img src="~/assets/images/logo2.png" class="h-8" alt="Logo do my bet space" />
+            </div>
         </div>
       </div>
     </swiper-slide>
@@ -89,23 +90,22 @@ export default {
         <h1>Sua gestão de apostas mais rápida e eficiente</h1>
         <p>Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional</p>
         <li>
-          <a
-            href="javascript:void(0)"
-            class="shadow bg-orange transition-opacity my-4 hover:opacity-75 inline-flex px-6 py-2 bg-orange text-base font-medium text-center text-white rounded-md bg-primary hover:bg-blue-dark lg:px-7"
-            >
+          <nuxt-link :to="'javascript:void(0)'"
+            class="shadow bg-orange transition-opacity my-4 hover:opacity-75 inline-flex items-center justify-center px-6 py-2 bg-orange text-base font-medium text-center text-white rounded-md bg-primary hover:bg-blue-dark lg:px-7"
+          >
               Cadastrar
-            </a>
+          </nuxt-link>
         </li>
 
         <div class="clients pt-2">
-              <h6 class="flex items-center mb-6 text-xs font-normal text-body-color dark:text-dark-6">
-                Parceiros e clientes
-                <span class="inline-block w-8 h-px ml-3 bg-body-color"></span>
-              </h6>
-              <div class="flex items-center gap-4 xl:gap-[50px]">
-                  <img src="~/assets/images/logo2.png" class="h-8" />
-                  <img src="~/assets/images/logo2.png" class="h-8" />
-              </div>
+            <h6 class="flex items-center mb-6 text-xs font-normal text-body-color dark:text-dark-6">
+              Parceiros e clientes
+              <span class="inline-block w-8 h-px ml-3 bg-body-color"></span>
+            </h6>
+            <div class="flex items-center gap-4 xl:gap-[50px]">
+                <img src="~/assets/images/logo2.png" class="h-8" alt="Logo my bet space"/>
+                <img src="~/assets/images/logo2.png" class="h-8" alt="Logo my bet space" />
+            </div>
         </div>
       </div>
     </swiper-slide>

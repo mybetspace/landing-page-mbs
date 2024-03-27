@@ -1,20 +1,22 @@
 <template>
   <section id="funcionalidades">
     <div class="container mx-auto mb-12 mt-16">
-      <h2 class="mb-14 text-center text-white text-4xl font-bold">
+      <h1 class="mb-14 text-center text-white text-4xl font-bold">
           Funcionalidades
-      </h2>
+      </h1>
 
       <div class="flex flex-wrap items-center">
         <div class="mb-12 w-full lg:w-8/12 flex-1">
             <img src="~/assets/images/pc.png" class="w-full" />
 
-            <p class="text-white my-6 flex items-center justify-center">Concentre-se no que realmente importa</p>
+            <h2 class="text-white my-6 flex items-center justify-center">Concentre-se no que realmente importa</h2>
             
             <div class="flex items-center justify-center">
-              <a href="https://app.mybetspace.com/signup">
-                <button class="rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">Não perca tempo</button>
-              </a>
+              <nuxt-link :to="'https://app.mybetspace.com/signup'"
+                class="inline-block text-teal-600 transition hover:text-teal-600/75"
+              >
+                <button class="rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">Não perca tempo, acesse agora</button>
+              </nuxt-link>
             </div>
             
         </div>
@@ -30,9 +32,9 @@
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Automatização para importar suas apostas da betfair</p>
+              <h2 class="mb-1 font-bold text-white w-3/3 md:w-full">Importar apostas da Betfair e White labels</h2>
               <p class="text-grayWhite w-2/3">
-                  Veja em tempo real no seu dashboard, todos suas entradas e saidas, lucros, prejuízos, odds e muito mais.
+                  Veja em tempo real no seu dashboard, todos suas apostas, lucros, prejuízos, odds e muito mais.
               </p>
             </div>
           </div>
@@ -46,9 +48,9 @@
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Facilidade em validar seu método</p>
+              <h2 class="mb-1 font-bold text-white w-3/3 md:w-full">Facilidade em validar seu método</h2>
               <p class="text-grayWhite w-2/3">
-                  Valide seu método de forma mais rápida e simples. Saiba exatamente em que método você é mais lucrativo e o método em que perde dinheiro.
+                  Valide seu método de forma mais simples e rápida. Saiba exatamente em que método você é mais lucrativo e o método em que perde dinheiro.
               </p>
             </div>
           </div>
@@ -62,9 +64,9 @@
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Facilidade em validar seu método</p>
+              <h2 class="mb-1 font-bold text-white w-3/3 md:w-full">Mantenha controle total de sua jornada</h2>
               <p class="text-grayWhite w-2/3 md:w-full">
-                  Valide seu método de forma mais rápida e simples. Saiba exatamente em que método você é mais lucrativo e o método em que perde dinheiro.
+                Explore uma variedade de indicadores e gráficos com informações fundamentais para você ganhar dinheiro.
               </p>
             </div>
           </div>
@@ -78,9 +80,9 @@
               </div>
             </div>
             <div class="ml-4 grow md:w-auto">
-              <p class="mb-1 font-bold text-white w-3/3 md:w-full">FFFacilidade em validar seu método</p>
+              <h2 class="mb-1 font-bold text-white w-3/3 md:w-full">Apostas Colaborativas</h2>
               <p class="text-grayWhite w-2/3 md:w-full">
-                  Valide seu método de forma mais rápida e simples. Saiba exatamente em que método você é mais lucrativo e o método em que perde dinheiro.
+                Amplie suas chances de sucesso ao cadastrar grupos de trabalho. Compartilhe apostas com amigos ou colegas, replicando as apostas entre os membros do grupo. Torne a experiência de apostar mais profissional e lucrativa!
               </p>
             </div>
           </div>
@@ -96,9 +98,9 @@
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Otimização do seu tempo</p>
+              <h2 class="mb-1 font-bold text-white w-3/3 md:w-full">Aposte com inteligência</h2>
               <p class="text-grayWhite w-2/3">
-                  Diga adeus as planilhas e coleta de informações manuais. Aqui você tem seus dados em tempo real. 
+                Descubra as odds dos jogos muito antes deles começarem, isso vai te ajudar no pré live. Nossa plataforma oferece insights precisos para ajudar você a apostar com estratégia e maximizar seus ganhos.
               </p>
             </div>
           </div>
@@ -112,9 +114,9 @@
               </div>
             </div>
             <div class="ml-4 grow">
-              <p class="mb-1 font-bold text-white w-3/3 md:w-full">Automatização para importar suas apostas da betfair</p>
+              <h2 class="mb-1 font-bold text-white w-3/3 md:w-full">Projetos - Transforme sonhos em realidade</h2>
               <p class="text-grayWhite w-2/3">
-                  Veja em tempo real no seu dashboard, todos suas entradas e saidas, lucros, prejuízos, odds e muito mais.
+                Crie projetos personalizados para atingir objetivos financeiros em tempo recorde. Você poderá deixa o projeto público para seus amigos acompanharem se desejar.
               </p>
             </div>
           </div>

@@ -48,7 +48,9 @@ onUnmounted(() => {
     <div class="container">
       <div class="relative -mx-8 flex items-center justify-between">
         <div class="w-40 max-w-full">
-          <a href="https://www.mybetspace.com/" class="block w-full">
+          <nuxt-link :to="'https://www.mybetspace.com/'"
+            class="block w-full"
+          >
             <img
               src="~/assets/images/logo.png"
               alt="logo"
@@ -59,7 +61,7 @@ onUnmounted(() => {
               alt="logo"
               class="hidden dark:block"
             />
-          </a>
+          </nuxt-link>
         </div>
         <div class="flex w-full items-center justify-between px-2">
           <div>
@@ -89,28 +91,31 @@ onUnmounted(() => {
               <ul class="block lg:flex">
                 <template v-for="(item, index) in navLinkItems" :key="index">
                   <li>
-                    <a
-                      v-if="item.href"
-                      :href="item.href"
-                      @click="navigateToSection(item.text)"
-                      class="flex py-2 text-base font-medium text-white hover:text-orange dark:text-dark-6 dark:hover:text-orange lg:ml-12 lg:inline-flex"
-                    >
-                      {{ item.text }}
-                    </a>
+                   <nuxt-link :to="'/'"
+                     v-if="item.href"
+                     :href="item.href"
+                     @click="navigateToSection(item.text)"
+                     class="flex py-2 text-base font-medium text-white hover:text-orange dark:text-dark-6 dark:hover:text-orange lg:ml-12 lg:inline-flex"
+                   >
+                     {{ item.text }}
+                   </nuxt-link>
                   </li>
                 </template>
               </ul>
             </nav>
           </div>
           <div class="hidden justify-end pr-16 sm:flex lg:pr-0">
-            <a
-              href="https://app.mybetspace.com/"
+            <nuxt-link :to="'https://app.mybetspace.com/'"
               class="px-7 py-3 text-base font-medium text-white hover:text-primary dark:text-white transition-opacity hover:opacity-75"
-              >Login</a
             >
-            <a href="https://app.mybetspace.com/signup" style="height: 40px;" class="rounded-md px-6 py-3 my-1 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">
+              Login
+            </nuxt-link>
+
+            <nuxt-link :to="'https://app.mybetspace.com/'"
+            style="height: 40px;" class="rounded-md px-6 py-3 my-1 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center"
+            >
               Cadastrar
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </div>

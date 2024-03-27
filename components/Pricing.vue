@@ -11,7 +11,7 @@ export default {
           price: 'R$19,99',
           description: '1 mês de assinatura.',
           features: {
-            users: 'Preço total R$ 19,90',
+            users: 'Preço total R$ 19,99',
           },
           button: {
             text: 'Assinar'
@@ -56,10 +56,10 @@ export default {
         {
           category: 'avanced',
           name: 'Mensal',
-          price: 'R$ 1',
+          price: 'R$ 29,99',
           description: '1 mês de assinatura.',
           features: {
-            users: 'Preço total R$ 19,90',
+            users: 'Preço total R$ 29,99',
           },
           button: {
             text: 'Assinar'
@@ -68,7 +68,7 @@ export default {
         {
           category: 'avanced',
           name: 'Trimestral',
-          price: 'R$ 1',
+          price: 'R$ 87,72',
           description: '2,5 de desconto.',
           features: {
             users: '3 meses de assinatura',
@@ -80,7 +80,7 @@ export default {
         {
           category: 'avanced',
           name: 'Semestral',
-          price: 'R$ 1',
+          price: 'R$ 170,94',
           description: '5,00% de desconto',
           features: {
             users: '6 Meses de assinatura',
@@ -92,7 +92,7 @@ export default {
         {
           category: 'avanced',
           name: 'Anual',
-          price: 'R$ 1',
+          price: 'R$ 332,89',
           description: '7,50% de Desconto.',
           features: {
             users: '12 Meses de assinatura',
@@ -104,10 +104,10 @@ export default {
         {
           category: 'professional',
           name: 'Mensal',
-          price: 'R$ 2',
+          price: 'R$ 39,99',
           description: '1 mês de assinatura.',
           features: {
-            users: 'Preço total R$ 19,90',
+            users: 'Preço total R$39,99',
           },
           button: {
             text: 'Assinar'
@@ -116,7 +116,7 @@ export default {
         {
           category: 'professional',
           name: 'Trimestral',
-          price: 'R$ 2',
+          price: 'R$ 116,97',
           description: '2,5 de desconto.',
           features: {
             users: '2 meses de assinatura',
@@ -128,10 +128,10 @@ export default {
         {
           category: 'professional',
           name: 'Semestral',
-          price: 'R$ 2',
+          price: 'R$ 227,94',
           description: '5,00% de desconto',
           features: {
-            users: '2 Meses de assinatura',
+            users: '6 Meses de assinatura',
           },
           button: {
             text: 'Assinar'
@@ -140,10 +140,10 @@ export default {
         {
           category: 'professional',
           name: 'Anual',
-          price: 'R$ 2',
+          price: 'R$ 443,89',
           description: '7,50% de Desconto.',
           features: {
-            users: '2 Meses de assinatura',
+            users: '12 Meses de assinatura',
           },
           button: {
             text: 'Assinar'
@@ -177,18 +177,18 @@ export default {
               Preços 
             </h2>
             <p class="text-base text-grayWhite dark:text-dark-6">
-              Após o período gratuito para continuar usando o My Bet Space é necessário ter uma assinatura, você pode escolher um dos planos abaixo.
+              Todos os usuários novos tem direito à 7 dias gratuitos após a abertura de conta.
             </p>
           </div>
         </div>
       </div>
 
       <div class="mb-4 text-white text-start flex flex-col lg:flex-row">
-        <label class="mr-2 mt-1 font-semibold">Escolha a categoria:</label>
+        <label class="mr-2 mt-1 font-semibold">Plano:</label>
         <div class="flex flex-wrap">
-            <button @click="selectCategory('basic')" :class="{ 'bg-orange': selectedCategory === 'basic', 'bg-gray-300': selectedCategory !== 'basic' }" class="border p-1 rounded-md mb-2 mr-2">Básico</button>
-            <button @click="selectCategory('avanced')" :class="{ 'bg-orange': selectedCategory === 'avanced', 'bg-gray-300': selectedCategory !== 'avanced' }" class="border p-1 rounded-md mb-2 mr-2">Avançado</button>
-            <button @click="selectCategory('professional')" :class="{ 'bg-orange': selectedCategory === 'professional', 'bg-gray-300': selectedCategory !== 'professional' }" class="border p-1 rounded-md mb-2">Profissional</button>
+            <button v-if="selectedCategory === 'basic'" @click="selectCategory('basic')" :class="{ 'bg-orange': selectedCategory === 'basic', 'bg-gray-300': selectedCategory !== 'basic' }" class="border p-1 rounded-md mb-2 mr-2">Básico</button>
+            <button v-show="selectedCategory !== 'basic'" @click="selectCategory('avanced')" :class="{ 'bg-orange': selectedCategory === 'avanced', 'bg-gray-300': selectedCategory !== 'avanced' }" class="border p-1 rounded-md mb-2 mr-2">Avançado</button>
+            <button v-show="selectedCategory !== 'basic'" @click="selectCategory('professional')" :class="{ 'bg-orange': selectedCategory === 'professional', 'bg-gray-300': selectedCategory !== 'professional' }" class="border p-1 rounded-md mb-2">Profissional</button>
         </div>
       </div>
 
@@ -214,18 +214,17 @@ export default {
             <div class="mb-9 flex flex-col gap-[14px]">
               <p class="text-base text-white dark:text-dark-6">{{ plan.features.users }}</p>
             </div>
-            <a
-              href="https://app.mybetspace.com/signup"
-              :class="{
-                ' border-primary bg-primary text-white hover:bg-opacity-90':
-                  plan.name === 'Business',
-                'border-stroke dark:border-dark-3 bg-transparent text-primary hover:border-primary hover:bg-primary hover:text-white':
-                  plan.name !== 'Business'
-              }"
-              class="block w-full rounded-md border p-3 text-center text-orange font-medium transition"
-            >
-              {{ plan.button.text }}
-            </a>
+              <nuxt-link :to="'https://app.mybetspace.com/signup'"
+                :class="{
+                    ' border-primary bg-primary text-white hover:bg-opacity-90':
+                      plan.name === 'Business',
+                    'border-stroke dark:border-dark-3 bg-transparent text-primary hover:border-primary hover:bg-primary hover:text-white':
+                      plan.name !== 'Business'
+                  }"
+                  class="block w-full rounded-md border p-3 text-center text-orange font-medium transition"
+                >
+                {{ plan.button.text }}
+              </nuxt-link>
             <div>
               <span class="absolute right-0 top-7 z-[-1]">
                 <svg
@@ -490,7 +489,7 @@ export default {
         </div>
       </div>
 
-      <span class="mb-2 block text-white text-center font-semibold text-primary">Todos os usuários novos tem direito à 7 dias gratuitos após a abertura de conta. </span>
+      <span class="mb-2 block text-white text-center font-semibold text-primary">Após o período gratuito para continuar usando o My Bet Space é necessário ter uma assinatura, você pode escolher um dos planos acima. </span>
     </div>
   </section>
 </template>

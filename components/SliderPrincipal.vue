@@ -13,13 +13,15 @@
             :style="{ backgroundImage: `url(${item.image})` }"
           >
             <div class="item-content">
-              <div class="name">{{ item.name }}</div>
-              <div class="des"><p>{{ item.description }}</p></div>
-              <a href="https://app.mybetspace.com/signup">
-                <button :class="item.buttonClass" role="button">
-                {{ item.buttonText }}
-              </button>
-              </a>
+              <h2 class="name">{{ item.name }}</h2>
+              <div class="des" style="text-shadow: 2px 2px 2px rgba(0,0,0,0.5);">
+                <h4>{{ item.description }}</h4>
+              </div>
+                <nuxt-link :to="'https://app.mybetspace.com/signup'">
+                  <button :class="item.buttonClass" role="button">
+                    {{ item.buttonText }}
+                  </button>
+                </nuxt-link>
             </div>
           </div>
         </div>
@@ -34,30 +36,30 @@
     </div>
   </template>
   
-  <script setup>
+  <script setup lang="ts">
   import { ref, onMounted, watchEffect } from "vue";
   
   const items = ref([
     {
-      name: "Sua gestão de apostas mais rápida e eficiente",
-      description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
+      name: "Não perca mais tempo planilhando",
+      description: "A Melhor e Maior Plataforma Profissional de Gestão de Banca, valorize o seu tempo, ele é precioso. Vamos evoluir, para ser lucrativo agora?",
       buttonClass: "button-87",
-      buttonText: "Economize seu tempo",
-      image: "https://github.com/Icegreeen/my-blog/assets/56550632/ca414ce1-488a-4200-a0fe-5837dc8e1a36",
+      buttonText: "Economize seu tempo agora",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.jpg?alt=media&token=e4c7d24c-c55e-4d0a-8fd5-3579b5c6df20",
     },
     {
-      name: "Sua gestão de apostas mais rápida e eficiente",
-      description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
+      name: "Valide seus métodos rapidamente",
+      description: "Nunca foi tão fácil analisar informações e validar métodos.",
       buttonClass: "button-87",
-      buttonText: "Economize seu tempo",
-      image: "https://github.com/Icegreeen/my-blog/assets/56550632/40d41fc4-8e4d-4f6a-8f34-e06c791cb92f",
+      buttonText: "Valide seu método agora",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner2.jpg?alt=media&token=1804d931-c698-4a6e-adf8-bba9f71cd19c",
     },
     {
-      name: "Sua gestão de apostas mais rápida e eficiente",
-      description: "Plataforma profissional para gestão de banca no trade esportivo na betfair, automatizando tarefas repetitivas para você economizar tempo e investir de forma mais lucrativa e profissional",
+      name: "Quer evoluir para ser lucrativo?",
+      description: "Vamos te ajudar com indicadores para acelerar o processo de evolução, isso tudo com poucos cliques.",
       buttonClass: "button-87",
-      buttonText: "Economize seu tempo",
-      image: "https://github.com/Icegreeen/my-blog/assets/56550632/68c9f291-0b0a-451d-8c03-12a2cc9e6443",
+      buttonText: "Evolua agora mesmo",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner3.jpg?alt=media&token=b2456b5c-6630-462a-96a0-be07285371af",
     },
   ]);
   
@@ -95,7 +97,7 @@
   onMounted(() => {
     const timer = setInterval(() => {
       advanceToNextItem();
-    }, 5000);
+    }, 7000);
     handleCardClick();
   
     watchEffect(() => {
