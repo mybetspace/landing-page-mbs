@@ -72,7 +72,8 @@ export default defineNuxtConfig({
     families: {
       Ubuntu: [400, 700]
     },
-    display: 'swap'
+    display: 'swap',
+    download: false,
   },
   postcss: {
     plugins: {
