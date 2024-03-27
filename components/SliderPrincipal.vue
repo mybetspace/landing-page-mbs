@@ -13,15 +13,15 @@
             :style="{ backgroundImage: `url(${item.image})` }"
           >
             <div class="item-content">
-              <div class="name">{{ item.name }}</div>
+              <h2 class="name">{{ item.name }}</h2>
               <div class="des" style="text-shadow: 2px 2px 2px rgba(0,0,0,0.5);">
-      <p>{{ item.description }}</p>
-    </div>
-              <a href="https://app.mybetspace.com/signup">
-                <button :class="item.buttonClass" role="button">
-                {{ item.buttonText }}
-              </button>
-              </a>
+                <h4>{{ item.description }}</h4>
+              </div>
+                <nuxt-link :to="'https://app.mybetspace.com/signup'">
+                  <button :class="item.buttonClass" role="button">
+                    {{ item.buttonText }}
+                  </button>
+                </nuxt-link>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@
     </div>
   </template>
   
-  <script setup>
+  <script setup lang="ts">
   import { ref, onMounted, watchEffect } from "vue";
   
   const items = ref([

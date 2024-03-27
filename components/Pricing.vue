@@ -214,18 +214,17 @@ export default {
             <div class="mb-9 flex flex-col gap-[14px]">
               <p class="text-base text-white dark:text-dark-6">{{ plan.features.users }}</p>
             </div>
-            <a
-              href="https://app.mybetspace.com/signup"
-              :class="{
-                ' border-primary bg-primary text-white hover:bg-opacity-90':
-                  plan.name === 'Business',
-                'border-stroke dark:border-dark-3 bg-transparent text-primary hover:border-primary hover:bg-primary hover:text-white':
-                  plan.name !== 'Business'
-              }"
-              class="block w-full rounded-md border p-3 text-center text-orange font-medium transition"
-            >
-              {{ plan.button.text }}
-            </a>
+              <nuxt-link :to="'https://app.mybetspace.com/signup'"
+                :class="{
+                    ' border-primary bg-primary text-white hover:bg-opacity-90':
+                      plan.name === 'Business',
+                    'border-stroke dark:border-dark-3 bg-transparent text-primary hover:border-primary hover:bg-primary hover:text-white':
+                      plan.name !== 'Business'
+                  }"
+                  class="block w-full rounded-md border p-3 text-center text-orange font-medium transition"
+                >
+                {{ plan.button.text }}
+              </nuxt-link>
             <div>
               <span class="absolute right-0 top-7 z-[-1]">
                 <svg

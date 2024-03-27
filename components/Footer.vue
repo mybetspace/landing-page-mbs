@@ -4,34 +4,31 @@
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <div class="flex justify-center text-teal-600 sm:justify-start">
-                <img class="h-10" src="~/assets/images/logo2.png" alt="logo">
+                <img class="h-10" src="~/assets/images/logo2.png" alt="logo do my bet space">
             </div>
     
-            <p class="mt-6 max-w-md text-center leading-relaxed text-white sm:max-w-xs sm:text-left">
+            <h2 class="mt-6 max-w-md text-center leading-relaxed text-white sm:max-w-xs sm:text-left">
               Planilhe com um clique, valide seu método facilmente e economize seu tempo.
-            </p>
+            </h2>
 
             <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
               <li>
-                <a
-                    href="https://www.youtube.com/@MyBetSpace "
-                    rel="noreferrer"
-                    target="_blank"
-                    class="text-red-700 transition hover:text-red-700/75"
-                >
-                    <span class="sr-only">YouTube</span>
-                    <img class="h-7 w-10" src="~/assets/images/youtube.svg" alt="Youtube icon">
-                </a>
-            </li>
-    
-              <li>
-                <a
-                  href="https://www.instagram.com/mybetspace/"
+                <nuxt-link :to="'https://www.youtube.com/@MyBetSpace '"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-teal-700 transition hover:text-teal-700/75"
+                  class="text-red-700 transition hover:text-red-700/75"
                 >
-                  <span class="sr-only">Instagram</span>
+                  <span class="sr-only">YouTube</span>
+                  <img class="h-7 w-10" src="~/assets/images/youtube.svg" alt="Youtube icon">
+                </nuxt-link>             
+              </li>    
+              <li>
+                <nuxt-link :to="'https://www.instagram.com/mybetspace/'"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="text-red-700 transition hover:text-red-700/75"
+                >
+                <span class="sr-only">Instagram</span>
                   <svg class="h-6 w-6" fill="#f5f5f5" viewBox="0 0 24 24" aria-hidden="true">
                     <path
                       fill-rule="evenodd"
@@ -39,24 +36,21 @@
                       clip-rule="evenodd"
                     />
                   </svg>
-                </a>
-              </li>
-
-            
+                </nuxt-link>             
+              </li>            
             </ul>
           </div>
     
           <div class="my-6 grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
             <div class="text-center sm:text-left">
-              <p class="text-lg font-bold text-white">E-mail</p>
+              <h2 class="text-lg font-bold text-white">E-mail</h2>
     
               <ul class="mt-8 space-y-4 text-sm">
                 <li>
-                  <a
+                  <nuxt-link :to="'mailto:suporte@mybetspace.com'"
                     class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                    href="mailto:suporte@mybetspace.com"
-                  >
-                    <svg
+                   >
+                   <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="h-5 w-5 shrink-0 text-background"
                       fill="#f5f5f5"
@@ -70,22 +64,19 @@
                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                       />
                     </svg>
-    
                     <span href="" class="flex-1 text-gray hover:opacity-75">suporte@mybetspace.com</span>
-                  </a>
+                  </nuxt-link>
                 </li>
               </ul>
             </div>
     
             <div class="text-center sm:text-left">
-              <p class="text-lg font-bold text-white">Whatsapp</p>
+              <h2 class="text-lg font-bold text-white">Whatsapp</h2>
     
               <ul class="mt-8 space-y-4 text-sm">
                 <li>
-                  <a
+                  <nuxt-link :to="'https://api.whatsapp.com/send?phone=5548996436891&text=Olá,%20gostaria%20de%20saber%20mais%20detalhes%20sobre%20a%20plataforma'"
                     class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                    href="https://api.whatsapp.com/send?phone=5548996436891&text=Olá,%20gostaria%20de%20saber%20mais%20detalhes%20sobre%20a%20plataforma"
-
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -103,13 +94,13 @@
                     </svg>
     
                     <span class="flex-1 text-gray hover:opacity-75">+55 48 99643-6891</span>
-                  </a>
+                </nuxt-link>
                 </li>
               </ul>
             </div>
     
             <div class="text-center sm:text-left">
-              <p class="text-lg font-bold text-white">Localização</p>
+              <h2 class="text-lg font-bold text-white">Localização</h2>
     
               <ul class="mt-8 space-y-4 text-sm">
                 <li
@@ -149,22 +140,19 @@
           <div class="text-center sm:flex sm:justify-between sm:text-left">
             <p class="text-sm text-gray">
               <span class="block sm:inline">All rights reserved.</span>
-    
-              <a
+              <nuxt-link :to="'/'"
                 class="inline-block text-teal-600 underline transition hover:text-teal-600/75"
-                href="/"
               >
-                Terms & Conditions
-              </a>
-    
+              Terms & Conditions
+              </nuxt-link>
+               
               <span>&middot;</span>
-    
-              <a
+  
+              <nuxt-link :to="'/'"
                 class="inline-block text-teal-600 underline transition hover:text-teal-600/75"
-                href="/"
               >
-                Privacy Policy
-              </a>
+                 Privacy Policy
+              </nuxt-link>
             </p>
     
             <p class="mt-4 text-sm text-gray sm:order-first sm:mt-0">© 2024 Copyright My Bet Space</p>
@@ -173,3 +161,4 @@
       </div>
     </footer>
   </template>
+

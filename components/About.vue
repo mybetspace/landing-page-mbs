@@ -7,7 +7,7 @@
                 <div class="relative z-10 my-8">
                   <img
                     src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fplataforma_black.jpg?alt=media&token=7ad55d72-da25-47b0-8426-c19a6fcdbe35"
-                    alt=""
+                    alt="Homem com casaco laranja segurando um notebook"
                     class="w-full rounded-2xl max-w-[500px]"
                     style="margin: auto;"
                   />
@@ -598,11 +598,11 @@
                 Não importa o esporte vamos conseguir te ajudar, para melhorar seus resultados.
               </p>
               <div class="text-center lg:text-left">
-                <a
-                  href="https://app.mybetspace.com/signup"
+                <nuxt-link :to="'https://app.mybetspace.com/signup'"
+                class="inline-block text-teal-600 transition hover:text-teal-600/75"
                 >
                   <button class="rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">Não perca tempo, evolua agora</button>
-                </a>
+                </nuxt-link>
               </div>
             </div>
           </div>
