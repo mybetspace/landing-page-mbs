@@ -6,8 +6,8 @@
               <div class="w-full px-3 sm:px-4 xl:w-1/2">
                 <div class="relative z-10 my-8">
                   <img
-                    src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFnOHZ6cDRxazBobm5zZmNjOXZvamlrMXhoeGE1OTIzenEwcXp1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YHx48QSvcEFlC/giphy.gif"
-                    alt=""
+                    src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fplataforma_black.jpg?alt=media&token=7ad55d72-da25-47b0-8426-c19a6fcdbe35"
+                    alt="Homem com casaco laranja segurando um notebook"
                     class="w-full rounded-2xl max-w-[500px]"
                     style="margin: auto;"
                   />
@@ -585,24 +585,24 @@
           </div>
           <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div class="mt-10 lg:mt-0">
-              <span class="block mb-4 text-lg font-semibold text-orange"> Trades sports </span>
+              <span class="block mb-4 text-lg font-semibold text-orange"> A Plataforma </span>
               <h2 class="mb-5 text-3xl font-bold text-white  dark:text-white sm:text-[40px]/[48px]">
-                Facilite suas trades em uma única plataforma
+                Ajudamos você a evoluir
               </h2>
               <p class="mb-5 text-base text-grayWhite dark:text-dark-6">
-                A My Bet Space tem como missão é ajudar a comunidade de trader Esportivo a economizar seu tempo planilhando, auxiliar no dia a dia do trade, para que de forma mais ágil a validar consiga seu método, para ser mais lucrativo.
+                A My Bet Space vai te ajudar a planilhar com um clique, validando seus métodos facilmente, economizando o seu tempo.
+                Concentre-se no que realmente importa.
               </p>
               <p class="mb-8 text-base text-grayWhite dark:text-dark-6">
                 Geramos diversos indicadores para você tomar as melhores decisões e conseguir validar seus métodos.
-                Você só precisa cadastrar seus métodos, preenche-los e analisar seus dados depois
+                Não importa o esporte vamos conseguir te ajudar, para melhorar seus resultados.
               </p>
               <div class="text-center lg:text-left">
-                <a
-                  href="https://app.mybetspace.com/signup"
-                  class="inline-block py-3 text-base font-medium text-white border border-transparent rounded-md px-7 bg-primary hover:opacity-75 lg:inline-flex lg:items-center lg:justify-center"
+                <nuxt-link :to="'https://app.mybetspace.com/signup'"
+                class="inline-block text-teal-600 transition hover:text-teal-600/75"
                 >
-                  Começar
-                </a>
+                  <button class="rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">Não perca tempo, evolua agora</button>
+                </nuxt-link>
               </div>
             </div>
           </div>
