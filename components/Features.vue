@@ -4,7 +4,6 @@
       <h1 class="mb-14 text-center text-white text-4xl font-bold">
           Funcionalidades
       </h1>
-
       <div class="flex flex-wrap items-center">
         <div class="mb-12 w-full lg:w-8/12 flex-1">
             <img src="~/assets/images/pc.png" class="w-full" />
