@@ -3,7 +3,7 @@
       <section class="bg-gradient-to-tr from-indigo-700 via-blue-800 to-cyan-900  ">
       <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
         <div class="mx-auto max-w-3xl text-center">
-          <h2 class="text-3xl font-bold text-white sm:text-4xl">My Space Bet</h2>
+          <h2 class="text-3xl font-bold text-white sm:text-4xl">My Bet Space</h2>
           <h4 class="mt-4 text-grayWhite sm:text-xl">
             A Melhor e Maior Plataforma Profissional de Gestão de Banca!
           </h4>
