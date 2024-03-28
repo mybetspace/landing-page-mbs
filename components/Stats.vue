@@ -11,8 +11,7 @@
         <div class="mt-8 sm:mt-12">
           <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:divide-x sm:divide-white">
             <div class="flex flex-col px-4 py-8 text-center">
-              <dt class="order-last text-grayWhite font-medium text-gray-500">Apostas registradas</dt>
-    
+              <dt class="order-last text-grayWhite font-medium text-gray-500">Apostas registradas</dt>    
               <dd class="text-4xl font-extrabold text-white md:text-5xl">+950.235.793</dd>
             </div>
     
