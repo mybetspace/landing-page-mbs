@@ -7,8 +7,7 @@
           <h4 class="mt-4 text-grayWhite sm:text-xl">
             A Melhor e Maior Plataforma Profissional de Gestão de Banca!
           </h4>
-        </div>
-    
+        </div>    
         <div class="mt-8 sm:mt-12">
           <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:divide-x sm:divide-white">
             <div class="flex flex-col px-4 py-8 text-center">
