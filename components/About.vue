@@ -587,7 +587,7 @@
             <div class="mt-10 lg:mt-0">
               <span class="block mb-4 text-lg font-semibold text-orange"> A Plataforma </span>
               <h2 class="mb-5 text-3xl font-bold text-white  dark:text-white sm:text-[40px]/[48px]">
-                Ajuda você a evoluir!
+                Ajuda você a evoluir
               </h2>
               <p class="mb-5 text-base text-grayWhite dark:text-dark-6">
                 A My Bet Space vai te ajudar a planilhar com um clique, validando seus métodos facilmente, economizando o seu tempo.
