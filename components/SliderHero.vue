@@ -44,7 +44,6 @@ export default {
             Cadastrar
           </nuxt-link>
         </li>
-
         <div class="clients pt-2">
               <h6 class="flex items-center mb-6 text-xs font-normal text-body-color dark:text-dark-6">
                 Parceiros e clientes
