@@ -7,7 +7,6 @@
       <div class="flex flex-wrap items-center">
         <div class="mb-12 w-full lg:w-8/12 flex-1">
             <img src="~/assets/images/pc.png" class="w-full" />
-
             <h2 class="text-white my-6 flex items-center justify-center">Concentre-se no que realmente importa</h2>
             
             <div class="flex items-center justify-center">
