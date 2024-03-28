@@ -2,7 +2,6 @@
     <section id="sobre" class="bg-backgroundGrayTwo overflow-hidden pt-10 pb-12 lg:pt-[50px] lg:pb-[90px]  ">
       <div class="container mx-auto">
         <div class="flex flex-wrap items-center ">
-
               <div class="w-full px-3 sm:px-4 xl:w-1/2">
                 <div class="relative z-10 my-8">
                   <img
