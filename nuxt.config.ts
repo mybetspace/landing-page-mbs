@@ -41,9 +41,6 @@ export default defineNuxtConfig({
             // Google Search Console
         { hid: 'google-site-verification', name: 'google-site-verification', content: 'google487efc4e8cf55a11.html' },
 
-       
-
-        // Open Graph / Facebook and WhatsApp
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:title', property: 'og:title', content: 'My Bet Space' },
         { hid: 'og:description', property: 'og:description', content: `My Bet Space - Plataforma para Gestão de Banca para Trade Esportivo. Aqui você encontra uma melhor gestão das suas apostas esportivas da betfair,
