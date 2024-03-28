@@ -16,10 +16,8 @@
               >
                 <button class="rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">Não perca tempo, acesse agora</button>
               </nuxt-link>
-            </div>
-            
+            </div>            
         </div>
-
         <div class="w-full shrink-0 grow-0 basis-auto md:w-6/12 mx-4">
 
           <div class="mb-12 flex">
