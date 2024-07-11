@@ -8,10 +8,10 @@ export default {
         {
           category: 'basic',
           name: 'Mensal',
-          price: 'R$19,99',
+          price: 'R$21,99',
           description: '1 mês de assinatura.',
           features: {
-            users: 'Preço total R$ 19,99',
+            users: 'Preço total R$ 21,99',
           },
           button: {
             text: 'Assinar'
@@ -20,7 +20,7 @@ export default {
         {
           category: 'basic',
           name: 'Trimestral',
-          price: 'R$ 19,50',
+          price: 'R$ 21,44',
           description: '2,5 de desconto.',
           features: {
             users: '3 meses de assinatura',
@@ -32,7 +32,7 @@ export default {
         {
           category: 'basic',
           name: 'Semestral',
-          price: 'R$ 18,99',
+          price: 'R$ 20,89',
           description: '5,00% de desconto',
           features: {
             users: '6 Meses de assinatura',
@@ -44,7 +44,7 @@ export default {
         {
           category: 'basic',
           name: 'Anual',
-          price: 'R$ 18,50',
+          price: 'R$ 20,34',
           description: '7,50% de Desconto.',
           features: {
             users: '12 Meses de assinatura',
