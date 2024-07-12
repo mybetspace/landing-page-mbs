@@ -20,7 +20,7 @@ export default {
         {
           category: 'basic',
           name: 'Trimestral',
-          price: 'R$ 21,44',
+          price: 'R$ 21,45',
           description: '2,5 de desconto.',
           features: {
             users: '3 meses de assinatura',
@@ -32,7 +32,7 @@ export default {
         {
           category: 'basic',
           name: 'Semestral',
-          price: 'R$ 20,89',
+          price: 'R$ 20,90',
           description: '5,00% de desconto',
           features: {
             users: '6 Meses de assinatura',
@@ -44,7 +44,7 @@ export default {
         {
           category: 'basic',
           name: 'Anual',
-          price: 'R$ 20,34',
+          price: 'R$ 20,35',
           description: '7,50% de Desconto.',
           features: {
             users: '12 Meses de assinatura',
