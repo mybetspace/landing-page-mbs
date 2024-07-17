@@ -12,6 +12,7 @@ export default {
           description: '1 mês de assinatura.',
           features: {
             users: 'Preço total R$ 21,99',
+            details: ''
           },
           button: {
             text: 'Assinar'
@@ -24,6 +25,8 @@ export default {
           description: '2,5 de desconto.',
           features: {
             users: '3 meses de assinatura',
+            details: 'Preço total: R$ 64,32'
+
           },
           button: {
             text: 'Assinar'
@@ -36,6 +39,7 @@ export default {
           description: '5,00% de desconto',
           features: {
             users: '6 Meses de assinatura',
+            details: 'Preço total: R$ 125,34'
           },
           button: {
             text: 'Assinar'
@@ -48,6 +52,7 @@ export default {
           description: '7,50% de Desconto.',
           features: {
             users: '12 Meses de assinatura',
+            details: 'Preço total: R$ 244,09'
           },
           button: {
             text: 'Assinar'
@@ -211,8 +216,9 @@ export default {
             >
               {{ plan.description }}
             </p>
-            <div class="mb-9 flex flex-col gap-[14px]">
+            <div class="mb-9 flex flex-col gap-[14px]" style="min-height: 60px;">
               <p class="text-base text-white dark:text-dark-6">{{ plan.features.users }}</p>
+              <p class="text-base text-white dark:text-dark-6">{{ plan.features.details }}</p>
             </div>
               <nuxt-link :to="'https://app.mybetspace.com/signup'"
                 :class="{
