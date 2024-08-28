@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title:
-        'My Bet Space - Plataforma para Gestão de Banca para Trade Esportivo',
+        'Melhor plataforma de gestão de banca - My Bet Space',
         htmlAttrs: { lang: 'pt-br' },
       meta: [
         { charset: 'utf-8' },
@@ -28,7 +28,7 @@ export default defineNuxtConfig({
         },
         {
           property: 'og:title',
-          content: `My Bet Space - Plataforma para Gestão de Banca para Trade Esportivo. Aqui você encontra uma melhor gestão das suas apostas esportivas da betfair,
+          content: `My Bet Space - Plataforma para Gestão de Banca Eficiente para Trade Esportivo. Aqui você encontra uma melhor gestão das suas apostas esportivas da betfair,
           aumento no lucro dos seus investimentos e praticidade na sua vida como trader.`,
         },
 
