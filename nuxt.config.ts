@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title:
-        'Melhor plataforma de gestão de banca - My Bet Space',
+        'My Bet Space - Melhor plataforma de gestão de banca',
         htmlAttrs: { lang: 'pt-br' },
       meta: [
         { charset: 'utf-8' },
@@ -24,13 +24,12 @@ export default defineNuxtConfig({
         {
           hid: 'description',
           name: 'description',
-          content: `My Bet Space - Plataforma para Gestão de Banca para Trade Esportivo. Aqui você encontra uma melhor gestão das suas apostas esportivas da betfair,
+          content: `Aqui você encontra a melhor gestão das suas apostas esportivas da betfair,
           aumento no lucro dos seus investimentos e praticidade na sua vida como trader.`,
         },
         {
           property: 'og:title',
-          content: `My Bet Space - Plataforma para Gestão de Banca Eficiente para Trade Esportivo. Aqui você encontra uma melhor gestão das suas apostas esportivas da betfair,
-          aumento no lucro dos seus investimentos e praticidade na sua vida como trader.`,
+          content: `My Bet Space - Melhor plataforma de gestão de banca`,
         },
 
         { hid: 'application-name', name: 'application-name', content: 'My Bet Space' },
@@ -44,8 +43,8 @@ export default defineNuxtConfig({
 
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:title', property: 'og:title', content: 'My Bet Space' },
-        { hid: 'og:description', property: 'og:description', content: `My Bet Space - Plataforma para Gestão de Banca para Trade Esportivo. Aqui você encontra uma melhor gestão das suas apostas esportivas da betfair,
-        aumento no lucro dos seus investimentos e praticidade na sua vida como trader.` },
+        { hid: 'og:description', property: 'og:description', content: `Aqui você encontra a melhor gestão das suas apostas esportivas da betfair,
+          aumento no lucro dos seus investimentos e praticidade na sua vida como trader.` },
         { hid: 'og:url', property: 'og:url', content: 'https://www.mybetspace.com/' },
         { hid: 'og:image', property: 'og:image', content: '/og-image.png' },
         { hid: 'og:image:width', property: 'og:image:width', content: '600' },
