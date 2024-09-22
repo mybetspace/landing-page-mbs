@@ -8,10 +8,11 @@ export default defineNuxtConfig({
       DEVELOPMENT_MODE: process.env.DEVELOPMENT_MODE,
     }
   },
-
+  
   plugins: [
     '~/plugins/gtag.client.js',
   ],
+
   app: {
     head: {
       title:
@@ -60,7 +61,9 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   devtools: { enabled: true },
+
   css: [
     '~/assets/css/main.css'
   ],
@@ -72,6 +75,7 @@ export default defineNuxtConfig({
     display: 'swap',
     download: false,
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
