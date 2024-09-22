@@ -14,14 +14,16 @@
           >
             <div class="item-content">
               <h2 class="name">{{ item.name }}</h2>
+              
               <div class="des" style="text-shadow: 2px 2px 2px rgba(0,0,0,0.5);">
-                <h4>{{ item.description }}</h4>
+                <p>{{ item.description }}</p>
               </div>
-                <nuxt-link :to="'https://app.mybetspace.com/signup'">
-                  <button :class="item.buttonClass" role="button">
-                    {{ item.buttonText }}
-                  </button>
-                </nuxt-link>
+
+              <nuxt-link :to="'https://app.mybetspace.com/signup'">
+                <button :class="item.buttonClass" role="button">
+                  {{ item.buttonText }}
+                </button>
+              </nuxt-link>
             </div>
           </div>
         </div>
