@@ -1,4 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const ONE_YEAR_IN_SECONDS = 365 * 24 * 60 * 60;
+const ONE_YEAR_IN_MILLISECONDS = ONE_YEAR_IN_SECONDS * 1000;
+const imagesHeaders = {
+  'Expires': new Date(Date.now() + ONE_YEAR_IN_MILLISECONDS).toUTCString(),
+}
+
 export default defineNuxtConfig({
   modules: ['@nuxtjs/google-fonts'],
 
@@ -8,10 +14,25 @@ export default defineNuxtConfig({
       DEVELOPMENT_MODE: process.env.DEVELOPMENT_MODE,
     }
   },
-  
+
   plugins: [
     '~/plugins/gtag.client.js',
   ],
+
+  routeRules: {
+    '/**/*.jpg': {
+      headers: imagesHeaders
+    },
+    '/**/*.jpeg': {
+      headers: imagesHeaders
+    },
+    '/**/*.png': {
+      headers: imagesHeaders
+    },
+    '/**/*.svg': {
+      headers: imagesHeaders
+    },
+  },
 
   app: {
     head: {
