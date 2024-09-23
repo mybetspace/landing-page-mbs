@@ -72,7 +72,19 @@ export default defineNuxtConfig({
           href: 'https://www.mybetspace.com/',
         },
       ],
+      script: [
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "My Bet Space",
+            "url": "https://www.mybetspace.com/",
+          })
+        }
+      ],
     },
+    
   },
 
   devtools: { enabled: true },
