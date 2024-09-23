@@ -7,7 +7,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      gtagId: process.env.GTAG_ID || 'G-DYMJG8L6XZ',
+      gtagId: process.env.GTAG_ID || 'G-Y8CE7ED8LK',
       DEVELOPMENT_MODE: process.env.DEVELOPMENT_MODE,
     }
   },
