@@ -73,7 +73,6 @@ export default defineNuxtConfig({
         { hid: 'og:image:alt', property: 'og:image:alt', content: 'My Bet Space' },
         { hid: 'og:image:type', property: 'og:image:type', content: 'image/png' },
         { hid: 'og:image:secure_url', property: 'og:image:secure_url', content: 'https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Flogo.png?alt=media&token=79d030aa-8480-4a34-9328-70d87aad8829' },
-        { hid: 'og:image:alt', property: 'og:image:alt', content: 'My Bet Space' },
         { hid: 'fb:page_id', property: 'fb:page_id', content: '108684993812345' },
       ],
       link: [
