@@ -18,7 +18,7 @@
               Planilhe com um clique, valide seu método facilmente e economize seu tempo.
             </p>
 
-            <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
+            <ul class="mt-8 flex justify-center items-center gap-6 sm:justify-start md:gap-8">
               <li>
                 <nuxt-link :to="'https://www.youtube.com/@MyBetSpace '"
                   rel="noreferrer"
