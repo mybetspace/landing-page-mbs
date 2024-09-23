@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   plugins: [
     '~/plugins/gtag.client.js',
   ],
+
   app: {
     head: {
       title:
@@ -60,7 +61,9 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   devtools: { enabled: true },
+
   css: [
     '~/assets/css/main.css'
   ],
@@ -72,10 +75,13 @@ export default defineNuxtConfig({
     display: 'swap',
     download: false,
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
+  compatibilityDate: '2024-09-23',
 })
