@@ -35,8 +35,8 @@ export default defineNuxtConfig({
         {
           hid: 'description',
           name: 'description',
-          content: `Aqui você encontra a melhor gestão de suas apostas esportivas,
-          aumento no lucro dos seus investimentos e praticidade na sua vida como trader`,
+          content: `A melhor plataforma para gestão de banca de apostas esportivas, 
+          aumentar seus lucros e trazer praticidade para sua vida como trader`,
         },
         { hid: 'application-name', name: 'application-name', content: 'My Bet Space' },
         { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: 'My Bet Space' },
@@ -49,15 +49,19 @@ export default defineNuxtConfig({
 
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:title', property: 'og:title', content: 'My Bet Space - Melhor plataforma de gestão de banca' },
-        { hid: 'og:description', property: 'og:description', content: `Aqui você encontra a melhor gestão de suas apostas esportivas,
-          aumento no lucro dos seus investimentos e praticidade na sua vida como trader`, },
+        { hid: 'og:description', property: 'og:description', content: `A melhor plataforma para gestão de banca de apostas esportivas, 
+          aumentar seus lucros e trazer praticidade para sua vida como trader`, },
         { hid: 'og:url', property: 'og:url', content: 'https://www.mybetspace.com/' },
         { hid: 'og:image', property: 'og:image', content: '/og-image.png' },
         { hid: 'og:image:width', property: 'og:image:width', content: '600' },
         { hid: 'og:image:height', property: 'og:image:height', content: '315' },
         { hid: 'og:image:alt', property: 'og:image:alt', content: 'My Bet Space' },
         { hid: 'og:image:type', property: 'og:image:type', content: 'image/png' },
-        { hid: 'og:image:secure_url', property: 'og:image:secure_url', content: 'https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Flogo.png?alt=media&token=79d030aa-8480-4a34-9328-70d87aad8829' },
+        { 
+          hid: 'og:image:secure_url', 
+          property: 'og:image:secure_url', 
+          content: 'https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Flogo.png?alt=media&token=79d030aa-8480-4a34-9328-70d87aad8829' 
+        },
         { hid: 'fb:page_id', property: 'fb:page_id', content: '108684993812345' },
       ],
       link: [
