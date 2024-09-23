@@ -35,8 +35,8 @@ export default defineNuxtConfig({
         {
           hid: 'description',
           name: 'description',
-          content: `Aqui você encontra a melhor gestão das suas apostas esportivas da betfair,
-          aumento no lucro dos seus investimentos e praticidade na sua vida como trader.`,
+          content: `Aqui você encontra a melhor gestão de suas apostas esportivas,
+          aumento no lucro dos seus investimentos e praticidade na sua vida como trader`,
         },
         { hid: 'application-name', name: 'application-name', content: 'My Bet Space' },
         { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: 'My Bet Space' },
@@ -49,8 +49,8 @@ export default defineNuxtConfig({
 
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:title', property: 'og:title', content: 'My Bet Space - Melhor plataforma de gestão de banca' },
-        { hid: 'og:description', property: 'og:description', content: `Aqui você encontra a melhor gestão das suas apostas esportivas da betfair,
-          aumento no lucro dos seus investimentos e praticidade na sua vida como trader.` },
+        { hid: 'og:description', property: 'og:description', content: `Aqui você encontra a melhor gestão de suas apostas esportivas,
+          aumento no lucro dos seus investimentos e praticidade na sua vida como trader`, },
         { hid: 'og:url', property: 'og:url', content: 'https://www.mybetspace.com/' },
         { hid: 'og:image', property: 'og:image', content: '/og-image.png' },
         { hid: 'og:image:width', property: 'og:image:width', content: '600' },
