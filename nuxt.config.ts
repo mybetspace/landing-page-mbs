@@ -3,7 +3,7 @@ const ONE_YEAR_IN_SECONDS = 365 * 24 * 60 * 60;
 const ONE_YEAR_IN_MILLISECONDS = ONE_YEAR_IN_SECONDS * 1000;
 
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/google-fonts'],
+  modules: ['@nuxtjs/google-fonts', '@nuxt/image'],
 
   runtimeConfig: {
     public: {
@@ -15,14 +15,6 @@ export default defineNuxtConfig({
   plugins: [
     '~/plugins/gtag.client.js',
   ],
-
-  routeRules: {
-    '/assets/images/**': {
-      headers: {
-        'Expires': new Date(Date.now() + ONE_YEAR_IN_MILLISECONDS).toUTCString(),
-      }
-    },
-  },
 
   app: {
     head: {
