@@ -7,9 +7,9 @@
                 <img class="h-10" src="~/assets/images/logo2.png" alt="logo do my bet space">
             </div>
     
-            <h2 class="mt-6 max-w-md text-center leading-relaxed text-white sm:max-w-xs sm:text-left">
+            <p class="mt-6 max-w-md text-center leading-relaxed text-white sm:max-w-xs sm:text-left">
               Planilhe com um clique, valide seu método facilmente e economize seu tempo.
-            </h2>
+            </p>
 
             <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
               <li>
@@ -43,7 +43,7 @@
     
           <div class="my-6 grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
             <div class="text-center sm:text-left">
-              <h2 class="text-lg font-bold text-white">E-mail</h2>
+              <span class="text-lg font-bold text-white">E-mail</span>
     
               <ul class="mt-8 space-y-4 text-sm">
                 <li>
@@ -71,7 +71,7 @@
             </div>
     
             <div class="text-center sm:text-left">
-              <h2 class="text-lg font-bold text-white">Whatsapp</h2>
+              <span class="text-lg font-bold text-white">Whatsapp</span>
     
               <ul class="mt-8 space-y-4 text-sm">
                 <li>
@@ -100,7 +100,7 @@
             </div>
     
             <div class="text-center sm:text-left">
-              <h2 class="text-lg font-bold text-white">Localização</h2>
+              <span class="text-lg font-bold text-white">Localização</span>
     
               <ul class="mt-8 space-y-4 text-sm">
                 <li
