@@ -52,14 +52,14 @@
       description: "Nunca foi tão fácil analisar informações e validar métodos.",
       buttonClass: "button-87",
       buttonText: "Valide seu método agora",
-      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner2.1.jpg?alt=media&token=29a00185-d77f-4a09-b016-9e7d61d9d67f",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner2.jpg?alt=media&token=1804d931-c698-4a6e-adf8-bba9f71cd19c",
     },
     {
       name: "Quer evoluir para ser lucrativo?",
       description: "Vamos te ajudar com indicadores para acelerar o processo de evolução, isso tudo com poucos cliques.",
       buttonClass: "button-87",
       buttonText: "Evolua agora mesmo",
-      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner3.1.jpg?alt=media&token=f1be7b83-fd15-4802-adba-49f2e3f4c697",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner3.jpg?alt=media&token=b2456b5c-6630-462a-96a0-be07285371af",
     },
   ]);
   
