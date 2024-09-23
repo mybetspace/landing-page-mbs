@@ -81,7 +81,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   routeRules: {
-    'assets/images/**': {
+    '/assets/images/**': {
       headers: {
         'Expires': new Date(Date.now() + ONE_YEAR_IN_MILLISECONDS).toUTCString(),
       }
