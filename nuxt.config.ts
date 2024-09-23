@@ -56,7 +56,11 @@ export default defineNuxtConfig({
         { hid: 'fb:page_id', property: 'fb:page_id', content: '108684993812345' },
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+        {
+          rel: 'canonical',
+          href: 'https://www.mybetspace.com/',
+        },
       ],
     },
   },
