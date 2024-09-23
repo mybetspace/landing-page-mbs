@@ -4,7 +4,14 @@
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <div class="flex justify-center text-teal-600 sm:justify-start">
-                <img class="h-10" src="~/assets/images/logo2.png" alt="logo do my bet space">
+              <NuxtImg 
+                class="h-10 w-auto" 
+                src="/logo2.png" 
+                alt="logo do my bet space" 
+                loading="lazy"
+                width="357"
+                height="68"
+              />
             </div>
     
             <p class="mt-6 max-w-md text-center leading-relaxed text-white sm:max-w-xs sm:text-left">
@@ -19,7 +26,12 @@
                   class="text-red-700 transition hover:text-red-700/75"
                 >
                   <span class="sr-only">YouTube</span>
-                  <img class="h-7 w-10" src="~/assets/images/youtube.svg" alt="Youtube icon">
+                  <NuxtImg 
+                    class="h-7 w-10" 
+                    src="/youtube.svg" 
+                    alt="Youtube icon" 
+                    loading="lazy"
+                  />
                 </nuxt-link>             
               </li>    
               <li>

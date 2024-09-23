@@ -6,34 +6,34 @@
         <div class="my-8 mx-auto mt-8 max-w-[1420px]">
           <div ref="slider" class="keen-slider">
           <div class="keen-slider__slide number-slide7">
-            <img src="~/assets/images/bolsaapostas.svg" alt="Bolsa de apostas" class="ml-14 h-14" />
+            <NuxtImg src="/bolsaapostas.svg" alt="Bolsa de apostas" class="ml-14 h-14" loading="lazy" />
           </div>
           <div class="keen-slider__slide number-slide5">
-            <img src="~/assets/images/fullbet.svg" alt="Full bet" class="ml-14 h-14" />
+            <NuxtImg src="/fullbet.svg" alt="Full bet" class="ml-14 h-14" loading="lazy" />
           </div>
           <div class="keen-slider__slide number-slide8">
-            <img src="~/assets/images/betfair.jpg" alt="betfair" class="ml-14 h-14" />
+            <NuxtImg src="/betfair.jpg" alt="betfair" class="ml-14 h-14" loading="lazy" />
           </div>
           <div class="keen-slider__slide number-slide3">
-            <img src="~/assets/images/layback.svg" alt="Lay back" class="ml-14 h-14" />
+            <NuxtImg src="/layback.svg" alt="Lay back" class="ml-14 h-14" loading="lazy" />
           </div>
           <div class="keen-slider__slide number-slide1">
-            <img src="~/assets/images/levebet.svg" alt="Levebet" class="ml-14 h-14" />
+            <NuxtImg src="/levebet.svg" alt="Levebet" class="ml-14 h-14" loading="lazy" />
           </div>
           <div class="keen-slider__slide number-slide2">
-            <img src="~/assets/images/apostasbf.svg" alt="Apostas bf" class="ml-14 h-14" />
+            <NuxtImg src="/apostasbf.svg" alt="Apostas bf" class="ml-14 h-14" loading="lazy" />
           </div>
           <div class="keen-slider__slide number-slide6">
-            <img src="~/assets/images/betbra.svg" alt="Bet bra" class="ml-14 h-14" />
+            <NuxtImg src="/betbra.svg" alt="Bet bra" class="ml-14 h-14" loading="lazy" />
           </div>
           <div class="keen-slider__slide number-slide8">
-            <img src="~/assets/images/betfair.jpg" alt="betfair" class="ml-14 h-14" />
+            <NuxtImg src="/betfair.jpg" alt="betfair" class="ml-14 h-14" loading="lazy" />
           </div>
           <div class="keen-slider__slide number-slide8">
-            <img src="~/assets/images/verdinhabet.svg" alt="Verdinha bet" class="ml-14 h-14" />
+            <NuxtImg src="/verdinhabet.svg" alt="Verdinha bet" class="ml-14 h-14" loading="lazy" />
           </div>
           <div class="keen-slider__slide number-slide8">
-            <img src="~/assets/images/apostaNow.svg" alt="Apostas now" class="ml-14 h-14" />
+            <NuxtImg src="/apostaNow.svg" alt="Apostas now" class="ml-14 h-14" loading="lazy" />
           </div>
         </div>
         </div>

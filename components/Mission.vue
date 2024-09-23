@@ -37,7 +37,14 @@
                         </div>
                         
                         <div class="order-first block w-full mt-12 lg:mt-0">
-                            <img class="object-cover object-center w-full max-w-80 h-70 mx-auto" alt="cellphone" src="~/assets/images/iphone2.png">
+                            <NuxtImg 
+                              class="object-cover object-center w-full max-w-80 h-70 mx-auto"
+                              alt="cellphone" 
+                              src="/iphone2.webp" 
+                              loading="lazy"
+                              width="1080"
+                              height="1920"
+                            />
                         </div>
                       </div>
                     </div>

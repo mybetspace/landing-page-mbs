@@ -13,11 +13,12 @@
               >
                 <div>
                   <div class="mt-4">
-                    <img 
+                    <NuxtImg 
                       src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fzapala.png?alt=media&token=cce21c26-0336-4c9c-b744-f2b230aaf5de" 
                       alt="depoimento do leo zapala" 
                       class="mt-4 rounded-full h-12"
-                    >
+                      loading="lazy"
+                    />
   
                     <p class="mt-4 leading-relaxed text-white">
                       O My Bet Space mudou minha maneira de estudar e pensar sobre trade. Quando comecei a usar descobri muito mais rápido meus erros e acertos e consegui ser lucrativo com mais rapidez!
@@ -38,11 +39,12 @@
               >
                 <div>
                   <div class="mt-4">
-                    <img 
+                    <NuxtImg 
                       src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbrito.png?alt=media&token=f8e19ba8-2a2d-4b6b-98c6-9ff43e3ff005" 
                       alt="depoimento do felipe brito" 
                       class="mt-4 rounded-full h-12"
-                    >
+                      loading="lazy"
+                    />
   
                     <p class="mt-4 leading-relaxed text-white">
                       A plataforma tem sido uma grande aliada para me ajudar a identificar as melhorias que precisam ser feitas nas minhas estratégias de “Scalping”,
@@ -65,11 +67,12 @@
               >
                 <div>
                   <div class="mt-4">
-                    <img 
+                    <NuxtImg 
                       src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbruno%20baldisseira.png?alt=media&token=837fda27-f1dc-4ff7-95af-55664d0b235c" 
                       alt="depoimento do bruno baldisseira" 
                       class="mt-4 rounded-full h-12"
-                    >
+                      loading="lazy"
+                    />
   
                     <p class="mt-4 leading-relaxed text-white">
                       Uso a plataforma há mais ou menos um ano, e o único problema foi não ter começado a usar ela antes,
@@ -91,11 +94,12 @@
               >
                 <div>
                   <div class="mt-4">
-                    <img 
+                    <NuxtImg 
                       src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fpaulinho3.png?alt=media&token=9976cb7e-d914-438e-b591-ecfad24e197f"
                       alt="depoimento do paulinho" 
                       class="mt-4 rounded-full h-12"
-                    >
+                      loading="lazy"
+                    />
   
                     <p class="mt-4 leading-relaxed text-white">
                       My Bet Space revolucionou minha experiência com a anotação de apostas e gestão de banca, eliminando planilhas de Excel.
