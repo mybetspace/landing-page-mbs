@@ -3,10 +3,11 @@
       <section class="bg-gradient-to-tr from-indigo-700 via-blue-800 to-cyan-900  ">
       <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
         <div class="mx-auto max-w-3xl text-center">
-          <h2 class="text-3xl font-bold text-white sm:text-4xl">My Bet Space</h2>
-          <h4 class="mt-4 text-grayWhite sm:text-xl">
+          <h1 class="text-3xl font-bold text-white sm:text-4xl">My Bet Space</h1>
+
+          <p class="mt-4 text-grayWhite sm:text-xl">
             A Melhor e Maior Plataforma Profissional de Gestão de Banca!
-          </h4>
+          </p>
         </div>
     
         <div class="mt-8 sm:mt-12">
@@ -24,7 +25,7 @@
             </div>
     
             <div class="flex flex-col px-4 py-8 text-center">
-              <dt class="order-last text-grayWhite font-medium text-gray-500">Quantidade de métodos criados </dt>
+              <dt class="order-last text-grayWhite font-medium text-gray-500">Quantidade de métodos criados</dt>
     
               <dd class="text-4xl font-extrabold text-white md:text-5xl">+ 52.357</dd>
             </div>

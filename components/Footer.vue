@@ -4,14 +4,21 @@
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <div class="flex justify-center text-teal-600 sm:justify-start">
-                <img class="h-10" src="~/assets/images/logo2.png" alt="logo do my bet space">
+              <NuxtImg 
+                class="h-10 w-auto" 
+                src="/logo2.png" 
+                alt="logo do my bet space" 
+                loading="lazy"
+                width="357"
+                height="68"
+              />
             </div>
     
-            <h2 class="mt-6 max-w-md text-center leading-relaxed text-white sm:max-w-xs sm:text-left">
+            <p class="mt-6 max-w-md text-center leading-relaxed text-white sm:max-w-xs sm:text-left">
               Planilhe com um clique, valide seu método facilmente e economize seu tempo.
-            </h2>
+            </p>
 
-            <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
+            <ul class="mt-8 flex justify-center items-center gap-6 sm:justify-start md:gap-8">
               <li>
                 <nuxt-link :to="'https://www.youtube.com/@MyBetSpace '"
                   rel="noreferrer"
@@ -19,7 +26,12 @@
                   class="text-red-700 transition hover:text-red-700/75"
                 >
                   <span class="sr-only">YouTube</span>
-                  <img class="h-7 w-10" src="~/assets/images/youtube.svg" alt="Youtube icon">
+                  <NuxtImg 
+                    class="h-7 w-10" 
+                    src="/youtube.svg" 
+                    alt="Youtube icon" 
+                    loading="lazy"
+                  />
                 </nuxt-link>             
               </li>    
               <li>
@@ -43,7 +55,7 @@
     
           <div class="my-6 grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
             <div class="text-center sm:text-left">
-              <h2 class="text-lg font-bold text-white">E-mail</h2>
+              <span class="text-lg font-bold text-white">E-mail</span>
     
               <ul class="mt-8 space-y-4 text-sm">
                 <li>
@@ -71,7 +83,7 @@
             </div>
     
             <div class="text-center sm:text-left">
-              <h2 class="text-lg font-bold text-white">Whatsapp</h2>
+              <span class="text-lg font-bold text-white">Whatsapp</span>
     
               <ul class="mt-8 space-y-4 text-sm">
                 <li>
@@ -100,7 +112,7 @@
             </div>
     
             <div class="text-center sm:text-left">
-              <h2 class="text-lg font-bold text-white">Localização</h2>
+              <span class="text-lg font-bold text-white">Localização</span>
     
               <ul class="mt-8 space-y-4 text-sm">
                 <li

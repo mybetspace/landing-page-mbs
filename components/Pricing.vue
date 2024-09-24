@@ -207,10 +207,10 @@ export default {
             <span class="mb-3 block text-grayWhite font-semibold text-primary">
               {{ plan.name }}
             </span>
-              <h2 class="mb-5 text-[34px] font-bold text-white dark:text-white">
+              <span class="mb-5 text-[34px] font-bold text-white dark:text-white">
                 <span>{{ plan.price }}</span>
                 <span class="text-base font-medium text-grayWhite dark:text-dark-6"> / Mês </span>
-              </h2>
+              </span>
             <p
               class="mb-8 border-b border-stroke dark:border-dark-1 pb-8 text-base text-grayWhite dark:text-dark-6"
             >

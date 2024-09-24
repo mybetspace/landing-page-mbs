@@ -51,15 +51,19 @@ onUnmounted(() => {
           <nuxt-link :to="'https://www.mybetspace.com/'"
             class="block w-full"
           >
-            <img
-              src="~/assets/images/logo.png"
+            <NuxtImg
+              src="/logo.png"
               alt="logo"
               class="dark:hidden"
+              width="8001"
+              height="4051"
             />
-            <img
-              src="~/assets/images/logo.png"
+            <NuxtImg
+              src="/logo.png"
               alt="logo"
               class="hidden dark:block"
+              width="8001"
+              height="4051"
             />
           </nuxt-link>
         </div>
@@ -91,7 +95,7 @@ onUnmounted(() => {
               <ul class="block lg:flex">
                 <template v-for="(item, index) in navLinkItems" :key="index">
                   <li>
-                   <nuxt-link :to="'/'"
+                   <nuxt-link
                      v-if="item.href"
                      :href="item.href"
                      @click="navigateToSection(item.text)"

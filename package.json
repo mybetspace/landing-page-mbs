@@ -11,9 +11,10 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxt/image": "^1.8.0",
     "@nuxtjs/google-fonts": "^3.2.0",
     "autoprefixer": "^10.4.16",
-    "nuxt": "^3.11.1",
+    "nuxt": "^3.13.2",
     "nuxt-gtag": "^1.1.2",
     "postcss": "^8.4.32",
     "sass": "^1.69.7",
