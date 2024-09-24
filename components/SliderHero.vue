@@ -31,7 +31,7 @@ export default {
   >
     <swiper-slide class="custom-slide" style="height: 750px; position: relative;">
       <img 
-      src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.1.jpg?alt=media&token=2fd34265-c300-4976-b392-61079060e718" 
+      src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.jpg?alt=media&token=e4c7d24c-c55e-4d0a-8fd5-3579b5c6df20" 
       alt="Homem chutando bola com uniforme amarelo"
       class="filter brightness-75 swiper-img" />
       <div class="slide-content">
