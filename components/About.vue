@@ -5,7 +5,7 @@
               <div class="w-full px-3 sm:px-4 xl:w-1/2">
                 <div class="relative z-10 my-8">
                   <NuxtImg
-                    src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fplataforma_black.jpg?alt=media&token=7ad55d72-da25-47b0-8426-c19a6fcdbe35"
+                    src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fplataforma_black1.jpg?alt=media&token=f38d8cc7-954e-42f4-a89a-d939675ab4cf"
                     alt="Homem com casaco laranja segurando um notebook"
                     class="w-full rounded-2xl max-w-[500px]"
                     style="margin: auto;"

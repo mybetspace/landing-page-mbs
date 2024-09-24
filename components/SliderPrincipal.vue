@@ -47,21 +47,21 @@
       description: "A Melhor e Maior Plataforma Profissional de Gestão de Banca, valorize o seu tempo, ele é precioso. Vamos evoluir, para ser lucrativo agora?",
       buttonClass: "button-87",
       buttonText: "Economize seu tempo agora",
-      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.jpg?alt=media&token=e4c7d24c-c55e-4d0a-8fd5-3579b5c6df20",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.1.jpg?alt=media&token=2fd34265-c300-4976-b392-61079060e718",
     },
     {
       name: "Valide seus métodos rapidamente",
       description: "Nunca foi tão fácil analisar informações e validar métodos.",
       buttonClass: "button-87",
       buttonText: "Valide seu método agora",
-      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner2.jpg?alt=media&token=1804d931-c698-4a6e-adf8-bba9f71cd19c",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner2.1.jpg?alt=media&token=29a00185-d77f-4a09-b016-9e7d61d9d67f",
     },
     {
       name: "Quer evoluir para ser lucrativo?",
       description: "Vamos te ajudar com indicadores para acelerar o processo de evolução, isso tudo com poucos cliques.",
       buttonClass: "button-87",
       buttonText: "Evolua agora mesmo",
-      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner3.jpg?alt=media&token=b2456b5c-6630-462a-96a0-be07285371af",
+      image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner3.1.jpg?alt=media&token=f1be7b83-fd15-4802-adba-49f2e3f4c697",
     },
   ]);
   
@@ -76,10 +76,15 @@
       const newIndex = (index + 1) % 3; 
       return cards[newIndex];
     });
+
+    const slide = document.getElementById("slide")
+
+    if (!slide) return
+
+    slide.innerHTML = ""
   
-    document.getElementById("slide").innerHTML = ""; 
     newOrder.forEach((item) => {
-      document.getElementById("slide").appendChild(item);
+      slide.appendChild(item);
     });
   
     currentIndex = (currentIndex + 1) % 3; 
