@@ -4,14 +4,17 @@ export default defineNuxtPlugin(() => {
   const { gtagId, DEVELOPMENT_MODE } = useRuntimeConfig().public;
 
   if (DEVELOPMENT_MODE == 'true') return;
-  
+
+  window.dataLayer = window.dataLayer || [];
+
   function gtag() {
     window.dataLayer.push(arguments);
   }
 
-  window.dataLayer = window.dataLayer || [];
-  gtag('js', new Date());
-  gtag('config', gtagId);
+  function loadGA() {
+    gtag('js', new Date());
+    gtag('config', gtagId);
+  }
 
   useHead({
     script: [
@@ -20,6 +23,7 @@ export default defineNuxtPlugin(() => {
         async: true,
         defer: true,
         name: 'ga-script',
+        onload: loadGA
       },
     ],
   });
