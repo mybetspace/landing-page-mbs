@@ -27,6 +27,7 @@
             </div>
           </div>
         </div>
+
         <div class="dots-container">
           <span
             v-for="(dot, index) in dots"
@@ -72,7 +73,7 @@
   const advanceToNextItem = () => {
     const cards = document.querySelectorAll(".item");
   
-    const newOrder = Array.from(cards).map((card, index) => {
+    const newOrder = Array.from(cards).map((_, index) => {
       const newIndex = (index + 1) % 3; 
       return cards[newIndex];
     });
@@ -100,7 +101,7 @@
       card.addEventListener("click", () => advanceToNextItem(index));
     });
   };
-  
+
   onMounted(() => {
     const timer = setInterval(() => {
       advanceToNextItem();
@@ -128,6 +129,7 @@
     width: max-content;
     margin-top: 50px;
   }
+
   .item {
     width: 200px;
     height: 250px;
@@ -147,6 +149,7 @@
   .item p {
     color: #dfdedee7;
   }
+
   .item:nth-of-type(1) {
     left: 0;
     top: 0;
@@ -204,7 +207,7 @@
       width: 200px;
       height: 200px;
       background-position: 50% 50%;
-      background-color: #363636;
+      background-color: #121212;
       display: inline-block;
       transition: 0.5s;
       background-size: cover;
