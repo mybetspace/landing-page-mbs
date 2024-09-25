@@ -55,15 +55,15 @@ onUnmounted(() => {
               src="/images/logo.png"
               alt="logo"
               class="dark:hidden"
-              width="8001"
-              height="4051"
+              width="1440"
+              height="810"
             />
             <NuxtImg
               src="/images/logo.png"
               alt="logo"
               class="hidden dark:block"
-              width="8001"
-              height="4051"
+              width="1440"
+              height="810"
             />
           </nuxt-link>
         </div>
