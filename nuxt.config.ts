@@ -24,7 +24,7 @@ export default defineNuxtConfig({
           hid: 'description',
           name: 'description',
           content: `A melhor plataforma para gestão de banca de apostas esportivas, 
-          aumentar seus lucros e trazer praticidade para sua vida como trader`,
+          aumente muito mais seus lucros e traga praticidade para sua vida como trader`,
         },
         { hid: 'application-name', name: 'application-name', content: 'My Bet Space' },
         { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: 'My Bet Space' },
