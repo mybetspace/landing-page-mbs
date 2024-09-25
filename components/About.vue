@@ -593,12 +593,12 @@
                 Ajuda você a evoluir!
               </h2>
               <p class="mb-5 text-base text-grayWhite dark:text-dark-6">
-                A My Bet Space vai te ajudar a planilhar com um clique, validando seus métodos facilmente, economizando o seu tempo.
-                Concentre-se no que realmente importa.
+                A My Bet Space vai te ajudar na gestão de banca e vai planilhar com um clique suas apostas, validando seus métodos facilmente, economizando o seu tempo.
+                é como uma central de apostas para te ajudar. Concentre-se no que realmente importa.
               </p>
               <p class="mb-8 text-base text-grayWhite dark:text-dark-6">
                 Geramos diversos indicadores para você tomar as melhores decisões e conseguir validar seus métodos.
-                Não importa o esporte vamos conseguir te ajudar, para melhorar seus resultados.
+                Assim ajudando na sua gestão de banca, não importa o esporte vamos conseguir te ajudar, para melhorar seus resultados no trade esportivo.
               </p>
               <div class="text-center lg:text-left">
                 <nuxt-link :to="'https://app.mybetspace.com/signup'"

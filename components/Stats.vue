@@ -6,7 +6,7 @@
           <h1 class="text-3xl font-bold text-white sm:text-4xl">My Bet Space</h1>
 
           <p class="mt-4 text-grayWhite sm:text-xl">
-            A Melhor e Maior Plataforma Profissional de Gestão de Banca!
+            A Melhor e Maior Plataforma Profissional de Gestão de Banca para trade esportivo!
           </p>
         </div>
     

@@ -45,21 +45,21 @@
   const items = ref([
     {
       name: "Não perca mais tempo planilhando",
-      description: "A Melhor e Maior Plataforma Profissional de Gestão de Banca, valorize o seu tempo, ele é precioso. Vamos evoluir, para ser lucrativo agora?",
+      description: "A Melhor e Maior Plataforma Profissional de Gestão de Banca para trade esportivo, valorize o seu tempo, ele é precioso. Vamos evoluir para ser lucrativo agora?",
       buttonClass: "button-87",
       buttonText: "Economize seu tempo agora",
       image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.1.jpg?alt=media&token=2fd34265-c300-4976-b392-61079060e718",
     },
     {
       name: "Valide seus métodos rapidamente",
-      description: "Nunca foi tão fácil analisar informações e validar métodos.",
+      description: "Nunca foi tão fácil analisar informações e validar métodos nas apostas esportivas.",
       buttonClass: "button-87",
       buttonText: "Valide seu método agora",
       image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner2.1.jpg?alt=media&token=29a00185-d77f-4a09-b016-9e7d61d9d67f",
     },
     {
       name: "Quer evoluir para ser lucrativo?",
-      description: "Vamos te ajudar com indicadores para acelerar o processo de evolução, isso tudo com poucos cliques.",
+      description: "Vamos te ajudar com indicadores para acelerar o processo de evolução da sua baanca, isso tudo com poucos cliques.",
       buttonClass: "button-87",
       buttonText: "Evolua agora mesmo",
       image: "https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner3.1.jpg?alt=media&token=f1be7b83-fd15-4802-adba-49f2e3f4c697",
