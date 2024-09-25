@@ -204,6 +204,7 @@
       width: 200px;
       height: 200px;
       background-position: 50% 50%;
+      background-color: #363636;
       display: inline-block;
       transition: 0.5s;
       background-size: cover;

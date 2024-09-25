@@ -9,7 +9,7 @@
             <NuxtImg 
               src="/images/pc.png" class="w-full" 
               alt="my bet space dashboard" 
-              loading="lazy" 
+              loading="lazy"
               width="1499"
               height="861"
             />
