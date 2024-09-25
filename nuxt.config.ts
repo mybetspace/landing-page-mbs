@@ -89,7 +89,15 @@ export default defineNuxtConfig({
   },
 
   image: {
-    dir: 'assets/images'
+    providers: {
+      firebase: {
+        name: 'firebase',
+        provider: '~/providers/firebase.ts', // Path to your custom provider
+        options: {
+          baseURL: 'https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o',
+        }
+      }
+    }
   },
 
   css: [

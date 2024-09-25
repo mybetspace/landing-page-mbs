@@ -13,8 +13,9 @@
               >
                 <div>
                   <div class="mt-4">
-                    <NuxtImg 
-                      src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fzapala1.png?alt=media&token=b182753d-813b-4ed3-8aeb-edbb40df08f2" 
+                    <NuxtImg
+                      provider="firebase" 
+                      src="/banners%2Fzapala1.png?alt=media&token=b182753d-813b-4ed3-8aeb-edbb40df08f2" 
                       alt="depoimento do leo zapala" 
                       class="mt-4 rounded-full h-12"
                       loading="lazy"
@@ -39,8 +40,9 @@
               >
                 <div>
                   <div class="mt-4">
-                    <NuxtImg 
-                      src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbrito1.png?alt=media&token=578ce879-0b0f-442c-8519-4588731dd91c" 
+                    <NuxtImg
+                      provider="firebase" 
+                      src="/banners%2Fbrito1.png?alt=media&token=578ce879-0b0f-442c-8519-4588731dd91c" 
                       alt="depoimento do felipe brito" 
                       class="mt-4 rounded-full h-12"
                       loading="lazy"
@@ -67,8 +69,9 @@
               >
                 <div>
                   <div class="mt-4">
-                    <NuxtImg 
-                      src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbruno%20baldisseira.png?alt=media&token=4c335dcf-3028-4b3d-aa0e-2eeb59401768" 
+                    <NuxtImg
+                      provider="firebase" 
+                      src="/banners%2Fbruno%20baldisseira.png?alt=media&token=4c335dcf-3028-4b3d-aa0e-2eeb59401768" 
                       alt="depoimento do bruno baldisseira" 
                       class="mt-4 rounded-full h-12"
                       loading="lazy"
@@ -94,8 +97,9 @@
               >
                 <div>
                   <div class="mt-4">
-                    <NuxtImg 
-                      src="https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fpaulinho4.png?alt=media&token=246342b7-da24-4678-a25a-fb4f3f7deebf"
+                    <NuxtImg
+                      provider="firebase"
+                      src="/banners%2Fpaulinho4.png?alt=media&token=246342b7-da24-4678-a25a-fb4f3f7deebf"
                       alt="depoimento do paulinho" 
                       class="mt-4 rounded-full h-12"
                       loading="lazy"

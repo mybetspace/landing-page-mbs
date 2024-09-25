@@ -52,14 +52,14 @@ onUnmounted(() => {
             class="block w-full"
           >
             <NuxtImg
-              src="/logo.png"
+              src="/images/logo.png"
               alt="logo"
               class="dark:hidden"
               width="8001"
               height="4051"
             />
             <NuxtImg
-              src="/logo.png"
+              src="/images/logo.png"
               alt="logo"
               class="hidden dark:block"
               width="8001"

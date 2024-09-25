@@ -40,7 +40,7 @@
                             <NuxtImg 
                               class="object-cover object-center w-full max-w-80 h-70 mx-auto"
                               alt="cellphone" 
-                              src="/iphone2.webp" 
+                              src="/images/iphone2.webp" 
                               loading="lazy"
                               width="1080"
                               height="1920"

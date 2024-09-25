@@ -6,7 +6,7 @@
             <div class="flex justify-center text-teal-600 sm:justify-start">
               <NuxtImg 
                 class="h-10 w-auto" 
-                src="/logo2.png" 
+                src="/images/logo2.png" 
                 alt="logo do my bet space" 
                 loading="lazy"
                 width="357"
@@ -28,7 +28,7 @@
                   <span class="sr-only">YouTube</span>
                   <NuxtImg 
                     class="h-7 w-10" 
-                    src="/youtube.svg" 
+                    src="/images/youtube.svg" 
                     alt="Youtube icon" 
                     loading="lazy"
                   />

@@ -7,7 +7,7 @@
       <div class="flex flex-wrap items-center">
         <div class="mb-12 w-full lg:w-8/12 flex-1">
             <NuxtImg 
-              src="/pc.png" class="w-full" 
+              src="/images/pc.png" class="w-full" 
               alt="my bet space dashboard" 
               loading="lazy" 
               width="1499"
