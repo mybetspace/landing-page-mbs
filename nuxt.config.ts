@@ -85,14 +85,6 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  routeRules: {
-    '/assets/images/**': {
-      headers: {
-        'Expires': new Date(Date.now() + ONE_YEAR_IN_MILLISECONDS).toUTCString(),
-      }
-    },
-  },
-
   image: {
     providers: {
       firebase: {
