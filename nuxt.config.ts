@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title:
-        'My Bet Space - Melhor plataforma de gestão de banca',
+        'My Bet Space - Melhor plataforma de Gestão de Banca para trade esportivo',
         htmlAttrs: { lang: 'pt-br' },
       meta: [
         { charset: 'utf-8' },
