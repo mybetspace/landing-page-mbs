@@ -27,7 +27,8 @@ export default defineNuxtPlugin(() => {
             gtag('js', new Date());
             gtag('config', ${gtagId});
           }
-        `
+        `,
+        defer: true
        }
     ],
   })
