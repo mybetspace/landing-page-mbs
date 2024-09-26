@@ -12,21 +12,12 @@ export default defineNuxtPlugin(() => {
         async: true,
         defer: true,
         name: 'ga-script',
+        type: "text/javascript"
       },
       { 
-        children: `
-          window.dataLayer = window.dataLayer || [];
-
-          function gtag() {
-            window.dataLayer.push(arguments);
-          }
-
-          gtag('js', new Date());
-          gtag('config', '${gtagId}', {
-            transport_type: 'beacon'
-          })
-        `,
-       }
+        children: `window.dataLayer = window.dataLayer || [];function gtag() {window.dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${gtagId}', {transport_type: 'beacon'})`,
+        type: "text/javascript"
+      }
     ],
   })
 })
