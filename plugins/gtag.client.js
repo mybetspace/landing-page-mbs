@@ -2,7 +2,7 @@
 
 export default defineNuxtPlugin(() => {
   const { gtagId, DEVELOPMENT_MODE } = useRuntimeConfig().public
-  
+
   if (DEVELOPMENT_MODE === 'true') return
 
   useHead({
@@ -15,18 +15,16 @@ export default defineNuxtPlugin(() => {
       },
       { 
         children: `
-          const gaScript = document.querySelector('script[name="ga-script"]')
+          window.dataLayer = window.dataLayer || [];
 
-          if (gaScript) {
-            window.dataLayer = window.dataLayer || [];
-  
-            function gtag() {
-              window.dataLayer.push(arguments);
-            }
-  
-            gtag('js', new Date());
-            gtag('config', '${gtagId}');
+          function gtag() {
+            window.dataLayer.push(arguments);
           }
+
+          gtag('js', new Date());
+          gtag('config', '${gtagId}', {
+            transport_type: 'beacon'
+          })
         `,
        }
     ],
