@@ -1,20 +1,9 @@
 // Nuxt plugin to configure Google Tag Manager
 
 export default defineNuxtPlugin(() => {
-  const { gtagId, DEVELOPMENT_MODE } = useRuntimeConfig().public;
+  const { gtagId, DEVELOPMENT_MODE } = useRuntimeConfig().public
 
-  if (DEVELOPMENT_MODE == 'true') return;
-
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    window.dataLayer.push(arguments);
-  }
-
-  function loadGA() {
-    gtag('js', new Date());
-    gtag('config', gtagId);
-  }
+  if (DEVELOPMENT_MODE === 'true') return
 
   useHead({
     script: [
@@ -23,8 +12,23 @@ export default defineNuxtPlugin(() => {
         async: true,
         defer: true,
         name: 'ga-script',
-        onload: loadGA
       },
+      { 
+        children: `
+          const gaScript = document.querySelector('script[name="ga-script"]')
+  
+          if (gaScript) {
+            window.dataLayer = window.dataLayer || [];
+  
+            function gtag() {
+              window.dataLayer.push(arguments);
+            }
+  
+            gtag('js', new Date());
+            gtag('config', gtagId);
+          }
+        `
+       }
     ],
-  });
-});
+  })
+})
