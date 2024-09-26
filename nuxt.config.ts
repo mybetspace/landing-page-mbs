@@ -3,7 +3,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      gtagId: process.env.GTAG_ID || 'G-Y8CE7ED8LK',
+      gtagId: process.env.GTAG_ID || 'G-DYMJG8L6XZ',
       DEVELOPMENT_MODE: process.env.DEVELOPMENT_MODE,
     }
   },
@@ -24,9 +24,10 @@ export default defineNuxtConfig({
           hid: 'description',
           name: 'description',
           content: `A melhor plataforma para gestão de banca de apostas esportivas, 
-          aumentar seus lucros e trazer praticidade para sua vida como trader`,
+          aumente muito mais seus lucros e traga praticidade para sua vida como trader`,
         },
         { hid: 'application-name', name: 'application-name', content: 'My Bet Space' },
+        { hid: 'google-site-verification',  name: 'google-site-verification', content: 'QTTPZMIxYBjOmiLkicmK7M7YvSw7SOV3TKo3lU-3xuo' },
         { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: 'My Bet Space' },
         { hid: 'author', name: 'author', content: 'My Bet Space' },
         { hid: 'copyright', name: 'copyright', content: 'My Bet Space' },
@@ -58,11 +59,6 @@ export default defineNuxtConfig({
           rel: 'canonical',
           href: 'https://www.mybetspace.com/',
         },
-        {
-          rel: 'preload',
-          href: 'https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.1.jpg?alt=media&token=2fd34265-c300-4976-b392-61079060e718',
-          as: 'image'
-        }
       ],
       script: [
         {
