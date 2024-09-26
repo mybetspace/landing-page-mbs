@@ -27,6 +27,7 @@ export default defineNuxtConfig({
           aumente muito mais seus lucros e traga praticidade para sua vida como trader`,
         },
         { hid: 'application-name', name: 'application-name', content: 'My Bet Space' },
+        { hid: 'google-site-verification',  name: 'google-site-verification', content: 'QTTPZMIxYBjOmiLkicmK7M7YvSw7SOV3TKo3lU-3xuo' },
         { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: 'My Bet Space' },
         { hid: 'author', name: 'author', content: 'My Bet Space' },
         { hid: 'copyright', name: 'copyright', content: 'My Bet Space' },
