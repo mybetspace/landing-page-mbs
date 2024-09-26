@@ -2,7 +2,7 @@
 
 export default defineNuxtPlugin(() => {
   const { gtagId, DEVELOPMENT_MODE } = useRuntimeConfig().public
-
+  
   if (DEVELOPMENT_MODE === 'true') return
 
   useHead({
@@ -25,10 +25,9 @@ export default defineNuxtPlugin(() => {
             }
   
             gtag('js', new Date());
-            gtag('config', ${gtagId});
+            gtag('config', '${gtagId}');
           }
         `,
-        defer: true
        }
     ],
   })
