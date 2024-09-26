@@ -587,7 +587,7 @@
           </div>
           <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div class="mt-10 lg:mt-0">
-              <span class="block mb-4 text-lg font-semibold text-orange"> A Plataforma </span>
+              <span class="block mb-4 text-lg font-semibold text-orange"> A Plataforma de Gestão de Banca</span>
               <h2 class="mb-5 text-3xl font-bold text-white  dark:text-white sm:text-[40px]/[48px]">
                 Ajuda você a evoluir!
               </h2>
