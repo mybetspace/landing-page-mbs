@@ -16,7 +16,7 @@ export default defineNuxtPlugin(() => {
       { 
         children: `
           const gaScript = document.querySelector('script[name="ga-script"]')
-  
+
           if (gaScript) {
             window.dataLayer = window.dataLayer || [];
   
@@ -25,7 +25,7 @@ export default defineNuxtPlugin(() => {
             }
   
             gtag('js', new Date());
-            gtag('config', gtagId);
+            gtag('config', ${gtagId});
           }
         `
        }
