@@ -593,7 +593,7 @@
                 Ajuda você a evoluir!
               </h2>
               <p class="mb-5 text-base text-grayWhite dark:text-dark-6">
-                A My Bet Space vai te ajudar na gestão de banca e vai planilhar com um clique suas apostas, validando seus métodos facilmente, economizando o seu tempo.
+                A My Bet Space vai te ajudar na gestão de banca e vai planilhar com um clique suas apostas, validando seus métodos facilmente, economizando o seu tempo,
                 é como uma central de apostas para te ajudar. Concentre-se no que realmente importa.
               </p>
               <p class="mb-8 text-base text-grayWhite dark:text-dark-6">
