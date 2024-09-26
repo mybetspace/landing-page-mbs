@@ -58,11 +58,6 @@ export default defineNuxtConfig({
           rel: 'canonical',
           href: 'https://www.mybetspace.com/',
         },
-        {
-          rel: 'preload',
-          href: 'https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Fbanner1.1.jpg?alt=media&token=2fd34265-c300-4976-b392-61079060e718',
-          as: 'image'
-        }
       ],
       script: [
         {
