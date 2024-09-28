@@ -10,7 +10,6 @@ export default defineNuxtPlugin(() => {
       {
         src: `https://www.googletagmanager.com/gtag/js?id=${gtagId}`,
         async: true,
-        defer: true,
         name: 'ga-script',
         type: "text/javascript"
       },
