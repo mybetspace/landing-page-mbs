@@ -587,12 +587,12 @@
           </div>
           <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div class="mt-10 lg:mt-0">
-              <span class="block mb-4 text-lg font-semibold text-orange"> A Plataforma </span>
+              <span class="block mb-4 text-lg font-semibold text-orange"> A Plataforma de Gestão de Banca</span>
               <h2 class="mb-5 text-3xl font-bold text-white  dark:text-white sm:text-[40px]/[48px]">
-                Ajuda você a evoluir!
+                Evolução na sua banca e seu trade esportivo!
               </h2>
               <p class="mb-5 text-base text-grayWhite dark:text-dark-6">
-                A My Bet Space vai te ajudar na gestão de banca e vai planilhar com um clique suas apostas, validando seus métodos facilmente, economizando o seu tempo.
+                A My Bet Space vai te ajudar na gestão de banca e vai planilhar com um clique suas apostas, validando seus métodos facilmente, economizando o seu tempo,
                 é como uma central de apostas para te ajudar. Concentre-se no que realmente importa.
               </p>
               <p class="mb-8 text-base text-grayWhite dark:text-dark-6">
