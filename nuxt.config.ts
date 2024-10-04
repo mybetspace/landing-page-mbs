@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       gtagId: process.env.GTAG_ID || 'G-DYMJG8L6XZ',
-      secondGtagId: process.env.SECOND_GTAG_ID || 'AW-16721861339',
+      googleAdsId: process.env.GOOGLE_ADS_ID || 'AW-16721861339',
       DEVELOPMENT_MODE: process.env.DEVELOPMENT_MODE,
     }
   },
