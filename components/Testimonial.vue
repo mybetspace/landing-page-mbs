@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-backgroundGrayTwo">
+  <section class="bg-backgroundGrayTwo overflow-hidden">
     <div class="mx-auto max-w-[1850px] px-4 py-12 sm:px-2 lg:me-0 lg:py-16 lg:pe-0 lg:ps-2 xl:py-24">
       <h2 class="mb-14 text-center text-white text-4xl font-bold">
           Depoimentos

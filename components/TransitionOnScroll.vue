@@ -16,7 +16,7 @@ export default {
       const componentPosition = this.$el.getBoundingClientRect().top;
       const windowHeight = window.innerHeight;
 
-      this.isVisible = componentPosition < windowHeight / 2;
+      this.isVisible = componentPosition < windowHeight / 1.2;
     },
   },
   mounted() {
