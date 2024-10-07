@@ -1,5 +1,5 @@
 <template>
-    <footer id="contato" style="box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.9);" class="bg-backgroundGrayTwo">
+    <footer id="contact" style="box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.9);" class="bg-backgroundGrayTwo">
       <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>

@@ -172,7 +172,7 @@ export default {
 </script>
 
 <template>
-  <section id="preços" class="relative z-10 overflow-hidden dark:bg-dark pt-20 pb-12 lg:pt-[80px] lg:pb-[100px] mx-12">
+  <section id="prices" class="relative z-10 overflow-hidden dark:bg-dark pt-20 pb-12 lg:pt-[80px] lg:pb-[100px] mx-12">
     <div class="container mx-auto">
       <div class="-mx-4 flex flex-wrap">
         <div class="w-full px-4">

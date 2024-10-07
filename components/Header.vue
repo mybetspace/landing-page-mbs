@@ -9,7 +9,7 @@ const toggleNavbar = () => {
 }
 
 const navigateToSection = (section: string) => {
-  const sectionIds = ['home', 'sobre', 'preços', 'funcionalidades', 'contato'];
+  const sectionIds = ['home', 'about', 'prices', 'features', 'contact'];
 
   if(sectionIds.includes(section.toLowerCase())) {
     const targetSection = document.getElementById(section.toLowerCase())

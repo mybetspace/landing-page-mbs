@@ -1,5 +1,5 @@
 <template>
-  <section id="funcionalidades">
+  <section id="features">
     <div class="container mx-auto mb-12 mt-16">
       <h2 class="mb-14 text-center text-white text-4xl font-bold">
           Funcionalidades
