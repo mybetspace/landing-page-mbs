@@ -63,7 +63,7 @@
   .image {
     border-radius: 12px;
     height: 100%;
-    max-width: 35rem;
+    max-width: 600px;
   }
 
   .content {
