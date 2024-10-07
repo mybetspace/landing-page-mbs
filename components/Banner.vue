@@ -25,7 +25,7 @@
 
       <div class="wrapper fade-in" :style="{ animationDelay: '2.75s' }">
         <p class="text-sm sm:text-base">
-          Algum texto sobre alguma coisa
+          Algum texto sobre alguma coisa pra convencer o cliente a clicar nesse botão
         </p>
 
         <button class="button" type="button">comece agora</button>
