@@ -19,7 +19,7 @@
 
             <div class="max-w-xl mt-8 text-center lg:text-left">
                 <h3 class="text-lg sm:text-xl lg:text-2xl font-semibold tracking-tight text-white">
-                  Simplificando seu dia a dia
+                  Simplificar seu dia a dia
                 </h3>
 
                 <p class="max-w-xl mt-4 text-sm sm:text-base tracking-tight text-grayWhite">
