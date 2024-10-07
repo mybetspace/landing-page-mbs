@@ -591,7 +591,7 @@
           <div class="mt-10 lg:mt-0">
             <span class="block mb-4 text-lg font-semibold text-orange">A Plataforma de Gestão de Banca</span>
 
-            <h2 class="mb-5 text-xl lg:text-2xl font-bold text-white  dark:text-white sm:text-[40px]/[48px]">
+            <h2 class="mb-5 text-xl sm:text-2xl lg:text-3xl font-bold text-white  dark:text-white">
               Evolução na sua banca e seu trade esportivo!
             </h2>
 
