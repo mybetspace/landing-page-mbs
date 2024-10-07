@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-backgroundGrayTwo overflow-hidden">
-    <div class="mx-auto max-w-[1850px] px-4 py-8 lg:py-12 xl:py-16 sm:px-2 lg:me-0 lg:pe-0 lg:ps-2">
+  <section class="bg-backgroundGrayTwo overflow-hidden px-4">
+    <div class="mx-auto py-8 lg:py-12 xl:py-16 sm:px-2 lg:me-0 lg:pe-0 lg:ps-2">
       <h2 class="mb-8 text-xl sm:text-2xl lg:text-3xl text-center text-white font-bold">
           Depoimentos
       </h2>
