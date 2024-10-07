@@ -1,11 +1,12 @@
 <template>
-  <section id="features">
+  <section id="features" class="px-4">
     <div class="container mx-auto mb-4 lg:mb-12 mt-8 lg:mt-16">
       <h2 class="mb-8 text-xl sm:text-2xl lg:text-3xl text-center text-white font-bold">
           Funcionalidades
       </h2>
-      <div class="flex flex-wrap items-center">
-        <div class="max-sm:px-4 mb-12 w-full lg:w-8/12 flex-1">
+
+      <div class="flex flex-wrap items-center justify-center">
+        <div class="mb-12 w-full lg:w-8/12 xl:flex-1">
             <NuxtImg 
               src="/images/pc.png" class="w-full" 
               alt="my bet space dashboard" 
@@ -27,8 +28,8 @@
             </div>            
         </div>
 
-        <div class="w-full shrink-0 px-4 grow-0 basis-auto md:w-6/12">
-          <div class="mb-8 sm:mb-12 flex">
+        <div class="w-full shrink-0 grow-0 basis-auto xl:w-6/12 max-xl:grid max-xl:grid-cols-2 max-xl:gap-3 max-md:grid-cols-1">
+          <div class="mb-8 xl:mb-12 flex">
             <div class="shrink-0">
               <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="28" viewBox="0 -960 960 960" width="28">
@@ -40,13 +41,13 @@
             <div class="ml-4 grow">
               <h3 class="mb-1 text-lg sm:text-xl lg:text-2xl font-semibold text-white w-3/3 md:w-full">Importar apostas da Betfair e White labels</h3>
 
-              <p class="text-grayWhite w-2/3 text-sm sm:text-base text-pretty">
+              <p class="text-grayWhite max-xl:w-full w-2/3 text-sm sm:text-base text-pretty">
                 Veja em tempo real no seu dashboard, todos suas apostas, lucros, prejuízos, odds e muito mais.
               </p>
             </div>
           </div>
 
-          <div class="mb-8 sm:mb-12 flex md:mx-20">
+          <div class="mb-8 xl:mb-12 flex xl:mx-20">
             <div class="shrink-0">
               <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="28" viewBox="0 -960 960 960" width="28">
@@ -58,13 +59,13 @@
             <div class="ml-4 grow">
               <h3 class="mb-1 text-lg sm:text-xl lg:text-2xl font-semibold text-white w-3/3 md:w-full">Facilidade em validar seu método</h3>
 
-              <p class="text-grayWhite w-2/3 text-sm sm:text-base text-pretty">
+              <p class="text-grayWhite max-lg:w-full w-2/3 text-sm sm:text-base text-pretty">
                   Valide seu método de forma mais simples e rápida. Saiba exatamente em que método você é mais lucrativo e o método em que perde dinheiro.
               </p>
             </div>
           </div>
 
-          <div class="mb-8 sm:mb-12 flex md:mx-36">
+          <div class="mb-8 xl:mb-12 flex xl:mx-36">
             <div class="shrink-0">
               <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg ">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#fff"  height="28" viewBox="0 -960 960 960" width="28">
@@ -76,13 +77,13 @@
             <div class="ml-4 grow">
               <h3 class="mb-1 text-lg sm:text-xl lg:text-2xl font-semibold text-white w-3/3 md:w-full">Mantenha controle total de sua jornada</h3>
 
-              <p class="text-grayWhite w-2/3 text-sm sm:text-base text-pretty md:w-full">
+              <p class="text-grayWhite max-lg:w-full w-2/3 text-sm sm:text-base text-pretty md:w-full">
                 Explore uma variedade de indicadores e gráficos com informações fundamentais para você ganhar dinheiro.
               </p>
             </div>
           </div>
 
-          <div class="mb-8 sm:mb-12 flex md:mx-36">
+          <div class="mb-8 xl:mb-12 flex xl:mx-36">
             <div class="shrink-0">
               <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#fff"  height="28" viewBox="0 -960 960 960" width="28">
@@ -94,13 +95,13 @@
             <div class="ml-4 grow md:w-auto">
               <h3 class="mb-1 text-lg sm:text-xl lg:text-2xl font-semibold text-white w-3/3 md:w-full">Apostas Colaborativas</h3>
 
-              <p class="text-grayWhite w-2/3 text-sm sm:text-base text-pretty md:w-full">
+              <p class="text-grayWhite max-lg:w-full w-2/3 text-sm sm:text-base text-pretty md:w-full">
                 Amplie suas chances de sucesso ao cadastrar grupos de trabalho. Compartilhe apostas com amigos ou colegas, replicando as apostas entre os membros do grupo. Torne a experiência de apostar mais profissional e lucrativa!
               </p>
             </div>
           </div>
 
-          <div class="mb-8 sm:mb-12 flex md:mx-20">
+          <div class="mb-8 xl:mb-12 flex xl:mx-20">
             <div class="shrink-0">
               <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
@@ -114,13 +115,13 @@
             <div class="ml-4 grow">
               <h3 class="mb-1 text-lg sm:text-xl lg:text-2xl font-semibold text-white w-3/3 md:w-full">Aposte com inteligência</h3>
 
-              <p class="text-grayWhite w-2/3 text-sm sm:text-base text-pretty">
+              <p class="text-grayWhite max-lg:w-full w-2/3 text-sm sm:text-base text-pretty">
                 Descubra as odds dos jogos muito antes deles começarem, isso vai te ajudar no pré live. Nossa plataforma oferece insights precisos para ajudar você a apostar com estratégia e maximizar seus ganhos.
               </p>
             </div>
           </div>
 
-          <div class="mb-8 sm:mb-12 flex">
+          <div class="mb-8 xl:mb-12 flex">
             <div class="shrink-0">
               <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg ">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#fff"  height="28" viewBox="0 -960 960 960" width="28">
@@ -131,7 +132,7 @@
             <div class="ml-4 grow">
               <h3 class="mb-1 text-lg sm:text-xl lg:text-2xl font-semibold text-white w-3/3 md:w-full">Projetos - Transforme sonhos em realidade</h3>
 
-              <p class="text-grayWhite w-2/3 text-sm sm:text-base text-pretty">
+              <p class="text-grayWhite max-lg:w-full w-2/3 text-sm sm:text-base text-pretty">
                 Crie projetos personalizados para atingir objetivos financeiros em tempo recorde. Você poderá deixa o projeto público para seus amigos acompanharem se desejar.
               </p>
             </div>
