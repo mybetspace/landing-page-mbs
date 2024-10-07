@@ -116,7 +116,7 @@ onUnmounted(() => {
             </nuxt-link>
 
             <nuxt-link :to="'https://app.mybetspace.com/'"
-            style="height: 40px;" class="rounded-md px-6 py-3 my-1 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center"
+            style="height: 40px;" class="rounded-md px-6 py-3 my-1 text-base font-semibold text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center"
             >
               Cadastrar
             </nuxt-link>

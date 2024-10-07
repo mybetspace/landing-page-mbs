@@ -20,8 +20,8 @@
               <nuxt-link :to="'https://app.mybetspace.com/signup'"
                 class="max-sm:flex-1 block sm:inline-block text-teal-600 transition hover:text-teal-600/75"
               >
-                <button class="max-sm:w-full h-12 rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">
-                  Não perca tempo, acesse agora
+                <button class="max-sm:w-full h-12 rounded-md px-6 py-2 text-base font-semibold text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">
+                  Experimente agora
                 </button>
               </nuxt-link>
             </div>            
