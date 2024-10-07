@@ -592,17 +592,18 @@
             <span class="block mb-4 text-lg font-semibold text-orange">A Plataforma de Gestão de Banca</span>
 
             <h2 class="mb-5 text-xl sm:text-2xl lg:text-3xl font-bold text-white  dark:text-white">
-              Evolução na sua banca e seu trade esportivo!
+              Revolucione sua banca e maximize seu trade esportivo!
             </h2>
 
             <p class="mb-5 text-sm sm:text-base text-grayWhite dark:text-dark-6">
-              A My Bet Space vai te ajudar na gestão de banca e vai planilhar com um clique suas apostas, validando seus métodos facilmente, economizando o seu tempo,
-              é como uma central de apostas para te ajudar. Concentre-se no que realmente importa.
+              Quer levar sua carreira de trader para o próximo nível? A My Bet Space foi criada para você! Gerenciar suas apostas de banca nunca foi tão fácil e intuitivo. 
+              Priorizamos eficiência e segurança, permitindo que você foque no que realmente importa. 
+              Esqueça as planilhas e junte-se à evolução!
             </p>
 
             <p class="mb-8 text-sm sm:text-base text-grayWhite dark:text-dark-6">
-              Geramos diversos indicadores para você tomar as melhores decisões e conseguir validar seus métodos.
-              Assim ajudando na sua gestão de banca, não importa o esporte vamos conseguir te ajudar, para melhorar seus resultados no trade esportivo.
+              Com nossa plataforma, você tem acesso a indicadores completos que ajudam a tomar as melhores decisões e validar seus métodos de forma eficiente. 
+              Não importa o esporte, vamos te ajudar a aumentar seus lucros e a evoluir no trade esportivo.
             </p>
 
             <div class="text-center lg:text-left">
