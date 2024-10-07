@@ -73,14 +73,31 @@
     align-items: flex-start;
     gap: 2.4rem;
     min-width: fit-content;
+    padding-left: 20px;
   }
 
   .feature-list {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    list-style-type: circle;
-    list-style-position: inside;
+    list-style: none;
+  }
+
+  .feature-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .feature-list li::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="%23ff512f"%3E%3Cpath d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"%3E%3C/path%3E%3C/svg%3E');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: iconMove 1s infinite 1s ease-in-out;
   }
 
   .feature {
@@ -93,6 +110,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 300px;
   }
 
   .button {
@@ -205,6 +223,18 @@
 
     100% {
       opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes iconMove {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(2px);
+    }
+    100% {
       transform: translateX(0);
     }
   }
