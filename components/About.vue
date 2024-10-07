@@ -13,6 +13,7 @@
                   width="1350"
                   height="1080"
                 />
+                
                 <span class="absolute right-16 -bottom-7 z-[-1]">
                   <svg
                     width="134"
@@ -589,20 +590,24 @@
         <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
           <div class="mt-10 lg:mt-0">
             <span class="block mb-4 text-lg font-semibold text-orange"> A Plataforma de Gestão de Banca</span>
+
             <h2 class="mb-5 text-xl lg:text-2xl font-bold text-white  dark:text-white sm:text-[40px]/[48px]">
               Evolução na sua banca e seu trade esportivo!
             </h2>
+
             <p class="mb-5 text-sm sm:text-base text-grayWhite dark:text-dark-6">
               A My Bet Space vai te ajudar na gestão de banca e vai planilhar com um clique suas apostas, validando seus métodos facilmente, economizando o seu tempo,
               é como uma central de apostas para te ajudar. Concentre-se no que realmente importa.
             </p>
+
             <p class="mb-8 text-sm sm:text-base text-grayWhite dark:text-dark-6">
               Geramos diversos indicadores para você tomar as melhores decisões e conseguir validar seus métodos.
               Assim ajudando na sua gestão de banca, não importa o esporte vamos conseguir te ajudar, para melhorar seus resultados no trade esportivo.
             </p>
+
             <div class="text-center lg:text-left">
               <nuxt-link :to="'https://app.mybetspace.com/signup'"
-                class="block sm:inline-block  text-teal-600 transition hover:text-teal-600/75"
+                class="block sm:inline-block text-teal-600 transition hover:text-teal-600/75"
               >
                 <button class="max-sm:w-full h-12 rounded-md px-6 py-2 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center">
                   Não perca tempo, evolua agora
