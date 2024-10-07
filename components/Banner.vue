@@ -3,23 +3,23 @@
     <div class="content">
       <ul class="feature-list">
         <li class="fade-in" :style="{ animationDelay: '250ms' }">
-          <h3 class="feature">Relatório de métodos</h3>
+          <h3 class="feature text-lg sm:text-xl lg:text-2xl">Relatório de métodos</h3>
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '750ms' }">
-          <h3 class="feature">Titulo</h3>
+          <h3 class="feature text-lg sm:text-xl lg:text-2xl">Relatório de métodos</h3>
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '1.25s' }">
-          <h3 class="feature">Titulo</h3>
+          <h3 class="feature text-lg sm:text-xl lg:text-2xl">Relatório de métodos</h3>
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '1.75s' }">
-          <h3 class="feature">Titulo</h3>
+          <h3 class="feature text-lg sm:text-xl lg:text-2xl">Relatório de métodos</h3>
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '2.25s' }">
-          <h3 class="feature">Titulo</h3>
+          <h3 class="feature text-lg sm:text-xl lg:text-2xl">Relatório de métodos</h3>
         </li>
       </ul>
 
@@ -33,7 +33,16 @@
     </div>
 
     <div class="image-wrapper slide-in">
-      <img class="image" src="/images/banner1-cropped.jpg" alt="jogador de futebol chutando uma bola">
+      <picture>
+        <source media="(max-width: 500px)" srcset="/images/banner1-mobile.jpg">
+        <source media="(max-width: 767px)" srcset="/images/banner1-mobile2.jpg">
+        <source media="(min-width: 768px)" srcset="/images/banner1-cropped.jpg">
+        <img 
+          class="image" 
+          src="/images/banner1-cropped.jpg" 
+          alt="jogador de futebol chutando uma bola"
+        >
+      </picture>
     </div>
   </div>
 </template>
@@ -63,28 +72,27 @@
     justify-content: center;
     align-items: flex-start;
     gap: 2.4rem;
+    min-width: fit-content;
   }
 
   .feature-list {
     display: flex;
     flex-direction: column;
-    gap: 1.6rem;
+    gap: 32px;
     list-style-type: circle;
     list-style-position: inside;
   }
 
   .feature {
     display: inline;
-    font-size: 1.25rem;
     font-weight: 600;
-    line-height: 2.25rem;
     letter-spacing: .16px;
   }
 
   .wrapper {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 20px;
   }
 
   .button {
@@ -120,20 +128,36 @@
     animation: slideIn 0.6s forwards;
   }
   
-  @media screen and (min-width: 1367px) {
-    .feature {
-      font-size: 1.5rem;
+  @media screen and (max-width: 1024px) {
+    .image {
+      max-width: 100%;
+    }
+
+    .content {
+      gap: 1.6rem;
+    }
+
+    .feature-list {
+      gap: 1rem;
+    }
+
+    .wrapper {
+      gap: 12px;
+    }
+    
+    .button {
+      font-size: .875rem;
     }
   }
 
   @media screen and (max-width: 768px) {
     .banner {
-      max-width: 36rem;
       position: relative;
-      margin-top: 1.3rem;
+      margin: 20px 0 0;
       overflow: hidden;
-      padding: 1.2rem;
+      padding: 44px;
       border-radius: 0px;
+      max-width: 100%;
     }
 
     .image-wrapper {
@@ -142,32 +166,23 @@
     }
 
     .image {
-      opacity: 0.5;
+      opacity: 0.4;
+      object-fit: cover;
+      border-radius: 0;
+      min-height: 380px;
     }
 
     .content {
-      gap: 1rem;
+      flex: 1;
     }
 
     .feature-list {
       gap: 1rem;
     }
 
-    .feature {
-      font-size: 1rem;
-    }
-
-    .button {
-      font-size: .875rem;
-    }
-
     .slide-in {
       animation-name: none;
       transform: translateX(0);
-      opacity: 1;
-    }
-
-    .fade-in {
       opacity: 1;
     }
   }
