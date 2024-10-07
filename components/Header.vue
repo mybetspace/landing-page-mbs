@@ -8,24 +8,25 @@ const toggleNavbar = () => {
   open.value = !open.value
 }
 
-const navigateToSection = (section: string) => {
+const navigateToSection = (sectionId: string) => {
   const sectionIds = ['home', 'about', 'prices', 'features', 'contact'];
 
-  if(sectionIds.includes(section.toLowerCase())) {
-    const targetSection = document.getElementById(section.toLowerCase())
-    if(targetSection) {
-      targetSection.scrollIntoView({behavior: 'smooth'})
-      toggleNavbar()
-    }
+  if (!sectionIds.includes(sectionId)) return
+
+  const targetSection = document.getElementById(sectionId)
+
+  if(targetSection) {
+    targetSection.scrollIntoView({behavior: 'smooth'})
+    toggleNavbar()
   }
 }
 
 const navLinkItems = ref([
-  { text: 'Inicio', href: 'javascript:void(0)' },
-  { text: 'Sobre', href: 'javascript:void(0)' },
-  { text: 'Preços', href: 'javascript:void(0)' },
-  { text: 'Funcionalidades', href: 'javascript:void(0)' },
-  { text: 'Contato', href: 'javascript:void(0)' },
+  { text: 'Inicio', href: 'javascript:void(0)', id: 'home' },
+  { text: 'Sobre', href: 'javascript:void(0)', id: 'about' },
+  { text: 'Preços', href: 'javascript:void(0)', id: 'prices'  },
+  { text: 'Funcionalidades', href: 'javascript:void(0)', id: 'features'  },
+  { text: 'Contato', href: 'javascript:void(0)', id: 'contact'  },
 ])
 
 const handleClickOutside = (event: MouseEvent) => {
@@ -97,7 +98,7 @@ onUnmounted(() => {
                    <nuxt-link
                      v-if="item.href"
                      :href="item.href"
-                     @click="navigateToSection(item.text)"
+                     @click="navigateToSection(item.id)"
                      class="flex py-2 text-base font-medium text-white hover:text-orange dark:text-dark-6 dark:hover:text-orange lg:ml-12 lg:inline-flex"
                    >
                      {{ item.text }}
