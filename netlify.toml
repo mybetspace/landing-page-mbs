@@ -6,7 +6,6 @@
   publish = "dist"
 
 [[headers]]
-  for = "/images/*.!(svg)"  # Aplica a todas as imagens, exceto SVG
+  for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=604800, must-revalidate"
-    Expires = "Thu, 25 Sep 2025 00:00:00 GMT"
