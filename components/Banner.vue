@@ -9,19 +9,19 @@
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '750ms' }">
-          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Controle Total de Cliques no Mercado</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Adicione apostas da sua casa de aposta</h3>
         </li>
         
         <li class="fade-in" :style="{ animationDelay: '1.25s' }">
-          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Indicadores de Alta Eficiência</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Controle Total de Cliques no Mercado</h3>
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '1.75s' }">
-          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Comparação de Métodos</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Indicadores de Alta Eficiência</h3>
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '2.25s' }">
-          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Criação de Projetos</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Validação de Métodos e Projetos</h3>
         </li>
       </ul>
 
