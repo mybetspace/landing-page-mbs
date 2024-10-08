@@ -33,7 +33,7 @@
             <NuxtImg src="/images/verdinhabet.svg" alt="Verdinha bet" class="ml-14 h-14" loading="lazy" />
           </div>
           <div class="keen-slider__slide number-slide8">
-            <NuxtImg src="/images/apostaNow.svg" alt="Apostas now" class="ml-14 h-14" loading="lazy" />
+            <NuxtImg src="/images/aposta-now.svg" alt="Apostas now" class="ml-14 h-14" loading="lazy" />
           </div>
         </div>
         </div>
