@@ -30,7 +30,7 @@
           Teste nossa plataforma gratuitamente por 7 dias!
         </p>
 
-        <button class="button" type="button">comece agora</button>
+        <a class="button" href="https://app.mybetspace.com/signup">comece agora</a>
       </div>
     </div>
     <div class="block"></div>
