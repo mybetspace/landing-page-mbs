@@ -41,7 +41,6 @@
   .banner {
     margin: 1rem auto 0;
     width: 100%;
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
