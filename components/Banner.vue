@@ -59,7 +59,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 2.4rem;
+    gap: 40px;
     min-width: fit-content;
   }
 
@@ -148,8 +148,7 @@
     }
 
     .content {
-      position: relative;
-      z-index: 2;
+      gap: 20px;
     }
 
     .feature-list {
