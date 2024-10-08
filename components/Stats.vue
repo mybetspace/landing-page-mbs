@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto mb-4 mt-4 sm:mt-20">
+    <div class="container mx-auto mb-4 sm:mb-12 mt-4 sm:mt-12">
       <section class="bg-gradient-to-tr from-indigo-700 via-blue-800 to-cyan-900  ">
       <div class="mx-auto max-w-screen-xl px-4 py-6">
         <dl class="grid grid-cols-1 items-center gap-4 sm:grid-cols-3 sm:divide-x sm:divide-white">

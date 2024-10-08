@@ -1,69 +1,58 @@
 <template>
   <div class="banner container">
     <div class="content">
+      <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold">Gestão de Banca para Trade Esportivo</h1>
+
       <ul class="feature-list">
         <li class="fade-in" :style="{ animationDelay: '250ms' }">
-          <h3 class="feature text-lg sm:text-xl lg:text-2xl">Relatório de métodos</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Importação de Apostas da Betfair e White Labels</h3>
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '750ms' }">
-          <h3 class="feature text-lg sm:text-xl lg:text-2xl">Relatório de métodos</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Controle Total de Cliques no Mercado</h3>
         </li>
-
+        
         <li class="fade-in" :style="{ animationDelay: '1.25s' }">
-          <h3 class="feature text-lg sm:text-xl lg:text-2xl">Relatório de métodos</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Indicadores de Alta Eficiência</h3>
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '1.75s' }">
-          <h3 class="feature text-lg sm:text-xl lg:text-2xl">Relatório de métodos</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Comparação de Métodos</h3>
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '2.25s' }">
-          <h3 class="feature text-lg sm:text-xl lg:text-2xl">Relatório de métodos</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Criação de Projetos</h3>
         </li>
       </ul>
 
-      <div class="wrapper fade-in" :style="{ animationDelay: '2.75s' }">
+      <div class="wrapper fade-in w-full" :style="{ animationDelay: '2.75s' }">
         <p class="text-sm sm:text-base">
-          Algum texto sobre alguma coisa pra convencer o cliente a clicar nesse botão
+          Teste nossa plataforma gratuitamente por 7 dias!
         </p>
 
         <button class="button" type="button">comece agora</button>
       </div>
     </div>
-
-    <div class="image-wrapper slide-in">
-      <picture>
-        <source media="(max-width: 500px)" srcset="/images/banner1-mobile.jpg">
-        <source media="(max-width: 767px)" srcset="/images/banner1-mobile2.jpg">
-        <source media="(min-width: 768px)" srcset="/images/banner1-cropped.jpg">
-        <img 
-          class="image" 
-          src="/images/banner1-cropped.jpg" 
-          alt="jogador de futebol chutando uma bola"
-        >
-      </picture>
-    </div>
+    <div class="block"></div>
   </div>
 </template>
   
 <style scoped>
   .banner {
-    margin: 4rem auto 0;
+    margin: 1rem auto 0;
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 12px;
     padding: 0 2rem;
     gap: 3.6rem;
-  }
-
-  .image {
-    border-radius: 12px;
-    height: 100%;
-    max-width: 600px;
+    background-image: url('/images/banner1-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(100dvh - 80px);
+    max-width: 100%;
   }
 
   .content {
@@ -73,13 +62,17 @@
     align-items: flex-start;
     gap: 2.4rem;
     min-width: fit-content;
-    padding-left: 20px;
+  }
+
+  .block {
+    width: 22%;
+    height: 100dvh;
   }
 
   .feature-list {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 40px;
     list-style: none;
   }
 
@@ -92,6 +85,7 @@
   .feature-list li::before {
     content: '';
     display: block;
+    min-width: 16px;
     width: 16px;
     height: 16px;
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="%23ff512f"%3E%3Cpath d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"%3E%3C/path%3E%3C/svg%3E');
@@ -110,7 +104,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 300px;
   }
 
   .button {
@@ -145,53 +138,19 @@
     transform: translateX(100%);
     animation: slideIn 0.6s forwards;
   }
-  
-  @media screen and (max-width: 1024px) {
-    .image {
-      max-width: 100%;
-    }
-
-    .content {
-      gap: 1.6rem;
-    }
-
-    .feature-list {
-      gap: 1rem;
-    }
-
-    .wrapper {
-      gap: 12px;
-    }
-    
-    .button {
-      font-size: .875rem;
-    }
-  }
 
   @media screen and (max-width: 768px) {
     .banner {
-      position: relative;
-      margin: 20px 0 0;
+      margin: 12px 0 32px;
       overflow: hidden;
-      padding: 44px;
-      border-radius: 0px;
       max-width: 100%;
-    }
-
-    .image-wrapper {
-      position: absolute;
-      z-index: -10;
-    }
-
-    .image {
-      opacity: 0.4;
-      object-fit: cover;
-      border-radius: 0;
-      min-height: 380px;
+      height: 550px;
+      background-image: url('/images/banner1-bg.jpg');
     }
 
     .content {
-      flex: 1;
+      position: relative;
+      z-index: 2;
     }
 
     .feature-list {
@@ -203,27 +162,25 @@
       transform: translateX(0);
       opacity: 1;
     }
+
+    .button {
+      font-size: .875rem;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .banner {
+      background-image: url('/images/banner1-bg.jpg');
+    }
+
+    .block {
+      display: none;
+    }
   }
 
   @keyframes fadeIn {
     to {
       opacity: 1;
-    }
-  }
-
-  @keyframes slideIn {
-    0% {
-      opacity: 0;
-      transform: translateX(100%);
-    }
-
-    50% {
-      opacity: 0.5;
-    }
-
-    100% {
-      opacity: 1;
-      transform: translateX(0);
     }
   }
 

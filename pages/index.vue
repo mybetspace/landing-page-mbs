@@ -1,9 +1,9 @@
 <template>
   <Header />
 
-  <Main />
-          
   <Banner />
+
+  <Main />
 
   <Stats />
 
