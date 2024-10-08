@@ -34,7 +34,7 @@
                 class="max-sm:flex-1 block sm:inline-block text-teal-600 transition hover:text-teal-600/75"
               >
                 <button class="rounded-md max-sm:w-full h-12 px-6 py-2 text-base font-semibold bg-orange text-white shadow transition-opacity hover:opacity-75 flex items-center justify-center">
-                  Junte-se à MyBetSpace
+                  Junte-se ao MyBetSpace
                 </button>
               </nuxt-link>
             </div>
