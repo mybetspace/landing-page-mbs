@@ -9,7 +9,7 @@
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '750ms' }">
-          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Adicione apostas da sua casa de aposta</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Adicione Apostas da sua Casa de Aposta</h3>
         </li>
         
         <li class="fade-in" :style="{ animationDelay: '1.25s' }">
