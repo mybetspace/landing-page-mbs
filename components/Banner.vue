@@ -144,7 +144,7 @@
       margin: 12px 0 32px;
       overflow: hidden;
       max-width: 100%;
-      height: 550px;
+      height: 591px;
       background-image: url('/images/banner1-bg.jpg');
     }
 
