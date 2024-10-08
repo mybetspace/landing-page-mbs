@@ -100,6 +100,7 @@ export default defineNuxtConfig({
     },
     display: 'swap',
     download: false,
+    preload: true
   },
 
   postcss: {

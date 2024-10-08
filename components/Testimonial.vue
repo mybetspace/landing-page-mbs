@@ -1,15 +1,16 @@
 <template>
-  <section class="bg-backgroundGrayTwo">
-    <div class="mx-auto max-w-[1850px] px-4 py-12 sm:px-2 lg:me-0 lg:py-16 lg:pe-0 lg:ps-2 xl:py-24">
-      <h2 class="mb-14 text-center text-white text-4xl font-bold">
+  <section class="bg-backgroundGrayTwo overflow-hidden px-4">
+    <div class="mx-auto py-8 lg:py-12 xl:py-16 sm:px-2 lg:me-0 lg:pe-0 lg:ps-2">
+      <h2 class="mb-8 text-xl sm:text-2xl lg:text-3xl text-center text-white font-bold">
           Depoimentos
       </h2>
+
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-center lg:gap-16">
         <div class="-mx-6 lg:col-span-2 lg:mx-0">
           <div id="keen-slider" class="keen-slider">
             <div class="keen-slider__slide">
               <blockquote
-                class="flex h-full flex-col justify-between p-6 shadow-sm sm:p-8 lg:p-12"
+                class="flex h-full flex-col gap-2 p-6 shadow-sm sm:p-8 lg:p-12"
               >
                 <div>
                   <div class="mt-4">
@@ -35,7 +36,7 @@
   
             <div class="keen-slider__slide">
               <blockquote
-                class="flex h-full flex-col justify-between p-6 shadow-sm sm:p-8 lg:p-12"
+                class="flex h-full flex-col gap-2 p-6 shadow-sm sm:p-8 lg:p-12"
               >
                 <div>
                   <div class="mt-4">
@@ -63,7 +64,7 @@
 
             <div class="keen-slider__slide">
               <blockquote
-                class="flex h-full flex-col justify-between p-6 shadow-sm sm:p-8 lg:p-12"
+                class="flex h-full flex-col gap-2 p-6 shadow-sm sm:p-8 lg:p-12"
               >
                 <div>
                   <div class="mt-4">
@@ -90,7 +91,7 @@
 
             <div class="keen-slider__slide">
               <blockquote
-                class="flex h-full flex-col justify-between p-6 shadow-sm sm:p-8 lg:p-12"
+                class="flex h-full flex-col gap-2 p-6 shadow-sm sm:p-8 lg:p-12"
               >
                 <div>
                   <div class="mt-4">

@@ -8,24 +8,25 @@ const toggleNavbar = () => {
   open.value = !open.value
 }
 
-const navigateToSection = (section: string) => {
-  const sectionIds = ['home', 'sobre', 'preços', 'funcionalidades', 'contato'];
+const navigateToSection = (sectionId: string) => {
+  const sectionIds = ['home', 'about', 'prices', 'features', 'contact'];
 
-  if(sectionIds.includes(section.toLowerCase())) {
-    const targetSection = document.getElementById(section.toLowerCase())
-    if(targetSection) {
-      targetSection.scrollIntoView({behavior: 'smooth'})
-      toggleNavbar()
-    }
+  if (!sectionIds.includes(sectionId)) return
+
+  const targetSection = document.getElementById(sectionId)
+
+  if(targetSection) {
+    targetSection.scrollIntoView({behavior: 'smooth'})
+    toggleNavbar()
   }
 }
 
 const navLinkItems = ref([
-  { text: 'Inicio', href: 'javascript:void(0)' },
-  { text: 'Sobre', href: 'javascript:void(0)' },
-  { text: 'Preços', href: 'javascript:void(0)' },
-  { text: 'Funcionalidades', href: 'javascript:void(0)' },
-  { text: 'Contato', href: 'javascript:void(0)' },
+  { text: 'Inicio', href: 'javascript:void(0)', id: 'home' },
+  { text: 'Sobre', href: 'javascript:void(0)', id: 'about' },
+  { text: 'Preços', href: 'javascript:void(0)', id: 'prices'  },
+  { text: 'Funcionalidades', href: 'javascript:void(0)', id: 'features'  },
+  { text: 'Contato', href: 'javascript:void(0)', id: 'contact'  },
 ])
 
 const handleClickOutside = (event: MouseEvent) => {
@@ -44,9 +45,8 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <header class="flex h-16 w-full items-center mx-auto max-w-screen-xl px-16 sm:px-6 lg:px-8">
-    <div class="container">
-      <div class="relative -mx-8 flex items-center justify-between">
+  <header class="flex h-16 w-full items-center mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div class="relative w-full flex items-center justify-between">
         <div class="w-40 max-w-full">
           <nuxt-link :to="'https://www.mybetspace.com/'"
             class="block w-full"
@@ -98,7 +98,7 @@ onUnmounted(() => {
                    <nuxt-link
                      v-if="item.href"
                      :href="item.href"
-                     @click="navigateToSection(item.text)"
+                     @click="navigateToSection(item.id)"
                      class="flex py-2 text-base font-medium text-white hover:text-orange dark:text-dark-6 dark:hover:text-orange lg:ml-12 lg:inline-flex"
                    >
                      {{ item.text }}
@@ -115,14 +115,13 @@ onUnmounted(() => {
               Login
             </nuxt-link>
 
-            <nuxt-link :to="'https://app.mybetspace.com/'"
-            style="height: 40px;" class="rounded-md px-6 py-3 my-1 text-base font-medium bg-orange text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center"
+            <nuxt-link :to="'https://app.mybetspace.com/signup'"
+              style="height: 40px;" class="rounded-md px-6 py-3 my-1 text-base font-semibold text-white shadow bg-orange transition-opacity hover:opacity-75 flex items-center justify-center"
             >
               Cadastrar
             </nuxt-link>
           </div>
         </div>
       </div>
-    </div>
   </header>
 </template>
