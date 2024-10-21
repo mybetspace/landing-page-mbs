@@ -9,7 +9,7 @@
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '750ms' }">
-          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Adicione Apostas da sua Casa de Aposta</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Adição de Apostas da sua Casa de Apostas</h3>
         </li>
         
         <li class="fade-in" :style="{ animationDelay: '1.25s' }">
@@ -41,7 +41,6 @@
   .banner {
     margin: 1rem auto 0;
     width: 100%;
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +59,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 2.4rem;
+    gap: 40px;
     min-width: fit-content;
   }
 
@@ -149,8 +148,7 @@
     }
 
     .content {
-      position: relative;
-      z-index: 2;
+      gap: 20px;
     }
 
     .feature-list {
