@@ -27,6 +27,7 @@ const navLinkItems = ref([
   { text: 'Preços', href: 'javascript:void(0)', id: 'prices'  },
   { text: 'Funcionalidades', href: 'javascript:void(0)', id: 'features'  },
   { text: 'Contato', href: 'javascript:void(0)', id: 'contact'  },
+  {text: 'Traders', href: 'https://app.mybetspace.com/featured-traders', id: '', target: '_blank' }
 ])
 
 const handleClickOutside = (event: MouseEvent) => {
@@ -100,6 +101,7 @@ onUnmounted(() => {
                      :href="item.href"
                      @click="navigateToSection(item.id)"
                      class="flex py-2 text-base font-medium text-white hover:text-orange dark:text-dark-6 dark:hover:text-orange lg:ml-12 lg:inline-flex"
+                     :target="item.target ? item.target : null"
                    >
                      {{ item.text }}
                    </nuxt-link>
