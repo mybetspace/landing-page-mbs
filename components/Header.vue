@@ -27,7 +27,7 @@ const navLinkItems = ref([
   { text: 'Preços', href: 'javascript:void(0)', id: 'prices'  },
   { text: 'Funcionalidades', href: 'javascript:void(0)', id: 'features'  },
   { text: 'Contato', href: 'javascript:void(0)', id: 'contact'  },
-  {text: 'Traders', href: 'https://app.mybetspace.com/featured-traders', id: '', target: '_blank' }
+  {text: 'Traders', href: 'https://app.mybetspace.com/traders', id: '', target: '_blank' }
 ])
 
 const handleClickOutside = (event: MouseEvent) => {
