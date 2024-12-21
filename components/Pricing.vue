@@ -172,17 +172,18 @@ export default {
 </script>
 
 <template>
-  <section id="preços" class="relative z-10 overflow-hidden dark:bg-dark pt-20 pb-12 lg:pt-[80px] lg:pb-[100px] mx-12">
+  <section id="prices" class="relative z-10 overflow-hidden dark:bg-dark py-8 lg:py-16 px-4">
     <div class="container mx-auto">
       <div class="-mx-4 flex flex-wrap">
         <div class="w-full px-4">
-          <div class="mx-auto mb-[60px] max-w-[910px] text-center">
+          <div class="mx-auto mb-8 max-w-[910px] text-center">
           
-            <h2 class="mb-3 text-3xl leading-[1.208] font-bold text-white dark:text-white sm:text-4xl md:text-[40px]">
+            <h2 class="mb-3 text-xl sm:text-2xl lg:text-3xl leading-[1.208] font-bold text-white dark:text-white">
               Preços 
             </h2>
-            <p class="text-base text-grayWhite dark:text-dark-6">
-              Todos os usuários novos tem direito à 7 dias gratuitos após a abertura de conta.
+
+            <p class="text-sm sm:text-base text-grayWhite dark:text-dark-6">
+              Todos os usuários novos tem direito à <strong class="text-white">7 dias gratuitos</strong> após a abertura de conta.
             </p>
           </div>
         </div>
@@ -191,9 +192,9 @@ export default {
       <div class="mb-4 text-white text-start flex flex-col lg:flex-row">
         <label class="mr-2 mt-1 font-semibold">Plano:</label>
         <div class="flex flex-wrap">
-            <button v-if="selectedCategory === 'basic'" @click="selectCategory('basic')" :class="{ 'bg-orange': selectedCategory === 'basic', 'bg-gray-300': selectedCategory !== 'basic' }" class="border p-1 rounded-md mb-2 mr-2">Básico</button>
-            <button v-show="selectedCategory !== 'basic'" @click="selectCategory('avanced')" :class="{ 'bg-orange': selectedCategory === 'avanced', 'bg-gray-300': selectedCategory !== 'avanced' }" class="border p-1 rounded-md mb-2 mr-2">Avançado</button>
-            <button v-show="selectedCategory !== 'basic'" @click="selectCategory('professional')" :class="{ 'bg-orange': selectedCategory === 'professional', 'bg-gray-300': selectedCategory !== 'professional' }" class="border p-1 rounded-md mb-2">Profissional</button>
+            <button v-if="selectedCategory === 'basic'" @click="selectCategory('basic')" :class="{ 'bg-orange': selectedCategory === 'basic', 'bg-gray-300': selectedCategory !== 'basic' }" class="border py-1 px-3 rounded-md mb-2 mr-2">Básico</button>
+            <button v-show="selectedCategory !== 'basic'" @click="selectCategory('avanced')" :class="{ 'bg-orange': selectedCategory === 'avanced', 'bg-gray-300': selectedCategory !== 'avanced' }" class="border py-1 px-3 rounded-md mb-2 mr-2">Avançado</button>
+            <button v-show="selectedCategory !== 'basic'" @click="selectCategory('professional')" :class="{ 'bg-orange': selectedCategory === 'professional', 'bg-gray-300': selectedCategory !== 'professional' }" class="border py-1 px-3 rounded-md mb-2">Profissional</button>
         </div>
       </div>
 
@@ -207,7 +208,7 @@ export default {
             <span class="mb-3 block text-grayWhite font-semibold text-primary">
               {{ plan.name }}
             </span>
-              <span class="mb-5 text-[34px] font-bold text-white dark:text-white">
+              <span class="mb-5 text-2xl lg:text-3xl font-bold text-white dark:text-white">
                 <span>{{ plan.price }}</span>
                 <span class="text-base font-medium text-grayWhite dark:text-dark-6"> / Mês </span>
               </span>

@@ -1,37 +1,38 @@
 <template>
-    <div class="container mx-auto mb-16 mt-12">
+    <div class="container mx-auto mb-4 sm:mb-12 mt-4 sm:mt-12">
       <section class="bg-gradient-to-tr from-indigo-700 via-blue-800 to-cyan-900  ">
-      <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
-        <div class="mx-auto max-w-3xl text-center">
-          <h1 class="text-3xl font-bold text-white sm:text-4xl">Gestão de Banca para Trade Esportivo</h1>
+      <div class="mx-auto max-w-screen-xl px-4 py-6">
+        <dl class="grid grid-cols-1 items-center gap-4 sm:grid-cols-3 sm:divide-x sm:divide-white">
+          <div class="flex flex-col px-4 text-center">
+            <dd class="text-2xl font-extrabold text-white lg:text-3xl">
+              950.235.793+
+            </dd>
 
-          <p class="mt-4 text-grayWhite sm:text-xl">
-            A Melhor e Maior Plataforma Profissional de Gestão de Banca para te ajudar a ter melhores resultados, economizando seu tempo,
-            validando métodos rapidamente, foque no que realmente importa!
-          </p>
-        </div>
-    
-        <div class="mt-8 sm:mt-12">
-          <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:divide-x sm:divide-white">
-            <div class="flex flex-col px-4 py-8 text-center">
-              <dt class="order-last text-grayWhite font-medium text-gray-500">Apostas registradas</dt>
-    
-              <dd class="text-4xl font-extrabold text-white md:text-5xl">+950.235.793</dd>
-            </div>
-    
-            <div class="flex flex-col px-4 py-8 text-center">
-              <dt class="order-last text-grayWhite font-medium text-gray-500">Usuários cadastrados</dt>
-    
-              <dd class="text-4xl font-extrabold text-white md:text-5xl">+ 18.951</dd>
-            </div>
-    
-            <div class="flex flex-col px-4 py-8 text-center">
-              <dt class="order-last text-grayWhite font-medium text-gray-500">Quantidade de métodos criados</dt>
-    
-              <dd class="text-4xl font-extrabold text-white md:text-5xl">+ 52.357</dd>
-            </div>
-          </dl>
-        </div>
+            <dt class="order-last text-grayWhite font-medium text-gray-500">
+              Apostas registradas
+            </dt>
+          </div>
+  
+          <div class="flex flex-col px-4 py-4 text-center">
+            <dd class="text-2xl font-extrabold text-white lg:text-3xl">
+              18.951+
+            </dd>
+
+            <dt class="order-last text-grayWhite font-medium text-gray-500">
+              Usuários cadastrados
+            </dt>
+          </div>
+  
+          <div class="flex flex-col px-4 py-4 text-center">
+            <dd class="text-2xl font-extrabold text-white lg:text-3xl">
+              52.357+
+            </dd>
+
+            <dt class="order-last text-grayWhite font-medium text-gray-500">
+              Quantidade de métodos criados
+            </dt>
+          </div>
+        </dl>
       </div>
     </section>
     </div>
