@@ -92,7 +92,7 @@
       
                 <div class="flex items-center">
                   <div aria-label="e-mail" class="text-sm">
-                    <nuxt-link :to="'https://api.whatsapp.com/send?phone=5548999664945&text=Olá,%20gostaria%20de%20saber%20mais%20detalhes%20sobre%20a%20plataforma'"
+                    <nuxt-link :to="'https://api.whatsapp.com/send?phone=5548996664945&text=Olá,%20gostaria%20de%20saber%20mais%20detalhes%20sobre%20a%20plataforma'"
                       class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 text-background" fill="#f5f5f5" viewBox="0 0 24 24">
