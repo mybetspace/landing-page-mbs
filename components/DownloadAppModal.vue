@@ -41,7 +41,7 @@ import {
                     </DialogTitle>
 
                     <div class="flex flex-col gap-2">
-                        <div class="flex gap-5 items-center mb-5">
+                        <div class="flex flex-col sm:flex-row gap-5 items-center mb-5">
                             <div
                                 class="rounded-xl bg-[#cccccc12] w-[68px] h-[68px] flex items-center justify-center shrink-0"
                             >
