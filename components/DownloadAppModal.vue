@@ -55,7 +55,7 @@ import {
                         </div>
 
                         <div class="font-medium mb-6 text-sm">
-                            O software foi desenvolvido principalmente para usuários da Betfair
+                            O software foi desenvolvido especialmente para usuários da Betfair
                             Brasil. Se você usa outra exchange, pode acessar pelo site:
                             <a
                                 href="https://app.mybetspace.com/"
@@ -65,6 +65,15 @@ import {
                                 app.mybetspace.com
                             </a>
                             . 😊
+                            <br><br>
+                            Veja o vídeo explicando como funciona agora com a Betfair Brasil,
+                            <a
+                                href="https://www.youtube.com/@mybetspace"
+                                target="_blank"
+                                class="text-[#1890ff] hover:opacity-90"
+                            >
+                              veja aqui.
+                            </a>
                         </div>
 
                         <a
