@@ -66,32 +66,6 @@
               <div class="flex flex-col gap-4 max-lg:items-center">
                 <div class="flex items-center">
                   <div aria-label="e-mail" class="text-sm">
-                    <nuxt-link :to="'mailto:suporte@mybetspace.com'"
-                      class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                    >
-                    
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5 shrink-0 text-background"
-                      fill="#f5f5f5"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                      />
-                    </svg>
-
-                      <span href="" class="flex-1 text-gray hover:opacity-75">suporte@mybetspace.com</span>
-                    </nuxt-link>
-                  </div>
-                </div>
-      
-                <div class="flex items-center">
-                  <div aria-label="e-mail" class="text-sm">
                     <nuxt-link :to="'https://api.whatsapp.com/send?phone=5548996664945&text=Olá,%20gostaria%20de%20saber%20mais%20detalhes%20sobre%20a%20plataforma'"
                       class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                     >
