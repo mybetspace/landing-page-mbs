@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue'
+import DownloadAppModal from "./DownloadAppModal"
 
 const open = ref(false)
 const dropdownButtonRef = ref<HTMLButtonElement | null>(null)
@@ -107,6 +108,8 @@ onUnmounted(() => {
                    </nuxt-link>
                   </li>
                 </template>
+
+                <download-app-modal />
               </ul>
             </nav>
           </div>
