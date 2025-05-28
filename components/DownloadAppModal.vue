@@ -68,7 +68,7 @@ import {
                             <br><br>
                             Veja o vídeo explicando como funciona agora com a Betfair Brasil,
                             <a
-                                href="https://www.youtube.com/@mybetspace"
+                                href="https://youtu.be/RHMwbuZb7nY"
                                 target="_blank"
                                 class="text-[#1890ff] hover:opacity-90"
                             >
