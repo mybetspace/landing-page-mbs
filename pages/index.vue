@@ -62,7 +62,21 @@ export default {
     Pricing,
     Partners,
     Mission,
-  },}
+  },
+   setup() {
+        onMounted(() => {
+            const initTelegramWidget = () => {
+                const script = document.createElement("script");
+                script.src = "https://cdn.pulse.is/livechat/loader.js";
+                script.dataset.liveChatId = "6844812f0b3e7b98900e5158";
+                script.async = true;
+                document.body.appendChild(script);
+            };
+
+            initTelegramWidget();
+        });
+    },
+}
 </script>
 
 <style scoped>
