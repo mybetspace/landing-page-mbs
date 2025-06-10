@@ -32,6 +32,8 @@
   </TransitionOnScroll>
 
   <Footer />
+
+  <ChatWidget />
 </template>
 
 <script>
@@ -47,6 +49,7 @@ import Testimonial from '~/components/Testimonial.vue';
 import Pricing from '~/components/Pricing.vue';
 import Partners from '~/components/Partners.vue';
 import Mission from '~/components/Mission.vue';
+import ChatWidget from '~/components/ChatWidget.vue';
 
 
 export default {
@@ -62,7 +65,9 @@ export default {
     Pricing,
     Partners,
     Mission,
-  },}
+    ChatWidget,
+  },
+}
 </script>
 
 <style scoped>

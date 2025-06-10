@@ -24,6 +24,7 @@
   "dependencies": {
     "hooper": "^0.3.4",
     "keen-slider": "^6.8.6",
+    "lucide-vue-next": "^0.513.0",
     "reka-ui": "^2.0.2",
     "swiper": "^11.0.5",
     "vue-meta": "^2.4.0"
