@@ -31,6 +31,10 @@
     <Mission />
   </TransitionOnScroll>
 
+  <TransitionOnScroll>
+    <FAQ />
+  </TransitionOnScroll>
+
   <Footer />
 
   <ChatWidget />
@@ -49,6 +53,7 @@ import Testimonial from '~/components/Testimonial.vue';
 import Pricing from '~/components/Pricing.vue';
 import Partners from '~/components/Partners.vue';
 import Mission from '~/components/Mission.vue';
+import FAQ from '~/components/FAQ.vue';
 import ChatWidget from '~/components/ChatWidget.vue';
 
 
@@ -65,6 +70,7 @@ export default {
     Pricing,
     Partners,
     Mission,
+    FAQ,
     ChatWidget,
   },
 }

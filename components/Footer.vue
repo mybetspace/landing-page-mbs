@@ -4,10 +4,10 @@
         <div class="flex max-lg:flex-col max-lg:items-center">
           <div class="grow">
             <div class="flex max-lg:justify-center text-teal-600">
-              <NuxtImg 
-                class="h-10 w-auto" 
-                src="/images/logo2.png" 
-                alt="logo do my bet space" 
+                            <NuxtImg
+                class="h-10 w-auto"
+                src="/images/logo2.png"
+                alt="Logo My Bet Space - Plataforma de gestão de banca para trade esportivo"
                 loading="lazy"
                 width="357"
                 height="68"
@@ -32,12 +32,12 @@
                     class="text-red-700 transition hover:text-red-700/75"
                   >
                     <span class="sr-only">YouTube</span>
-                    <NuxtImg 
-                      class="h-7 w-10 min-w-[24px] min-h-[24px]" 
-                      src="/images/youtube.svg" 
-                      alt="Youtube icon" 
-                      loading="lazy"
-                    />
+                                  <NuxtImg
+                class="h-7 w-10 min-w-[24px] min-h-[24px]"
+                src="/images/youtube.svg"
+                alt="Ícone do YouTube - Canal My Bet Space"
+                loading="lazy"
+              />
                   </nuxt-link>             
                 </li>  
 

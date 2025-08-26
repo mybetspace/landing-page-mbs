@@ -10,7 +10,7 @@
           <div class="relative items-center gap-12 m-auto ">
             <div class="max-w-xl text-center lg:text-left">
                 <h3 class="text-lg sm:text-xl lg:text-2xl font-semibold tracking-tight text-white">
-                  Ajudar você a evoluir e ganhar dinheiro
+                  Por que escolher a My Bet Space para evoluir no trade?
                 </h3>
                 <p class="max-w-xl mt-4 text-sm sm:text-base tracking-tight text-grayWhite">
                   A My Bet Space tem como missão ajudar a comunidade de trader Esportivo a economizar seu tempo planilhando, auxiliando no dia a dia do trade/apostador, para validar seu método mais facilmente, para ser mais lucrativo.
@@ -19,12 +19,12 @@
 
             <div class="max-w-xl mt-8 text-center lg:text-left">
                 <h3 class="text-lg sm:text-xl lg:text-2xl font-semibold tracking-tight text-white">
-                  Simplificar seu dia a dia
+                  Como funciona na prática o My Bet Space?
                 </h3>
 
                 <p class="max-w-xl mt-4 text-sm sm:text-base tracking-tight text-grayWhite">
-                  Resumindo de uma forma simples a nossa plataforma é uma espécie de planilha online em que o usuário só precisa preencher o seu método e o resto a gente faz pra você. Pegamos todos os jogos, nomes dos times, mercados, campeonatos , odds, stake e entre outras coisas mais. Geramos diversos indicadores para você tomar as melhores decisões e conseguir validar seus métodos,
-                  você só precisa cadastrar seus métodos, preenche-los e analisar seus dados depois.
+                  É simples: você cadastra seus métodos de trade e nós fazemos o resto. A plataforma captura automaticamente jogos, times, mercados, campeonatos, odds e stakes. 
+                  Geramos indicadores completos para você analisar performance e validar estratégias sem perder tempo com planilhas manuais.
                 </p>
 
             </div>
@@ -41,14 +41,14 @@
           </div>
           
           <div class="order-first block w-full mt-6 lg:mt-0">
-              <NuxtImg
-                class="object-cover object-center w-full max-w-80 h-70 mx-auto"
-                alt="cellphone" 
-                src="/images/iphone2.webp" 
-                loading="lazy"
-                width="1080"
-                height="1920"
-              />
+                          <NuxtImg
+              class="object-cover object-center w-full max-w-80 h-70 mx-auto"
+              alt="Aplicativo mobile My Bet Space para gestão de apostas esportivas em tempo real"
+              src="/images/iphone2.webp"
+              loading="lazy"
+              width="1080"
+              height="1920"
+            />
           </div>
         </div>
       </div>

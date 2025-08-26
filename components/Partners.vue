@@ -6,25 +6,25 @@
     <div class="my-8 mx-auto mt-8 max-w-[1420px]">
     <div ref="slider" class="keen-slider">
       <div class="keen-slider__slide number-slide1">
-        <NuxtImg src="/images/bolsaapostas.svg" alt="Bolsa de apostas" class="ml-14 h-14" loading="lazy" />
+        <NuxtImg src="/images/bolsaapostas.svg" alt="Logo Bolsa de Apostas - White label integrada ao My Bet Space" class="ml-14 h-14" loading="lazy" />
       </div>
       <div class="keen-slider__slide number-slide2">
-        <NuxtImg src="/images/fullbet.svg" alt="Full bet" class="ml-14 h-14" loading="lazy" />
+        <NuxtImg src="/images/fullbet.svg" alt="Logo FullBet - Casa de apostas integrada com My Bet Space" class="ml-14 h-14" loading="lazy" />
       </div>
       <div class="keen-slider__slide number-slide3">
-        <NuxtImg src="/images/betfair.jpg" alt="betfair" class="ml-14 h-14" loading="lazy" />
+        <NuxtImg src="/images/betfair.jpg" alt="Logo Betfair - Exchange de apostas principal integrada ao My Bet Space" class="ml-14 h-14" loading="lazy" />
       </div>
       <div class="keen-slider__slide number-slide4">
-        <NuxtImg src="/images/betbra.svg" alt="Bet bra" class="ml-14 h-14" loading="lazy" />
+        <NuxtImg src="/images/betbra.svg" alt="Logo BetBra - White label brasileira integrada ao My Bet Space" class="ml-14 h-14" loading="lazy" />
       </div>
       <div class="keen-slider__slide number-slide5">
-        <NuxtImg src="/images/verdinhabet.svg" alt="Verdinha bet" class="ml-14 h-14" loading="lazy" />
+        <NuxtImg src="/images/verdinhabet.svg" alt="Logo VerdinhaBet - Casa de apostas integrada com My Bet Space" class="ml-14 h-14" loading="lazy" />
       </div>
       <div class="keen-slider__slide number-slide6">
-        <NuxtImg src="/images/oddjusta.png" alt="Odd Justa" class="ml-14 h-14" loading="lazy" />
+        <NuxtImg src="/images/oddjusta.png" alt="Logo OddJusta - Plataforma de apostas integrada ao My Bet Space" class="ml-14 h-14" loading="lazy" />
       </div>
       <div class="keen-slider__slide number-slide7">
-        <NuxtImg src="/images/betfair.jpg" alt="betfair" class="ml-14 h-14" loading="lazy" />
+        <NuxtImg src="/images/betfair.jpg" alt="Logo Betfair - Exchange de apostas principal integrada ao My Bet Space" class="ml-14 h-14" loading="lazy" />
       </div>
     </div>
   </div>

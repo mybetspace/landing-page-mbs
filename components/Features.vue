@@ -8,8 +8,9 @@
       <div class="flex flex-wrap items-center justify-center">
         <div class="mb-12 w-full lg:w-8/12 xl:flex-1">
             <NuxtImg 
-              src="/images/pc.png" class="w-full" 
-              alt="my bet space dashboard" 
+              src="/images/pc.png" 
+              class="w-full" 
+              alt="Interface do My Bet Space com funcionalidades de importação de apostas, validação de métodos e indicadores de performance" 
               loading="lazy"
               width="1499"
               height="861"

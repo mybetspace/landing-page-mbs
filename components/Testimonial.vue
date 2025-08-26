@@ -16,7 +16,7 @@
                   <div class="mt-4">
                     <NuxtImg
                       src="/images/zapala.png"
-                      alt="depoimento do leo zapala" 
+                      alt="Foto de Leo Zapalá - Trader que usa My Bet Space" 
                       class="mt-4 rounded-full h-12"
                       loading="lazy"
                     />
@@ -40,9 +40,9 @@
               >
                 <div>
                   <div class="mt-4">
-                    <NuxtImg
-                      src="/images/brito.png"
-                      alt="depoimento do felipe brito" 
+                    <NuxtImg 
+                      src="/images/brito.png" 
+                      alt="Foto de Felipe Brito - Cliente My Bet Space especialista em scalping" 
                       class="mt-4 rounded-full h-12"
                       loading="lazy"
                     />
@@ -70,7 +70,7 @@
                   <div class="mt-4">
                     <NuxtImg
                       src="/images/bruno_baldisseira.png"  
-                      alt="depoimento do bruno baldisseira" 
+                      alt="Foto de Bruno Baldisseira - Usuário My Bet Space há mais de 1 ano" 
                       class="mt-4 rounded-full h-12"
                       loading="lazy"
                     />
@@ -97,7 +97,7 @@
                   <div class="mt-4">
                     <NuxtImg
                       src="/images/paulinho.png"
-                      alt="depoimento do paulinho" 
+                      alt="Foto de Paulinho - Cliente satisfeito com My Bet Space" 
                       class="mt-4 rounded-full h-12"
                       loading="lazy"
                     />
