@@ -130,7 +130,7 @@ export default defineNuxtConfig({
                     "name": "Quanto tempo leva para validar um método de trade com a plataforma?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Isso depende muito, mas com nossa plataforma você pode validar métodos muito mais rápido, comparado aos meses que levaria com planilhas tradicionais. Os indicadores automáticos mostram imediatamente onde você está ganhando ou perdendo dinheiro."
+                      "text": "Isso depende muito do volume de apostas, mas com nossa plataforma você pode validar métodos muito mais rápido, comparado aos meses que levaria com planilhas tradicionais. Os indicadores automáticos mostram facilmente onde você está ganhando ou perdendo dinheiro."
                     }
                   },
                   {
@@ -154,7 +154,7 @@ export default defineNuxtConfig({
                     "name": "Como funciona o período de teste gratuito?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Todos os novos usuários têm direito a 7 dias gratuitos com acesso completo a todas as funcionalidades da plataforma. Não é necessário cartão de crédito para começar o teste. Você pode explorar todos os recursos sem qualquer compromisso."
+                      "text": "Todos os novos usuários têm direito a 7 dias gratuitos com acesso completo a todas as funcionalidades da plataforma. Não é necessário cartão de crédito para começar o teste. Você pode explorar todos os recursos sem qualquer compromisso, se liga, seguidamente tem promoções no nosso instagram."
                     }
                   },
                   {
