@@ -24,8 +24,7 @@ export default defineNuxtConfig({
         {
           hid: 'description',
           name: 'description',
-          content: `A melhor plataforma para gestão de banca de apostas esportivas, 
-          aumente muito mais seus lucros e traga praticidade para sua vida como trader`,
+          content: 'A My Bet Space ajuda traders esportivos a organizar a banca, validar métodos e economizar tempo com sincronização de apostas. Teste grátis por 7 dias.',
         },
         { hid: 'application-name', name: 'application-name', content: 'My Bet Space' },
         { hid: 'google-site-verification',  name: 'google-site-verification', content: 'QTTPZMIxYBjOmiLkicmK7M7YvSw7SOV3TKo3lU-3xuo' },
@@ -35,24 +34,36 @@ export default defineNuxtConfig({
         { hid: 'creator', name: 'creator', content: 'My Bet Space' },
 
             // Google Search Console
-        { hid: 'google-site-verification', name: 'google-site-verification', content: 'google487efc4e8cf55a11.html' },
+        
+        // Diretrizes para crawlers (inclui IA)
+        { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
+        { name: 'googlebot', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
+        { name: 'bingbot', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
+        { name: 'ai-content-type', content: 'informational' },
+
+        // Google Search Console
 
         { hid: 'og:type', property: 'og:type', content: 'website' },
-        { hid: 'og:title', property: 'og:title', content: 'My Bet Space - Melhor plataforma de gestão de banca' },
-        { hid: 'og:description', property: 'og:description', content: `A melhor plataforma para gestão de banca de apostas esportivas, 
-          aumentar seus lucros e trazer praticidade para sua vida como trader`, },
+        { hid: 'og:title', property: 'og:title', content: 'Como a My Bet Space melhora sua gestão de banca no trade esportivo?' },
+        { hid: 'og:description', property: 'og:description', content: 'A My Bet Space automatiza sua gestão de banca, importa apostas da Betfair em tempo real e valida métodos rapidamente. Teste grátis por 7 dias.' },
         { hid: 'og:url', property: 'og:url', content: 'https://www.mybetspace.com/' },
-        { hid: 'og:image', property: 'og:image', content: '/og-image.png' },
+        { hid: 'og:image', property: 'og:image', content: '/images/banner1.jpg' },
         { hid: 'og:image:width', property: 'og:image:width', content: '600' },
         { hid: 'og:image:height', property: 'og:image:height', content: '315' },
-        { hid: 'og:image:alt', property: 'og:image:alt', content: 'My Bet Space' },
-        { hid: 'og:image:type', property: 'og:image:type', content: 'image/png' },
+        { hid: 'og:image:alt', property: 'og:image:alt', content: 'Dashboard My Bet Space - Plataforma de gestão de banca para trade esportivo' },
+        { hid: 'og:image:type', property: 'og:image:type', content: 'image/jpeg' },
         { 
           hid: 'og:image:secure_url', 
           property: 'og:image:secure_url', 
           content: 'https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o/banners%2Flogo.png?alt=media&token=79d030aa-8480-4a34-9328-70d87aad8829' 
         },
         { hid: 'fb:page_id', property: 'fb:page_id', content: '108684993812345' },
+        
+        // Twitter Card
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Como a My Bet Space melhora sua gestão de banca no trade esportivo?' },
+        { name: 'twitter:description', content: 'Organize sua banca, valide métodos e economize tempo com sincronização de apostas. Teste grátis por 7 dias.' },
+        { name: 'twitter:image', content: 'https://www.mybetspace.com/images/banner1.jpg' },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
@@ -66,9 +77,105 @@ export default defineNuxtConfig({
           type: 'application/ld+json',
           innerHTML: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "My Bet Space",
-            "url": "https://www.mybetspace.com/",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "name": "My Bet Space",
+                "url": "https://www.mybetspace.com/",
+                "logo": "https://www.mybetspace.com/images/logo.png",
+                "description": "Plataforma profissional de gestão de banca para trade esportivo",
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "contactType": "customer service",
+                  "url": "https://t.me/MyBetSpacebot"
+                },
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Florianópolis",
+                  "addressRegion": "SC",
+                  "addressCountry": "BR"
+                }
+              },
+              {
+                "@type": "WebSite",
+                "name": "My Bet Space",
+                "url": "https://www.mybetspace.com/",
+                "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": "https://www.mybetspace.com/busca?q={search_term_string}",
+                  "query-input": "required name=search_term_string"
+                }
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "O que é gestão de banca e por que é importante no trade esportivo?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Gestão de banca é o controle sistemático do seu capital de apostas, definindo quanto investir em cada operação baseado no risco e potencial retorno. É fundamental para manter consistência, evitar perdas excessivas e maximizar lucros no longo prazo."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Como a My Bet Space automatiza a importação de apostas?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Nossa plataforma se conecta diretamente com APIs da Betfair e white labels parceiras, capturando automaticamente todas suas apostas, odds, resultados e dados em tempo real."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Quanto tempo leva para validar um método de trade com a plataforma?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Com nossa plataforma, você pode validar métodos em questão de dias ou semanas, comparado aos meses que levaria com planilhas tradicionais. Os indicadores automáticos mostram imediatamente onde você está ganhando ou perdendo dinheiro."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Posso usar a My Bet Space com qualquer casa de apostas?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Sim! Além da importação automática da Betfair e white labels integradas, você pode adicionar apostas manualmente de qualquer casa de apostas do mercado. A plataforma foi desenvolvida para ser compatível com todos os operadores."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Quais indicadores e relatórios a plataforma oferece?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Oferecemos indicadores completos como ROI, strike rate, curva de lucro, análise por método, esporte, mercado e período. Relatórios detalhados mostram performance por estratégia, permitindo identificar rapidamente os métodos mais lucrativos."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Como funciona o período de teste gratuito?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Todos os novos usuários têm direito a 7 dias gratuitos com acesso completo a todas as funcionalidades da plataforma. Não é necessário cartão de crédito para começar o teste. Você pode explorar todos os recursos sem qualquer compromisso."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "A plataforma é segura? Como protegem meus dados?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Utilizamos criptografia de nível bancário e seguimos os mais rigorosos protocolos de segurança. Seus dados são armazenados em servidores seguros na nuvem e nunca compartilhados com terceiros. Cumprimos todas as normas de proteção de dados."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Posso cancelar minha assinatura a qualquer momento?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Sim, você pode cancelar sua assinatura a qualquer momento através da própria plataforma ou entrando em contato conosco. Não há taxas de cancelamento, multas contratuais ou períodos de fidelidade obrigatórios."
+                    }
+                  }
+                ]
+              }
+            ]
           })
         }
       ],
@@ -79,10 +186,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   image: {
+    provider: 'ipx',
     providers: {
       firebase: {
         name: 'firebase',
-        provider: '~/providers/firebase.ts', // Path to your custom provider
+        provider: '~/providers/firebase.ts',
         options: {
           baseURL: 'https://firebasestorage.googleapis.com/v0/b/mybetspace.appspot.com/o',
         }

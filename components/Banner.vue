@@ -1,5 +1,5 @@
 <template>
-  <div class="banner container">
+  <div id="home" class="banner container">
     <div class="content">
       <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold">Gestão de Banca para Trade Esportivo</h1>
 

@@ -6,7 +6,7 @@
           <div class="relative z-10 my-8">
               <NuxtImg
                 src="/images/plataforma_black.jpg"
-                alt="Homem com casaco laranja segurando um notebook"
+                alt="Dashboard da plataforma My Bet Space mostrando gestão de banca e controle de apostas esportivas"
                 class="w-full rounded-2xl max-w-[500px]"
                 style="margin: auto;"
                 loading="lazy"
@@ -592,13 +592,12 @@
             <span class="block mb-4 text-lg font-semibold text-orange">A Plataforma de Gestão de Banca</span>
 
             <h2 class="mb-5 text-xl sm:text-2xl lg:text-3xl font-bold text-white  dark:text-white">
-              Revolucione sua banca e maximize seu trade esportivo!
+              Como a My Bet Space revoluciona sua gestão de banca?
             </h2>
 
             <p class="mb-5 text-sm sm:text-base text-grayWhite dark:text-dark-6">
-              Quer levar sua carreira de trader para o próximo nível? A My Bet Space foi criada para você! Gerenciar suas apostas de banca nunca foi tão fácil e intuitivo. 
-              Priorizamos eficiência e segurança, permitindo que você foque no que realmente importa. 
-              Esqueça as planilhas e junte-se à evolução!
+              <strong>Resposta direta:</strong> A My Bet Space automatiza completamente sua gestão de banca, importando apostas da Betfair e white labels em tempo real. 
+              Você economiza horas de trabalho manual e obtém indicadores precisos para validar seus métodos de trade esportivo rapidamente.
             </p>
 
             <p class="mb-8 text-sm sm:text-base text-grayWhite dark:text-dark-6">

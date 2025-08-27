@@ -55,14 +55,14 @@ onUnmounted(() => {
           >
             <NuxtImg
               src="/images/logo.png"
-              alt="logo"
+              alt="Logo do My Bet Space"
               class="dark:hidden"
               width="1440"
               height="810"
             />
             <NuxtImg
               src="/images/logo.png"
-              alt="logo"
+              alt="Logo do My Bet Space"
               class="hidden dark:block"
               width="1440"
               height="810"
