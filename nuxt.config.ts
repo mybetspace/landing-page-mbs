@@ -186,7 +186,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   image: {
-    provider: 'ipx',
     providers: {
       firebase: {
         name: 'firebase',
