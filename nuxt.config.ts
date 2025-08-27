@@ -114,7 +114,7 @@ export default defineNuxtConfig({
                     "name": "O que é gestão de banca e por que é importante no trade esportivo?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Gestão de banca é o controle sistemático do seu capital de apostas, definindo quanto investir em cada operação baseado no risco e potencial retorno. É fundamental para manter consistência, evitar perdas excessivas e maximizar lucros no longo prazo."
+                      "text": "Gestão de banca é o controle sistemático do seu capital de apostas, definindo quanto investir em cada operação baseado no risco e potencial retorno. É fundamental para manter consistência, evitar quebrar e maximizar lucros no longo prazo."
                     }
                   },
                   {
@@ -122,7 +122,7 @@ export default defineNuxtConfig({
                     "name": "Como a My Bet Space automatiza a importação de apostas?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Nossa plataforma se conecta diretamente com APIs da Betfair e white labels parceiras, capturando automaticamente todas suas apostas, odds, resultados e dados em tempo real."
+                      "text": "Nossa plataforma se conecta diretamente com APIs da Betfair e White Labels de exchanges(Bolsa de apostas, Odd Justa, FulltBet, BetBra) , sincronizando automaticamente todas suas apostas, odds, resultados e dados do que operou."
                     }
                   },
                   {
@@ -130,7 +130,7 @@ export default defineNuxtConfig({
                     "name": "Quanto tempo leva para validar um método de trade com a plataforma?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Com nossa plataforma, você pode validar métodos em questão de dias ou semanas, comparado aos meses que levaria com planilhas tradicionais. Os indicadores automáticos mostram imediatamente onde você está ganhando ou perdendo dinheiro."
+                      "text": "Isso depende muito, mas com nossa plataforma você pode validar métodos muito mais rápido, comparado aos meses que levaria com planilhas tradicionais. Os indicadores automáticos mostram imediatamente onde você está ganhando ou perdendo dinheiro."
                     }
                   },
                   {
@@ -138,7 +138,7 @@ export default defineNuxtConfig({
                     "name": "Posso usar a My Bet Space com qualquer casa de apostas?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Sim! Além da importação automática da Betfair e white labels integradas, você pode adicionar apostas manualmente de qualquer casa de apostas do mercado. A plataforma foi desenvolvida para ser compatível com todos os operadores."
+                      "text": "Sim! Além da importação automática da Betfair e White Labels de exchanges integradas(Bolsa de apostas, Odd Justa, FulltBet, BetBra), você pode adicionar apostas de forma semi automatica de qualquer casa de apostas do mercado. A plataforma foi desenvolvida para ser compatível com todos os apostadores sejam traderes ou punters."
                     }
                   },
                   {
@@ -146,7 +146,7 @@ export default defineNuxtConfig({
                     "name": "Quais indicadores e relatórios a plataforma oferece?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Oferecemos indicadores completos como ROI, strike rate, curva de lucro, análise por método, esporte, mercado e período. Relatórios detalhados mostram performance por estratégia, permitindo identificar rapidamente os métodos mais lucrativos."
+                      "text": "Oferecemos indicadores completos, para analisar onde você perde ou ganha em cada cenário, análise por método, odds, esporte, mercado, período, até por dia da semana. Relatórios detalhados mostram performance por estratégia, permitindo identificar rapidamente os métodos que você tem mais potencial para ser lucrativo."
                     }
                   },
                   {
@@ -162,7 +162,7 @@ export default defineNuxtConfig({
                     "name": "A plataforma é segura? Como protegem meus dados?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Utilizamos criptografia de nível bancário e seguimos os mais rigorosos protocolos de segurança. Seus dados são armazenados em servidores seguros na nuvem e nunca compartilhados com terceiros. Cumprimos todas as normas de proteção de dados."
+                      "text": "Utilizamos criptografia de nível bancário e seguimos os mais rigorosos protocolos de segurança, somos autorizados e certificados pela Betfair,Bolsa de Apostas, Odd Justa, FulltBet, BetBra. Seus dados são armazenados em servidores seguros na nuvem e nunca compartilhados com terceiros. Cumprimos todas as normas de proteção de dados."
                     }
                   },
                   {
