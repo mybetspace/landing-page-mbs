@@ -52,7 +52,7 @@ const faqs = ref([
   },
   {
     question: "Posso usar a My Bet Space com qualquer casa de apostas?",
-    answer: "Sim! Além da importação automática da Betfair e White Labels de exchanges integradas(Bolsa de apostas, Odd Justa, FulltBet, BetBra), você pode adicionar apostas de forma semi automatica de qualquer casa de apostas do mercado. A plataforma foi desenvolvida para ser compatível com todos os apostadores sejam traderes ou punters."
+    answer: "Sim! Além da importação automática da Betfair e White Labels de exchanges integradas(Bolsa de apostas, Odd Justa, FulltBet, BetBra), você pode adicionar apostas de forma semi automatica de qualquer casa de apostas do mercado. A plataforma foi desenvolvida para ser compatível com todos os apostadores sejam traders ou punters."
   },
   {
     question: "Quais indicadores e relatórios a plataforma oferece?",
