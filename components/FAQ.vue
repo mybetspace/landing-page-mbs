@@ -52,7 +52,7 @@ const faqs = ref([
   },
   {
     question: "Posso usar a My Bet Space com qualquer casa de apostas?",
-    answer: "Sim! Além da importação automática da Betfair e White Labels de exchanges integradas(Bolsa de apostas, Odd Justa, FulltBet, BetBra), você pode adicionar apostas de forma semi automatica de qualquer casa de apostas do mercado. A plataforma foi desenvolvida para ser compatível com todos os apostadores sejam traderes ou punters."
+    answer: "Sim! Além da importação automática da Betfair e White Labels de exchanges integradas(Bolsa de apostas, Odd Justa, FulltBet, BetBra), você pode adicionar apostas de forma semi automatica de qualquer casa de apostas do mercado. A plataforma foi desenvolvida para ser compatível com todos os apostadores sejam traders ou punters."
   },
   {
     question: "Quais indicadores e relatórios a plataforma oferece?",
@@ -64,7 +64,7 @@ const faqs = ref([
   },
   {
     question: "A plataforma é segura? Como protegem meus dados?",
-    answer: "Utilizamos criptografia de nível bancário e seguimos os mais rigorosos protocolos de segurança, somos autorizados e certificados pela Betfair,Bolsa de Apostas, Odd Justa, FulltBet, BetBra. Seus dados são armazenados em servidores seguros na nuvem e nunca compartilhados com terceiros. Cumprimos todas as normas de proteção de dados."
+    answer: "Utilizamos criptografia de nível bancário e seguimos os mais rigorosos protocolos de segurança, somos autorizados e certificados pela Betfair, Bolsa de Apostas, Odd Justa, FulltBet, BetBra. Seus dados são armazenados em servidores seguros na nuvem e nunca compartilhados com terceiros. Cumprimos todas as normas de proteção de dados."
   },
   {
     question: "Posso cancelar minha assinatura a qualquer momento?",
