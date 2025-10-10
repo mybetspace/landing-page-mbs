@@ -17,7 +17,7 @@ import MessageIcon from "./MessageIcon.vue";
                 <a
                     href="http://wa.me/554899591818"
                     target="_blank"
-                    class="fixed cursor-pointer flex items-center justify-center bottom-5 right-5 rounded-full w-16 h-16 bg-[#2AA9EA] transition-all hover:bg-[#279dd8]"
+                    class="fixed cursor-pointer flex items-center justify-center bottom-5 right-5 rounded-full w-16 h-16 bg-[#25D366] transition-all hover:bg-[#20BD5A]"
                 >
                     <MessageIcon />
                 </a>
