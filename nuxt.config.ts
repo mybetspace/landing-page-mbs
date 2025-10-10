@@ -87,7 +87,7 @@ export default defineNuxtConfig({
                 "contactPoint": {
                   "@type": "ContactPoint",
                   "contactType": "customer service",
-                  "url": "https://t.me/MyBetSpacebot"
+                  "url": "http://wa.me/554899591818"
                 },
                 "address": {
                   "@type": "PostalAddress",
