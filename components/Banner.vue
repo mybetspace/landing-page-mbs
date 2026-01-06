@@ -5,11 +5,11 @@
 
       <ul class="feature-list">
         <li class="fade-in" :style="{ animationDelay: '250ms' }">
-          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Acesso gratuito da plataforma para <a href="https://bolsadeaposta.bet.br/page/ferramentas" target="_blank" rel="noopener noreferrer">Bolsa de Apostas</a></h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl ">Acesso <span class="text-orange">gratuito</span> da plataforma para <a href="https://bolsadeaposta.bet.br/page/ferramentas" target="_blank" rel="noopener noreferrer">Bolsa de Apostas</a></h3>
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '500ms' }">
-          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Acesso gratuito da plataforma para Odd Justa</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Acesso <span class="text-orange">gratuito</span> da plataforma para Odd Justa</h3>
         </li>
         
         <li class="fade-in" :style="{ animationDelay: '750ms' }">
@@ -63,6 +63,16 @@
     max-width: 100%;
   }
 
+  .feature-list a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+.feature-list a:hover {
+  color: #ff512f; 
+}
+
   .content {
     display: flex;
     flex-direction: column;
@@ -70,6 +80,10 @@
     align-items: flex-start;
     gap: 40px;
     min-width: fit-content;
+  }
+
+  .text-orange {
+  color: #ff512f; 
   }
 
   .block {
