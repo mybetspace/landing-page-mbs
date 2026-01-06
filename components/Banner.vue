@@ -5,25 +5,34 @@
 
       <ul class="feature-list">
         <li class="fade-in" :style="{ animationDelay: '250ms' }">
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Acesso gratuito da plataforma para <a href="https://bolsadeaposta.bet.br/page/ferramentas" target="_blank" rel="noopener noreferrer">Bolsa de Apostas</a></h3>
+        </li>
+
+        <li class="fade-in" :style="{ animationDelay: '500ms' }">
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Acesso gratuito da plataforma para Odd Justa</h3>
+        </li>
+        
+        <li class="fade-in" :style="{ animationDelay: '750ms' }">
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Validação do seu método com Inteligência Artificial</h3>
+        </li>
+
+        <li class="fade-in" :style="{ animationDelay: '1s' }">
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Validação da sua Banca com Inteligência Artificial</h3>
+        </li>
+
+        <li class="fade-in" :style="{ animationDelay: '1.25s' }">
           <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Importação de Apostas da Betfair e White Labels</h3>
         </li>
 
-        <li class="fade-in" :style="{ animationDelay: '750ms' }">
+        <li class="fade-in" :style="{ animationDelay: '1.5s' }">
           <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Adição de Apostas da sua Casa de Apostas</h3>
-        </li>
-        
-        <li class="fade-in" :style="{ animationDelay: '1.25s' }">
-          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Controle Total de Cliques no Mercado</h3>
-        </li>
-
-        <li class="fade-in" :style="{ animationDelay: '1.75s' }">
-          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Validação de Métodos e Projetos</h3>
-        </li>
+        </li>  
 
         <li class="fade-in" :style="{ animationDelay: '2.25s' }">
           <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Indicadores de Alta Eficiência</h3>
         </li>
       </ul>
+
 
       <div class="wrapper fade-in w-full" :style="{ animationDelay: '2.75s' }">
         <p class="text-sm sm:text-base">
