@@ -13,11 +13,11 @@
         </li>
         
         <li class="fade-in" :style="{ animationDelay: '750ms' }">
-          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Validação do seu método com Inteligência Artificial</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Validação do seu método com <span class="text-orange">Inteligência Artificial</span></h3>
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '1s' }">
-          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Validação da sua Banca com Inteligência Artificial</h3>
+          <h3 class="feature text-lg sm:text-xl 2xl:text-2xl">Validação da sua Banca com <span class="text-orange">Inteligência Artificial</span></h3>
         </li>
 
         <li class="fade-in" :style="{ animationDelay: '1.25s' }">
