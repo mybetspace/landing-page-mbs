@@ -61,6 +61,7 @@
     background-size: cover;
     height: calc(100dvh - 80px);
     max-width: 100%;
+    box-sizing: border-box;
   }
 
   .feature-list a {
@@ -80,6 +81,8 @@
     align-items: flex-start;
     gap: 40px;
     min-width: fit-content;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .text-orange {
@@ -168,14 +171,27 @@
       max-width: 100%;
       height: 591px;
       background-image: url('/images/banner1-bg.jpg');
+      padding: 0 1rem;
     }
 
     .content {
       gap: 20px;
+      min-width: 0;
+      width: 100%;
+      max-width: 100%;
     }
 
     .feature-list {
       gap: 1rem;
+      width: 100%;
+    }
+
+    .wrapper {
+      width: 100%;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .slide-in {
@@ -186,6 +202,30 @@
 
     .button {
       font-size: .875rem;
+      white-space: nowrap;
+      padding: 10px 20px;
+      display: inline-block;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .banner {
+      padding: 0 0.75rem;
+      height: auto;
+      min-height: 500px;
+    }
+
+    .content {
+      gap: 16px;
+    }
+
+    .feature-list {
+      gap: 0.75rem;
+    }
+
+    .button {
+      font-size: 0.8125rem;
+      padding: 9px 18px;
     }
   }
 
