@@ -92,7 +92,7 @@ import {
 
                             <a
                                 class="border border-white rounded-xl h-12 flex items-center justify-center bg-background hover:bg-backgroundGrayTwo transition-all flex-1"
-                                href="https://mybets.short.gy/PKiNx7"
+                                href=" https://mybetspace.short.gy/mybets-mac"
                             >
                                 <img
                                     src="/assets/apple_icon.svg"
@@ -102,6 +102,20 @@ import {
                                     id="apple-icon"
                                 />
                                 MacOs
+                            </a>
+
+                             <a
+                                class="border border-white rounded-xl h-12 flex items-center justify-center bg-background hover:bg-backgroundGrayTwo transition-all flex-1"
+                                href=" https://mybetspace.short.gy/mybets-linux"
+                            >
+                                <img
+                                    src="/assets/linux-logo.svg"
+                                    alt="Linux logo"
+                                    width="26"
+                                    class="mr-2"
+                                    id="linux-icon"
+                                />
+                                Linux
                             </a>
                         </div>
                     </div>
