@@ -9,10 +9,16 @@ export default {
           category: 'basic',
           name: 'Mensal',
           price: 'R$ 22,99',
-          description: '1 mês de assinatura.',
+          description: '0% de desconto',
           features: {
-            users: 'Preço total R$ 22,99',
-            details: ''
+            users: '1 Mês Assinatura',
+            details: `
+              Preço total R$ 22,99
+              - 3 bancas - 1 automática (1 Betfair ou 1 White Label) e 2 manuais
+              - 1 Validação IA da banca por mês
+              - 1 Validação IA de método por mês
+              - Aceita até 25 mil cliques de apostas por mês.
+            `
           },
           button: {
             text: 'Assinar'
@@ -22,11 +28,16 @@ export default {
           category: 'basic',
           name: 'Trimestral',
           price: 'R$ 22,42',
-          description: '2,5 de desconto.',
+          description: '2.5% de desconto',
           features: {
-            users: '3 meses de assinatura',
-            details: 'Preço total: R$ 67,25'
-
+            users: '3 meses Assinatura',
+            details: `
+            Preço total R$ 67,25
+            - 3 bancas - 1 automática (1 Betfair ou 1 White Label) e 2 manuais
+            - 1 Validação IA da banca por mês
+            - 1 Validação IA de método por mês
+            - Aceita até 25 mil cliques de apostas por mês.
+            `
           },
           button: {
             text: 'Assinar'
@@ -36,10 +47,16 @@ export default {
           category: 'basic',
           name: 'Semestral',
           price: 'R$ 21,84',
-          description: '5,00% de desconto',
+          description: '5% de desconto',
           features: {
-            users: '6 Meses de assinatura',
-            details: 'Preço total: R$ 131,04'
+            users: '6 meses Assinatura',
+            details: `
+             Preço total R$ 131,04
+            - 3 bancas - 1 automática (1 Betfair ou 1 White Label) e 2 manuais
+            - 1 Validação IA da banca por mês
+            - 1 Validação IA de método por mês
+            - Aceita até 25 mil cliques de apostas por mês.            
+            `
           },
           button: {
             text: 'Assinar'
@@ -49,10 +66,16 @@ export default {
           category: 'basic',
           name: 'Anual',
           price: 'R$ 21,27',
-          description: '7,50% de Desconto.',
+          description: '7.5% de desconto',
           features: {
-            users: '12 Meses de assinatura',
-            details: 'Preço total: R$ 255,19'
+            users: '12 meses Assinatura',
+            details: `
+            Preço total R$ 255,19
+            - 3 bancas - 1 automática (1 Betfair ou 1 White Label) e 2 manuais
+            - 1 Validação IA da banca por mês
+            - 1 Validação IA de método por mês
+            - Aceita até 25 mil cliques de apostas por mês.
+            `
           },
           button: {
             text: 'Assinar'
@@ -62,10 +85,17 @@ export default {
           category: 'professional',
           name: 'Mensal',
           price: 'R$ 33,99',
-          description: '1 mês de assinatura.',
+          description: '0% de desconto',
           features: {
-            users: 'Preço total R$ 33,99',
-            details: ''
+            users: '1 Mês Assinatura',
+            details: `
+             Preço total R$ 33,99
+            - Inclui todas as funcionalidades do Básico 
+            5 bancas - 2 automáticas (1 Betfair e 1 White Label) e 3 manuais
+            - 2 Validações IA da banca por mês
+            - 4 Validações IA de métodos por mês
+            - Aceita até 50 mil cliques de apostas por mês.
+            `
           },
           button: {
             text: 'Assinar'
@@ -75,10 +105,17 @@ export default {
           category: 'professional',
           name: 'Trimestral',
           price: 'R$ 33,14',
-          description: '2,5 de desconto.',
+          description: '2.5% de desconto',
           features: {
-            users: '3 meses de assinatura',
-            details: 'Preço total: R$ 99,42'
+            users: '3 meses Assinatura',
+            details: `
+             Preço total R$ 99,42
+            - Inclui todas as funcionalidades do Básico 
+            5 bancas - 2 automáticas (1 Betfair e 1 White Label) e 3 manuais
+            - 2 Validações IA da banca por mês
+            - 4 Validações IA de métodos por mês
+            - Aceita até 50 mil cliques de apostas por mês.
+            `
           },
           button: {
             text: 'Assinar'
@@ -88,10 +125,17 @@ export default {
           category: 'professional',
           name: 'Semestral',
           price: 'R$ 32,29',
-          description: '5,00% de desconto',
+          description: '5% de desconto',
           features: {
-            users: '6 Meses de assinatura',
-            details: 'Preço total: R$ 193,74'
+            users: '6 meses Assinatura',
+            details: `
+               Preço total R$ 193,74
+              - Inclui todas as funcionalidades do Básico
+              5 bancas - 2 automáticas (1 Betfair e 1 White Label) e 3 manuais
+              - 2 Validações IA da banca por mês
+              - 4 Validações IA de métodos por mês
+              - Aceita até 50 mil cliques de apostas por mês.            
+            `
           },
           button: {
             text: 'Assinar'
@@ -101,10 +145,17 @@ export default {
           category: 'professional',
           name: 'Anual',
           price: 'R$ 31,44',
-          description: '7,50% de Desconto.',
+          description: '7.5% de desconto',
           features: {
-            users: '12 Meses de assinatura',
-            details: 'Preço total: R$ 377,29'
+            users: '12 meses Assinatura',
+            details: `
+               Preço total R$ 377,29
+              - Inclui todas as funcionalidades do Básico
+              5 bancas - 2 automáticas (1 Betfair e 1 White Label) e 3 manuais
+              - 2 Validações IA da banca por mês
+              - 4 Validações IA de métodos por mês
+              - Aceita até 50 mil cliques de apostas por mês.            
+            `
           },
           button: {
             text: 'Assinar'
@@ -114,10 +165,17 @@ export default {
           category: 'premium',
           name: 'Mensal',
           price: 'R$ 48,99',
-          description: '1 mês de assinatura.',
+          description: '0% de desconto',
           features: {
-            users: 'Preço total R$ 48,99',
-            details: ''
+            users: '1 Mês Assinatura',
+            details: `
+               Preço total R$ 48,99
+              - Inclui todas as funcionalidades do Profissional
+              9 bancas - 5 automáticas (2 Betfair e 3 White Label) e 4 manuais
+              - 3 Validações IA da banca por mês
+              - 8 Validações IA de métodos por mês
+              - Aceita até 100 mil cliques de apostas por mês.                          
+            `
           },
           button: {
             text: 'Assinar'
@@ -127,10 +185,17 @@ export default {
           category: 'premium',
           name: 'Trimestral',
           price: 'R$ 47,77',
-          description: '2,5 de desconto.',
+          description: '2.5% de desconto',
           features: {
-            users: '2 meses de assinatura',
-            details: 'Preço total: R$ 143,30'
+            users: '3 meses Assinatura',
+            details: `
+               Preço total R$ 143,30
+            - Inclui todas as funcionalidades do Profissional
+            9 bancas - 5 automáticas (2 Betfair e 3 White Label) e 4 manuais
+            - 3 Validações IA da banca por mês
+            - 8 Validações IA de métodos por mês
+            - Aceita até 100 mil cliques de apostas por mês.
+            `
           },
           button: {
             text: 'Assinar'
@@ -140,10 +205,17 @@ export default {
           category: 'premium',
           name: 'Semestral',
           price: 'R$ 46,54',
-          description: '5,00% de desconto',
+          description: '5% de desconto',
           features: {
-            users: '6 Meses de assinatura',
-            details: 'Preço total: R$ 279,24'
+            users: '6 meses Assinatura',
+            details: `
+               Preço total R$ 279,24
+              - Inclui todas as funcionalidades do Profissional
+              9 bancas - 5 automáticas (2 Betfair e 3 White Label) e 4 manuais
+              - 3 Validações IA da banca por mês
+              - 8 Validações IA de métodos por mês
+              - Aceita até 100 mil cliques de apostas por mês.            
+            `
           },
           button: {
             text: 'Assinar'
@@ -153,10 +225,17 @@ export default {
           category: 'premium',
           name: 'Anual',
           price: 'R$ 45,32',
-          description: '7,50% de Desconto.',
+          description: '7.5% de desconto',
           features: {
-            users: '12 Meses de assinatura',
-            details: 'Preço total: R$ 543,79'
+            users: '12 meses Assinatura',
+            details: `
+             Preço total R$ 543,79
+            - Inclui todas as funcionalidades do Profissional
+            9 bancas - 5 automáticas (2 Betfair e 3 White Label) e 4 manuais
+            - 3 Validações IA da banca por mês
+            - 8 Validações IA de métodos por mês
+            - Aceita até 100 mil cliques de apostas por mês.            
+            `
           },
           button: {
             text: 'Assinar'
@@ -169,6 +248,15 @@ export default {
     selectCategory(category) {
       this.selectedCategory = category;
     },
+    formatDetails(text) {
+      if (!text) return '';
+      let formatted = text.trim();
+      formatted = formatted.replace(
+        /White Label/g, 
+        '<span class="underline decoration-dashed cursor-help" title="Whitelabels parceiras: Odd Justa, Bolsa, Fultbet e Betbra.">White Label</span>'
+      );
+      return formatted;
+    }
   },
   computed: {
   filteredPlans() {
@@ -227,7 +315,7 @@ export default {
             </p>
             <div class="mb-9 flex flex-col gap-[14px]" style="min-height: 60px;">
               <p class="text-base text-white dark:text-dark-6">{{ plan.features.users }}</p>
-              <p class="text-base text-white dark:text-dark-6">{{ plan.features.details }}</p>
+              <div class="text-base text-white dark:text-dark-6 whitespace-pre-line leading-relaxed" v-html="formatDetails(plan.features.details)"></div>
             </div>
               <nuxt-link :to="'https://app.mybetspace.com/signup'"
                 :class="{
