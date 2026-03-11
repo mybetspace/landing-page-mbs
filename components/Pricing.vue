@@ -8,10 +8,10 @@ export default {
         {
           category: 'basic',
           name: 'Mensal',
-          price: 'R$21,99',
+          price: 'R$ 22,99',
           description: '1 mês de assinatura.',
           features: {
-            users: 'Preço total R$ 21,99',
+            users: 'Preço total R$ 22,99',
             details: ''
           },
           button: {
@@ -21,11 +21,11 @@ export default {
         {
           category: 'basic',
           name: 'Trimestral',
-          price: 'R$ 21,44',
+          price: 'R$ 22,42',
           description: '2,5 de desconto.',
           features: {
             users: '3 meses de assinatura',
-            details: 'Preço total: R$ 64,32'
+            details: 'Preço total: R$ 67,25'
 
           },
           button: {
@@ -35,11 +35,11 @@ export default {
         {
           category: 'basic',
           name: 'Semestral',
-          price: 'R$ 20,89',
+          price: 'R$ 21,84',
           description: '5,00% de desconto',
           features: {
             users: '6 Meses de assinatura',
-            details: 'Preço total: R$ 125,34'
+            details: 'Preço total: R$ 131,04'
           },
           button: {
             text: 'Assinar'
@@ -48,107 +48,115 @@ export default {
         {
           category: 'basic',
           name: 'Anual',
-          price: 'R$ 20,34',
+          price: 'R$ 21,27',
           description: '7,50% de Desconto.',
           features: {
             users: '12 Meses de assinatura',
-            details: 'Preço total: R$ 244,09'
+            details: 'Preço total: R$ 255,19'
           },
           button: {
             text: 'Assinar'
           }
         },
         {
-          category: 'avanced',
+          category: 'professional',
           name: 'Mensal',
-          price: 'R$ 29,99',
+          price: 'R$ 33,99',
           description: '1 mês de assinatura.',
           features: {
-            users: 'Preço total R$ 29,99',
+            users: 'Preço total R$ 33,99',
+            details: ''
           },
           button: {
             text: 'Assinar'
           }
         },
         {
-          category: 'avanced',
+          category: 'professional',
           name: 'Trimestral',
-          price: 'R$ 87,72',
+          price: 'R$ 33,14',
           description: '2,5 de desconto.',
           features: {
             users: '3 meses de assinatura',
+            details: 'Preço total: R$ 99,42'
           },
           button: {
             text: 'Assinar'
           }
         },
         {
-          category: 'avanced',
+          category: 'professional',
           name: 'Semestral',
-          price: 'R$ 170,94',
+          price: 'R$ 32,29',
           description: '5,00% de desconto',
           features: {
             users: '6 Meses de assinatura',
+            details: 'Preço total: R$ 193,74'
           },
           button: {
             text: 'Assinar'
           }
         },
         {
-          category: 'avanced',
+          category: 'professional',
           name: 'Anual',
-          price: 'R$ 332,89',
+          price: 'R$ 31,44',
           description: '7,50% de Desconto.',
           features: {
             users: '12 Meses de assinatura',
+            details: 'Preço total: R$ 377,29'
           },
           button: {
             text: 'Assinar'
           }
         },
         {
-          category: 'professional',
+          category: 'premium',
           name: 'Mensal',
-          price: 'R$ 39,99',
+          price: 'R$ 48,99',
           description: '1 mês de assinatura.',
           features: {
-            users: 'Preço total R$39,99',
+            users: 'Preço total R$48,99',
+            details: ''
           },
           button: {
             text: 'Assinar'
           }
         },
         {
-          category: 'professional',
+          category: 'premium',
           name: 'Trimestral',
-          price: 'R$ 116,97',
+          price: 'R$ 47,77',
           description: '2,5 de desconto.',
           features: {
             users: '2 meses de assinatura',
+            details: 'Preço total: R$ 143,31'
           },
           button: {
             text: 'Assinar'
           }
         },
         {
-          category: 'professional',
+          category: 'premium',
           name: 'Semestral',
-          price: 'R$ 227,94',
+          price: 'R$ 46,54',
           description: '5,00% de desconto',
           features: {
             users: '6 Meses de assinatura',
+            details: 'Preço total: R$ 279,24'
           },
           button: {
             text: 'Assinar'
           }
         },
         {
-          category: 'professional',
+          category: 'premium',
           name: 'Anual',
-          price: 'R$ 443,89',
+          price: 'R$ 45,32',
           description: '7,50% de Desconto.',
           features: {
             users: '12 Meses de assinatura',
+            details: 'Preço total: R$ 543,84'
           },
           button: {
             text: 'Assinar'
@@ -193,8 +201,8 @@ export default {
         <label class="mr-2 mt-1 font-semibold">Plano:</label>
         <div class="flex flex-wrap">
             <button @click="selectCategory('basic')" :class="{ 'bg-orange': selectedCategory === 'basic', 'bg-gray-300': selectedCategory !== 'basic' }" class="border py-1 px-3 rounded-md mb-2 mr-2">Básico</button>
-            <button @click="selectCategory('avanced')" :class="{ 'bg-orange': selectedCategory === 'avanced', 'bg-gray-300': selectedCategory !== 'avanced' }" class="border py-1 px-3 rounded-md mb-2 mr-2">Avançado</button>
-            <button @click="selectCategory('professional')" :class="{ 'bg-orange': selectedCategory === 'professional', 'bg-gray-300': selectedCategory !== 'professional' }" class="border py-1 px-3 rounded-md mb-2">Profissional</button>
+            <button @click="selectCategory('professional')" :class="{ 'bg-orange': selectedCategory === 'professional', 'bg-gray-300': selectedCategory !== 'professional' }" class="border py-1 px-3 rounded-md mb-2 mr-2">Profissional</button>
+            <button @click="selectCategory('premium')" :class="{ 'bg-orange': selectedCategory === 'premium', 'bg-gray-300': selectedCategory !== 'premium' }" class="border py-1 px-3 rounded-md mb-2">Premium</button>
         </div>
       </div>
 
