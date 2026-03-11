@@ -116,7 +116,7 @@ export default {
           price: 'R$ 48,99',
           description: '1 mês de assinatura.',
           features: {
-            users: 'Preço total R$48,99',
+            users: 'Preço total R$ 48,99',
             details: ''
           },
           button: {
@@ -130,7 +130,7 @@ export default {
           description: '2,5 de desconto.',
           features: {
             users: '2 meses de assinatura',
-            details: 'Preço total: R$ 143,31'
+            details: 'Preço total: R$ 143,30'
           },
           button: {
             text: 'Assinar'
@@ -156,7 +156,7 @@ export default {
           description: '7,50% de Desconto.',
           features: {
             users: '12 Meses de assinatura',
-            details: 'Preço total: R$ 543,84'
+            details: 'Preço total: R$ 543,79'
           },
           button: {
             text: 'Assinar'
